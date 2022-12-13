@@ -1,0 +1,85 @@
+#! /usr/bin/perl
+
+$| = 1;
+print 'Content-type: text/html',"\n";
+print "\n";
+
+#
+# Output form
+#
+print <<EOM;
+<HTML>
+<HEAD>
+<TITLE>DRN Setup</TITLE>
+</HEAD>
+
+
+<script language="JavaScript">
+<!--
+
+function WindowClose()
+{
+	window.close();
+}
+//-->
+</script>
+
+<FORM NAME="LayoutRegion1FORM" ACTION="/drn-setup/copyright" METHOD=POST>
+
+<body vlink="#000000" alink="#000000" basefont="3" topmargin="0" leftmargin="0" link="#000000" bgcolor="#FFFFFF" text="#000000">
+<div align="center"><center>
+
+<table border="0" cellpadding="0" width="602" bgcolor="#FFFFFF" bordercolordark="#FFFFFF" cellspacing="0" bordercolor="#000000" bordercolorlight="#000000">
+  <tr>
+    <td align="center" bgcolor="#FFFFFF" width="582"><img border="0" src="/drn-setup/images/startupbar.gif" width="600" height="47"></td>
+  </tr>
+  <tr>
+    <td valign="top" bgcolor="#FFFFFF" align="left" width="582"><div align="center"><center><table border="1" cellpadding="10" cellspacing="0" width="600" bordercolor="#326698">
+      <tr>
+        <td bordercolor="#6380A7">
+    </center>
+</center>
+      <table border="0" cellpadding="7" cellspacing="0" width="560">
+        <tr>
+          <td valign="top"><img border="0" src="/drn-setup/images/startside4.gif" width="173" height="290"></td>
+          <td valign="top"><img border="0" src="/drn-setup/images/greendot.gif" width="10" height="9">  
+            <strong><font face="Arial" size="2" color="#326698">Installing
+            Direct Read News:</font></strong> <font color="black" face="Arial" size="2">A
+            multimedia user interface for NNTP compliant news servers, including
+            INN and bCandid's Typhoon and Breeze products.</font><font face="Arial" size="2">&nbsp;</font>
+            <ul>
+              <li>
+                <p align="left"><font color="black" face="Arial" size="2">Assembles and Decodes
+                all popular static image, sound, exe and multimedia file types.</font></li>
+              <li>
+                <p align="left"><font color="black" face="Arial" size="2">Transfers data in HTTP protocol, eliminating NNTP bandwidth overhead. 
+              </font></li>
+              <li>
+                <p align="left"><font color="black" face="Arial" size="2">Supports password access control.
+                </font></li>
+              <li>
+                <p align="left"><font color="black" face="Arial" size="2">Compatible with all web browsers, does not use Java.  
+                </font></li>
+              <li>
+                <p align="left"><font color="black" face="Arial" size="2">Configure global defaults, and customize the interface with any standard web page development application.
+                </font></li>
+            </ul>
+            <p><font face="Arial" size="2">.</font>
+            </p>
+		<center>
+		<input src="/drn-setup/images/installnext.gif" border=0 name="Next" alt"Continue" type=image>
+
+		<a href="javascript:WindowClose()"> <img src="/drn-setup/images/installcancel.gif" border=0  alt="Cancel" type=image></a>
+		</center>
+        </tr>
+      </table>
+        </td>
+      </tr>
+    </table>
+        </div></td>
+  </tr>
+</table>
+</FORM>
+</BODY>
+</HTML>
+EOM

@@ -1,0 +1,244 @@
+#! /usr/bin/perl
+
+$| = 1;
+print 'Content-type: text/html',"\n";
+print "\n";
+
+%FORM = ();
+if ($ENV{'REQUEST_METHOD'} eq 'POST')
+{
+	my $inbuf;
+	if ($ENV{'CONTENT_LENGTH'})
+	{
+		read(STDIN, $inbuf, $ENV{'CONTENT_LENGTH'});
+	}
+
+	my @pairs = split(/&/, $inbuf);
+	my $name, $value;
+	foreach $pair (@pairs)
+	{
+		($name, $value) = split(/=/, $pair);
+		$value =~ tr/+/ /;
+		$value =~ s/%([a-fA-F0-9][a-fA-F0-9])/pack("C", hex($1))/eg;
+		$FORM{$name} = $value;
+	}
+}
+
+if(!defined($FORM{'agree'}) || $FORM{'agree'} ne 'yes')
+{
+	# missing copyright agreement or disagree copyright
+	print <<EOM;
+<HTML>
+<HEAD>
+<TITLE>DRN Setup - Input</TITLE>
+</HEAD>
+<script language="JavaScript">
+<!--
+
+function WindowClose()
+{
+	window.close();
+}
+function WindowPrev()
+{
+	window.history.back();
+}
+//-->
+</script>
+<BODY>
+<font face=Arial size=2 color=#000000>
+
+<body vlink="#000000" alink="#000000" basefont="3" topmargin="0" leftmargin="0" link="#000000" bgcolor="#FFFFFF" text="#000000">
+<div align="center"><center>
+<table border="0" cellpadding="0" width="602" bgcolor="#FFFFFF" bordercolordark="#FFFFFF" cellspacing="0" bordercolor="#000000" bordercolorlight="#000000">
+<tr>
+    <td align="center" bgcolor="#FFFFFF" width="582"><img border="0" src="/drn-setup/images/startupbar.gif" width="600" height="47"></td>
+</tr>
+<tr>
+    <td valign="top" bgcolor="#FFFFFF" align="left" width="582"><div align="center"><center><table border="0" cellpadding="10" cellspacing="0" width="600" bordercolor="#326698">
+ <tr>
+        <td bordercolor="#6380A7">
+    	</center>
+	</center>
+      <table border="0" cellpadding="0" cellspacing="0" width="560">
+      <tr>
+          <td valign="top" width="173"><img border="0" src="/drn-setup/images/startside4.gif" width="173" height="290"></td>
+
+          <td valign="middle" width=300 align=center>
+ 	 <strong><font face="Arial" size="2" color="#326698">
+Disagree Copyright. Exit Setup</font></strong><p>
+		<a href="javascript:WindowPrev()"> <img src="/drn-setup/images/installback.gif" border=0  alt="Back" type=image></a>
+	<a href="javascript:WindowClose()"> <img src="/drn-setup/images/installcancel.gif" border=0  alt="Cancel" type=image></a>
+
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+
+</div></td>
+</tr>
+</table>
+</font>
+</BODY>
+</HTML>
+EOM
+	exit(1);
+}
+
+#
+#
+#
+$AdminHost = 'localhost';
+
+if(open(CONF, '../etc/drn.conf'))
+{
+	while(<CONF>) { eval; print STDERR $@; }
+}
+
+$DrnServer =~ s/^http\/\///;
+
+#
+# Output form
+#
+print <<EOM;
+<HTML>
+<HEAD>
+<TITLE>DRN Setup - Input</TITLE>
+</HEAD>
+
+<script language="JavaScript">
+<!--
+
+function WindowClose()
+{
+	window.close();
+}
+function WindowPrev()
+{
+	window.history.back();
+}
+//-->
+</script>
+
+<script Language="JavaScript"><!--
+function Default_Validator(theForm)
+{
+  if (theForm.VirtualDomain.value == ""
+	&& theForm.DrnServer.value == "")
+  {
+    alert("Please enter a value for the \\\"Drn Server\\\" field.");
+    theForm.DrnServer.focus();
+    return (false);
+  }
+
+  if (theForm.NNTPservers.value == "")
+  {
+    alert("Please enter a value for the \\\"News Server\\\" field.");
+    theForm.NNTPservers.focus();
+    return (false);
+  }
+
+  if (theForm.AdminHost.value == "")
+  {
+    alert("Please enter a value for the \\\"Admin Host\\\" field.");
+    theForm.AdminHost.focus();
+    return (false);
+  }
+  
+  return (true);
+}
+//--></script>
+
+
+
+<body vlink="#000000" alink="#000000" basefont="3" topmargin="0" leftmargin="0" link="#000000" bgcolor="#FFFFFF" text="#000000">
+<div align="center"><center>
+<table border="0" cellpadding="0" width="602" bgcolor="#FFFFFF" bordercolordark="#FFFFFF" cellspacing="0" bordercolor="#000000" bordercolorlight="#000000">
+<tr>
+    <td align="center" bgcolor="#FFFFFF" width="582"><img border="0" src="/drn-setup/images/startupbar.gif" width="600" height="47"></td>
+</tr>
+<tr>
+    <td valign="top" bgcolor="#FFFFFF" align="left" width="582"><div align="center"><center><table border="0" cellpadding="10" cellspacing="0" width="600" bordercolor="#326698">
+ <tr>
+        <td bordercolor="#6380A7">
+    	</center>
+	</center>
+      <table border="0" cellpadding="0" cellspacing="0" width="560">
+      <tr>
+          <td valign="top" width="173"><img border="0" src="/drn-setup/images/startside4.gif" width="173" height="290"></td>
+
+          <td valign="top">
+<FORM ACTION="/drn-setup/finish" onsubmit="return Default_Validator(this)" METHOD=POST>
+
+<table border="0" cellpadding="0" cellspacing="0" width="364">
+<tr>
+	<td colspan="2" height="60"><font color="black" face="Arial" size="2">If
+         you do not use a virtual domain, leave the first field
+         blank. If your server name is the same as
+         your virtual domain, leave the second field blank. The news server should appear as <strong>DomainName[:port]</strong>. The login field should appear as <strong>Username/Password</strong> if needed.  </font></td>
+</tr>
+<tr>
+  	<td width="188"><img border="0" src="/drn-setup/images/greendot.gif" width="10" height="9">  
+ 	 <strong><font face="Arial" size="2" color="#326698">Virtual
+          Domain:</font></strong></td>
+<td width="172"><font face="Arial" size="2"><INPUT TYPE=TEXT NAME="VirtualDomain" VALUE="$VirtualDomain" size=20></font></td>
+</tr>
+<tr>
+       <td width="188"><img border="0" src="/drn-setup/images/greendot.gif" width="10" height="9">  
+       <strong><font face="Arial" size="2" color="#326698">Server
+        Name:</font></strong></td>
+<td width=172><font face="Arial" size="2"><INPUT TYPE=TEXT NAME="DrnServer" VALUE="$DrnServer" size=20></font></td>
+</tr>
+<tr>
+       <td width="188"><img border="0" src="/drn-setup/images/greendot.gif" width="10" height="9">  
+      <strong><font face="Arial" size="2" color="#326698">DRN
+       Admin Hosts:</font></strong></td>
+<td width="172"><font face="Arial" size="2"><INPUT TYPE=TEXT NAME="AdminHost" VALUE="$AdminHost" size=20></font></td>
+</tr>
+<tr>
+     <td width="188"><img border="0" src="/drn-setup/images/greendot.gif" width="10" height="9">  
+    <strong><font face="Arial" size="2" color="#326698">DRN
+     Access Hosts:</font></strong></td>
+<td width="172"><font face="Arial" size="2"><INPUT TYPE=TEXT NAME="AccessHost" VALUE="$AccessHost" size=20></font></td>
+</tr>
+<tr>
+     <td width="188"><img border="0" src="/drn-setup/images/greendot.gif" width="10" height="9">  
+     <strong><font face="Arial" size="2" color="#326698">News
+      Server:</font></strong></td>
+<td width="172"><font face="Arial" size="2"><INPUT TYPE=TEXT NAME="NNTPservers" VALUE="$NNTPservers" size=20></font></td>
+</tr>
+<tr>
+      <td width="188"><img border="0" src="/drn-setup/images/greendot.gif" width="10" height="9">  
+     <strong><font face="Arial" size="2" color="#326698">News
+     Server Login:</font></strong></td>
+<td width="172"><font face="Arial" size="2"><INPUT TYPE=TEXT NAME="NNTPauths" VALUE="$NNTPauths" size=20></font></td>
+</tr>
+<tr>
+     <td colspan="2" height="40" valign="bottom">
+	<center><a href="javascript:WindowClose()"> <img src="/drn-setup/images/installcancel.gif" border=0  alt="Cancel" type=image></a>
+		<a href="javascript:WindowPrev()"> <img src="/drn-setup/images/installback.gif" border=0  alt="Back" type=image></a>
+		<input src="/drn-setup/images/installnext.gif" border=0 name="Next" alt"Continue" type=image></center>
+
+</tr>
+</table>
+</form>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+</div></td>
+</tr>
+</table>
+
+</FORM>
+</BODY>
+</HTML>
+EOM

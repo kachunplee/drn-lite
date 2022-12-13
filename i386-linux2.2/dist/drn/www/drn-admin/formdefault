@@ -1,0 +1,181 @@
+#! /usr/bin/perl
+
+#
+#
+my $pwd = $0;
+$pwd =~ s/\/[^\/]*$//;
+chdir $pwd;
+
+$| = 1;
+print 'Content-type: text/html',"\n";
+print "\n";
+
+my $DRNCONF='../etc/drn.conf';
+
+#
+$AttachSplitSize=7000;
+$MaxSplitSize=10000;
+$PageLength=50;
+
+#
+# Load config file
+#
+if(open(CONF, $DRNCONF))
+{
+	while(<CONF>) { eval; print STDERR $@; }
+}
+
+#
+# Setup defaults
+# 
+for($DefaultSort)
+{
+	print STDERR $_, "\n";
+	/^t/ and $ThreadSort = 'checked', last;
+	/^d/ and $DateSort = 'checked', last;
+	/^z/ and $SubjectSort = 'checked', last;
+	/^b/ and $AuthorSort = 'checked', last;
+	$RDateSort = 'checked';
+}
+
+#
+# Output form
+#
+print <<EOM;
+<HTML>
+<HEAD>
+<TITLE>DRN Default Configuration</TITLE>
+</HEAD>
+
+<font face=Arial size=2>
+<script Language="JavaScript"><!--
+function Default_Validator(theForm)
+{
+  if (theForm.MailDomain.value == "")
+  {
+    alert("Please enter a value for the \\\"MailDomain\\\" field.");
+    theForm.MailDomain.focus();
+    return (false);
+  }
+
+  if (theForm.PageLength.value == "")
+  {
+    alert("Please enter a value for the \\\"Page Length\\\" field.");
+    theForm.PageLength.focus();
+    return (false);
+  }
+
+  if (theForm.AttachSplitSize.value == "")
+  {
+    alert("Please enter a value for the \\\"Attachment - default number of lines per part\\\" field.");
+    theForm.AttachSplitSize.focus();
+    return (false);
+  }
+
+  if (theForm.MaxSplitSize.value == "")
+  {
+    alert("Please enter a value for the \\\"Attachment - maximum number of lines per part\\\" field.");
+    theForm.MaxSplitSize.focus();
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.sort.length;  i++)
+  {
+    if (theForm.sort[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \\\"Default Sort\\\" options.");
+    return (false);
+  }
+  
+  return (true);
+}
+//--></script>
+
+<body bgcolor="#FFFFFF">
+<table border="0" cellpadding="0" width="602" bgcolor="#FFFFFF" bordercolordark="#FFFFFF" cellspacing="0" bordercolor="#000000" bordercolorlight="#000000">
+  <tr>
+    <td align="center" bgcolor="#FFFFFF" width="582"><img border="0" src="/drn-setup/images/startupbar.gif" width="600" height="47"></td></tr>
+  <tr>
+    <td valign="top" bgcolor="#FFFFFF" align="left" width="582"><div align="center"><center><table border="0" cellpadding="10" cellspacing="0" width="600" bordercolor="#326698">
+  <tr>
+        <td bordercolor="#6380A7">
+</center>
+</center>
+  <table border="0" cellpadding="7" cellspacing="0" width="100%">
+  <tr>
+   <td valign="top" width="173"><img border="0" src="/drn-setup/images/startside4.gif" width="173" height="290"></td>
+      <td valign="top">
+
+<FORM ACTION="/drn-admin/setdefault" onsubmit="return Default_Validator(this)" METHOD=POST>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" height="35" valign="top"><font color="black" face="Arial" size="2">Please configure your default Direct Read News settings:<br></font></td>
+</tr>
+<tr>
+<td width="188"><img border="0" src="/drn-setup/images/greendot.gif" width="10" height="9">
+ 	<strong><font face="Arial" size="2" color="#326698">Email Domain:</font></strong></td>
+	<td width="172"><INPUT TYPE=TEXT NAME="MailDomain" size=20 value="$MailDomain"></td>
+	</font></strong></td>
+</tr>
+<tr>
+<td width="188"><img border="0" src="/drn-setup/images/greendot.gif" width="10" height="9">  
+	<strong><font face="Arial" size="2" color="#326698">Organization:</font></strong></td>
+	<td width="172"><INPUT TYPE=TEXT NAME="Organization" size=20 value="$Organization"></td>
+</tr>	
+<tr>
+<td width="188"><img border="0" src="/drn-setup/images/greendot.gif" width="10" height="9">  
+	<strong><font face="Arial" size="2" color="#326698">Page Length:</font></strong></td>
+<td width="172"><INPUT TYPE=TEXT NAME="PageLength" size=10 value="$PageLength"></td>
+</tr>
+<tr>
+<td width="172"><img border="0" src="/drn-setup/images/greendot.gif" width="10" height="9">  
+ 	<strong><font face="Arial" size="2" color="#326698">Min Attachment:</font></strong></td>
+	<td width="172"><INPUT TYPE=TEXT NAME="AttachSplitSize" size=10 value="$AttachSplitSize"></td>
+</tr>
+<tr>
+<td width="172"><img border="0" src="/drn-setup/images/greendot.gif" width="10" height="9">  
+	<strong><font face="Arial" size="2" color="#326698">Max Attachment:</font></strong></td>
+<td width="172"><INPUT TYPE=TEXT NAME="MaxSplitSize" size=10 value="$MaxSplitSize"></td>
+</tr>
+
+<tr>
+<td width="188" colspan="2"><img border="0" src="/drn-setup/images/greendot.gif" width="10" height="9">  
+	<strong><font face="Arial" size="2" color="#326698">Default Sort:</font></strong></td>
+</tr>
+<tr>
+<td colspan="2" align="left">
+<P>
+<input name=sort type=radio value=t $ThreadSort>thread
+<input name=sort type=radio value=d $DateSort>Date
+<input name=sort type=radio value=D $RDateSort>Reverse Date
+<input name=sort type=radio value=b $AuthorSort>Author
+<input name=sort type=radio value=z $SubjectSort>Subject</br>
+<p><center><a href="javascript:close();"><img border="0" src="/drn-setup/images/installcancel.gif"></a>
+<input type=image src="/drn-setup/images/installfinish.gif" name=finish border=0></center>
+</font>
+</FORM>
+ </td>
+ </tr>
+<tr>
+ <td colspan="2" valign="bottom">
+ </tr>
+ </table>
+  </form>
+ </td>
+ </tr>
+</table>
+  </td>
+ </tr>
+    </table>
+        </div></td>
+  </tr>
+</table>
+</div>
+</BODY>
+</HTML>
+EOM

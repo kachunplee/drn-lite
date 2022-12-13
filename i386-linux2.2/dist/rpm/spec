@@ -1,0 +1,66 @@
+Summary: Direct Read News - web interface for Usenet News
+Name: drn-i386-linux2.2
+Version: 3.11
+Release: 1
+Copyright: (c) 1995-1999 Pathlink Technolody, Inc.
+Group: Networking/News
+Source: drn-i386-linux2.2-3.11-1.tar.gz
+%description
+Direct Read News server software provides a powerful, yet easy to use 
+multimedia interface for Usenet and other forms of Internet news. Direct 
+Read News works in conjunction with virtually any NNTP compliant news 
+server software such as INN and bCandid's Typhoon and Breeze. This is a 
+fully functional version, and not a trial package.
+
+Direct Read News decodes, assembles and organizes single and multipart 
+files, and provides numerous article sort and select options. As an 
+example, only a single mouse click is required to decode, assemble, 
+download, and/or play large multipart music and video files. All text and 
+binary articles are decoded at the server, resulting in 20% reduction in 
+download file size and proportionally faster download speeds. In standard 
+form, Direct Read News does not require Java, Java Script or ASP functions 
+and is therefore compatible with virtually any version of web browser. News 
+operators are free to add this function to Direct Read News to meet their 
+own site presentation objectives.
+
+Direct Read News is provided complete with full generic menu and help 
+systems and is ready to run as downloaded. Installation time is 
+approximately 15 minutes for a standard setup. Direct Read News may also be 
+heavily customized in layout, appearance, and integration of web functions 
+to blend in with existing Internet sites. Modifications may include, but 
+are not limited to: page format, fonts and colors, the integration of 
+banner programs, icons stylized for the specific service, etc. This may be 
+accomplished with all popular web site development tools, and may 
+incorporate Java, JavaScript and ASP functionality. For installation 
+instructions, current releases and further information, please visit 
+http://www.newsadmin.com.
+
+%prep
+%setup
+
+%build
+
+%install
+#
+# Setup directories and copy files to DRN_DIR
+#
+DRN_DIR=/var/local/drn
+DIST_DIRS="drn-install bin www"
+
+#
+for dir in $DIST_DIRS
+do
+	if [ ! -d $DRN_DIR/$dir ]; then
+		mkdir -p $DRN_DIR/$dir
+	fi
+done
+
+cp -rp $DIST_DIRS $DRN_DIR
+
+%post
+DRN_DIR=/var/local/drn
+
+$DRN_DIR/bin/install.pl /etc/httpd/conf/httpd.conf
+
+%files -f flist
+%doc INSTALL README

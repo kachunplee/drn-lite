@@ -1,0 +1,855 @@
+# DO NOT DELETE
+
+cinet.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+cinet.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+cinet.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+cinet.o: /usr/include/sys/socket.h /usr/include/machine/param.h
+cinet.o: /usr/include/netinet/in.h /usr/include/netinet6/in6.h
+cinet.o: /usr/include/sys/queue.h /usr/include/arpa/inet.h
+cinet.o: /usr/include/netdb.h ../inet/cinet.h
+inettcp.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+inettcp.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+inettcp.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+inettcp.o: /usr/include/sys/time.h /usr/include/time.h
+inettcp.o: /usr/include/sys/_posix.h /usr/include/unistd.h
+inettcp.o: /usr/include/sys/unistd.h /usr/include/string.h
+inettcp.o: /usr/include/stdio.h ../include/dmsg.h ../inet/inettcp.h
+inettcp.o: /usr/include/netinet/in.h /usr/include/netinet6/in6.h
+inettcp.o: /usr/include/sys/queue.h ../inet/csocket.h
+inettcp.o: /usr/include/sys/errno.h /usr/include/sys/socket.h
+inettcp.o: /usr/include/machine/param.h /usr/include/errno.h
+inettcp.o: /usr/include/strings.h /usr/include/fcntl.h
+clienttcp.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+clienttcp.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+clienttcp.o: /usr/include/machine/types.h
+clienttcp.o: /usr/include/machine/endian.h /usr/include/unistd.h
+clienttcp.o: /usr/include/sys/unistd.h /usr/include/sys/_posix.h
+clienttcp.o: /usr/include/stdio.h /usr/include/stdlib.h
+clienttcp.o: /usr/include/stdarg.h /usr/include/time.h
+clienttcp.o: /usr/include/string.h ../include/dmsg.h ../inet/cinet.h
+clienttcp.o: ../inet/inettcp.h /usr/include/netinet/in.h
+clienttcp.o: /usr/include/netinet6/in6.h /usr/include/sys/queue.h
+clienttcp.o: ../inet/csocket.h /usr/include/sys/errno.h
+clienttcp.o: /usr/include/sys/socket.h /usr/include/machine/param.h
+clienttcp.o: /usr/include/errno.h /usr/include/strings.h
+clienttcp.o: /usr/include/fcntl.h ../inet/clienttcp.h
+cnntp.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+cnntp.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+cnntp.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+cnntp.o: /usr/include/unistd.h /usr/include/sys/unistd.h
+cnntp.o: /usr/include/sys/_posix.h /usr/include/stdlib.h
+cnntp.o: /usr/include/stdio.h ../include/dmsg.h ../inet/cnntp.h
+cnntp.o: ../inet/clienttcp.h ../inet/inettcp.h
+cnntp.o: /usr/include/netinet/in.h /usr/include/netinet6/in6.h
+cnntp.o: /usr/include/sys/queue.h ../inet/csocket.h
+cnntp.o: /usr/include/sys/errno.h /usr/include/sys/socket.h
+cnntp.o: /usr/include/machine/param.h /usr/include/errno.h
+cnntp.o: /usr/include/strings.h /usr/include/string.h
+cnntp.o: /usr/include/fcntl.h
+newsmime.o: /usr/include/string.h /usr/include/machine/ansi.h
+newsmime.o: /usr/include/sys/cdefs.h ../include/def.h
+newsmime.o: /usr/include/assert.h /usr/include/stdlib.h
+newsmime.o: /usr/include/ctype.h /usr/include/runetype.h
+newsmime.o: ../include/conf.h /usr/include/sys/types.h
+newsmime.o: /usr/include/sys/inttypes.h /usr/include/machine/types.h
+newsmime.o: /usr/include/machine/endian.h ../include/dmsg.h
+newsmime.o: ../include/htmllib.h ../include/urllib.h
+newsmime.o: ../include/inlib.h /usr/include/time.h
+newsmime.o: /usr/include/sys/_posix.h ../include/newsopt.h
+newsmime.o: ../include/rfc822.h ../include/newsmime.h
+newsmime.o: ../include/zlist.h ../include/zfilemap.h
+newsmime.o: /usr/include/stdio.h /usr/include/sys/time.h
+newsmime.o: ../include/newsart.h ../include/dgauth.h ../include/md5.h
+newslib.o: ../include/def.h /usr/include/assert.h
+newslib.o: /usr/include/sys/cdefs.h /usr/include/stdlib.h
+newslib.o: /usr/include/machine/ansi.h /usr/include/ctype.h
+newslib.o: /usr/include/runetype.h ../include/conf.h
+newslib.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+newslib.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+newslib.o: ../include/dmsg.h ../include/htmllib.h ../include/urllib.h
+newslib.o: ../include/inlib.h /usr/include/time.h
+newslib.o: /usr/include/sys/_posix.h ../include/newsopt.h
+newslib.o: ../include/newslib.h
+inlib.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+inlib.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+inlib.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+inlib.o: /usr/include/stdio.h /usr/include/string.h ../include/def.h
+inlib.o: /usr/include/assert.h /usr/include/stdlib.h
+inlib.o: /usr/include/ctype.h /usr/include/runetype.h
+inlib.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+inlib.o: ../include/urllib.h ../include/inlib.h /usr/include/time.h
+inlib.o: /usr/include/sys/_posix.h ../include/newsopt.h
+htmllib.o: /usr/include/string.h /usr/include/machine/ansi.h
+htmllib.o: /usr/include/sys/cdefs.h ../include/def.h
+htmllib.o: /usr/include/assert.h /usr/include/stdlib.h
+htmllib.o: /usr/include/ctype.h /usr/include/runetype.h
+htmllib.o: ../include/conf.h /usr/include/sys/types.h
+htmllib.o: /usr/include/sys/inttypes.h /usr/include/machine/types.h
+htmllib.o: /usr/include/machine/endian.h ../include/dmsg.h
+htmllib.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+htmllib.o: /usr/include/time.h /usr/include/sys/_posix.h
+htmllib.o: ../include/newsopt.h
+urllib.o: /usr/include/string.h /usr/include/machine/ansi.h
+urllib.o: /usr/include/sys/cdefs.h ../include/def.h
+urllib.o: /usr/include/assert.h /usr/include/stdlib.h
+urllib.o: /usr/include/ctype.h /usr/include/runetype.h
+urllib.o: ../include/conf.h /usr/include/sys/types.h
+urllib.o: /usr/include/sys/inttypes.h /usr/include/machine/types.h
+urllib.o: /usr/include/machine/endian.h ../include/dmsg.h
+urllib.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+urllib.o: /usr/include/time.h /usr/include/sys/_posix.h
+urllib.o: ../include/newsopt.h
+rfc822.o: /usr/include/time.h /usr/include/machine/ansi.h
+rfc822.o: /usr/include/sys/_posix.h /usr/include/sys/cdefs.h
+rfc822.o: ../include/def.h /usr/include/assert.h /usr/include/stdlib.h
+rfc822.o: /usr/include/ctype.h /usr/include/runetype.h
+rfc822.o: ../include/conf.h /usr/include/sys/types.h
+rfc822.o: /usr/include/sys/inttypes.h /usr/include/machine/types.h
+rfc822.o: /usr/include/machine/endian.h ../include/dmsg.h
+rfc822.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+rfc822.o: ../include/newsopt.h ../include/rfc822.h
+cgi.o: /usr/include/stdio.h /usr/include/sys/cdefs.h
+cgi.o: /usr/include/machine/ansi.h /usr/include/stdlib.h
+cgi.o: /usr/include/string.h ../include/cgi.h ../include/gdt.h
+cgi.o: ../include/gdt-sys.h ../include/httpbox.h
+httpbox.o: /usr/include/stdio.h /usr/include/sys/cdefs.h
+httpbox.o: /usr/include/machine/ansi.h /usr/include/stdlib.h
+httpbox.o: ../include/httpbox.h
+zlist.o: ../include/def.h /usr/include/assert.h
+zlist.o: /usr/include/sys/cdefs.h /usr/include/stdlib.h
+zlist.o: /usr/include/machine/ansi.h /usr/include/ctype.h
+zlist.o: /usr/include/runetype.h ../include/conf.h
+zlist.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+zlist.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+zlist.o: ../include/dmsg.h ../include/htmllib.h ../include/urllib.h
+zlist.o: ../include/inlib.h /usr/include/time.h
+zlist.o: /usr/include/sys/_posix.h ../include/newsopt.h
+zlist.o: ../include/zlist.h
+zfilemap.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+zfilemap.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+zfilemap.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+zfilemap.o: /usr/include/sys/stat.h /usr/include/sys/time.h
+zfilemap.o: /usr/include/time.h /usr/include/sys/_posix.h
+zfilemap.o: /usr/include/fcntl.h /usr/include/unistd.h
+zfilemap.o: /usr/include/sys/unistd.h ../include/def.h
+zfilemap.o: /usr/include/assert.h /usr/include/stdlib.h
+zfilemap.o: /usr/include/ctype.h /usr/include/runetype.h
+zfilemap.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+zfilemap.o: ../include/urllib.h ../include/inlib.h
+zfilemap.o: ../include/newsopt.h ../include/zfilemap.h
+zfilemap.o: /usr/include/stdio.h
+dmsg.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+dmsg.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+dmsg.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+dmsg.o: /usr/include/stdio.h /usr/include/stdarg.h
+assert.o: ../include/conf.h /usr/include/sys/types.h
+assert.o: /usr/include/sys/cdefs.h /usr/include/sys/inttypes.h
+assert.o: /usr/include/machine/ansi.h /usr/include/machine/types.h
+assert.o: /usr/include/machine/endian.h
+cleanup.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+cleanup.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+cleanup.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+cleanup.o: /usr/include/sys/ipc.h /usr/include/sys/sem.h
+cleanup.o: /usr/include/sys/shm.h /usr/include/signal.h
+cleanup.o: /usr/include/sys/_posix.h /usr/include/sys/signal.h
+cleanup.o: /usr/include/machine/signal.h /usr/include/machine/trap.h
+cleanup.o: /usr/include/sys/ucontext.h /usr/include/machine/ucontext.h
+cleanup.o: /usr/include/sys/time.h /usr/include/time.h
+cleanup.o: /usr/include/fcntl.h /usr/include/stdio.h
+cleanup.o: /usr/include/unistd.h /usr/include/sys/unistd.h
+cleanup.o: ../include/def.h /usr/include/assert.h
+cleanup.o: /usr/include/stdlib.h /usr/include/ctype.h
+cleanup.o: /usr/include/runetype.h ../include/conf.h ../include/dmsg.h
+cleanup.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+cleanup.o: ../include/newsopt.h
+misc.o: /usr/include/sys/stat.h /usr/include/sys/time.h
+misc.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+misc.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+misc.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+misc.o: /usr/include/time.h /usr/include/sys/_posix.h
+misc.o: /usr/include/unistd.h /usr/include/sys/unistd.h
+misc.o: ../include/def.h /usr/include/assert.h /usr/include/stdlib.h
+misc.o: /usr/include/ctype.h /usr/include/runetype.h ../include/conf.h
+misc.o: ../include/dmsg.h ../include/htmllib.h ../include/urllib.h
+misc.o: ../include/inlib.h ../include/newsopt.h
+newsacc.o: ../include/def.h /usr/include/assert.h
+newsacc.o: /usr/include/sys/cdefs.h /usr/include/stdlib.h
+newsacc.o: /usr/include/machine/ansi.h /usr/include/ctype.h
+newsacc.o: /usr/include/runetype.h ../include/conf.h
+newsacc.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+newsacc.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+newsacc.o: ../include/dmsg.h ../include/htmllib.h ../include/urllib.h
+newsacc.o: ../include/inlib.h /usr/include/time.h
+newsacc.o: /usr/include/sys/_posix.h ../include/newsopt.h
+newsacc.o: /usr/include/string.h /usr/include/stdio.h
+newsacc.o: /usr/include/sys/time.h /usr/include/sys/stat.h
+newsacc.o: ../include/newsacc.h ../include/ngshare.h
+ngshare.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+ngshare.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+ngshare.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+ngshare.o: /usr/include/stdio.h ../include/def.h /usr/include/assert.h
+ngshare.o: /usr/include/stdlib.h /usr/include/ctype.h
+ngshare.o: /usr/include/runetype.h ../include/conf.h ../include/dmsg.h
+ngshare.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+ngshare.o: /usr/include/time.h /usr/include/sys/_posix.h
+ngshare.o: ../include/newsopt.h ../include/userinfo.h
+ngshare.o: ../include/ngshare.h
+userinfo.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+userinfo.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+userinfo.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+userinfo.o: /usr/include/sys/stat.h /usr/include/sys/time.h
+userinfo.o: /usr/include/time.h /usr/include/sys/_posix.h
+userinfo.o: /usr/include/sys/uio.h /usr/include/unistd.h
+userinfo.o: /usr/include/sys/unistd.h /usr/include/stdio.h
+userinfo.o: /usr/include/fcntl.h /usr/include/signal.h
+userinfo.o: /usr/include/sys/signal.h /usr/include/machine/signal.h
+userinfo.o: /usr/include/machine/trap.h /usr/include/sys/ucontext.h
+userinfo.o: /usr/include/machine/ucontext.h /usr/include/setjmp.h
+userinfo.o: /usr/include/machine/setjmp.h /usr/include/string.h
+userinfo.o: /usr/include/ndbm.h /usr/include/db.h
+userinfo.o: /usr/include/limits.h /usr/include/machine/limits.h
+userinfo.o: /usr/include/sys/syslimits.h ../include/def.h
+userinfo.o: /usr/include/assert.h /usr/include/stdlib.h
+userinfo.o: /usr/include/ctype.h /usr/include/runetype.h
+userinfo.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+userinfo.o: ../include/urllib.h ../include/inlib.h
+userinfo.o: ../include/newsopt.h ../include/userinfo.h
+conf.o: ../include/conf.h /usr/include/sys/types.h
+conf.o: /usr/include/sys/cdefs.h /usr/include/sys/inttypes.h
+conf.o: /usr/include/machine/ansi.h /usr/include/machine/types.h
+conf.o: /usr/include/machine/endian.h
+artspool.o: /usr/include/errno.h /usr/include/string.h
+artspool.o: /usr/include/machine/ansi.h /usr/include/sys/cdefs.h
+artspool.o: /usr/include/stdio.h /usr/include/unistd.h
+artspool.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+artspool.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+artspool.o: /usr/include/sys/unistd.h /usr/include/sys/_posix.h
+artspool.o: ../include/def.h /usr/include/assert.h
+artspool.o: /usr/include/stdlib.h /usr/include/ctype.h
+artspool.o: /usr/include/runetype.h ../include/conf.h
+artspool.o: ../include/dmsg.h ../include/htmllib.h ../include/urllib.h
+artspool.o: ../include/inlib.h /usr/include/time.h
+artspool.o: ../include/newsopt.h ../include/artspool.h
+status.o: /usr/include/stdarg.h ../include/def.h /usr/include/assert.h
+status.o: /usr/include/sys/cdefs.h /usr/include/stdlib.h
+status.o: /usr/include/machine/ansi.h /usr/include/ctype.h
+status.o: /usr/include/runetype.h ../include/conf.h
+status.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+status.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+status.o: ../include/dmsg.h ../include/htmllib.h ../include/urllib.h
+status.o: ../include/inlib.h /usr/include/time.h
+status.o: /usr/include/sys/_posix.h ../include/newsopt.h
+status.o: ../lib/status.h
+zcgi.o: /usr/include/stdio.h /usr/include/sys/cdefs.h
+zcgi.o: /usr/include/machine/ansi.h /usr/include/unistd.h
+zcgi.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+zcgi.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+zcgi.o: /usr/include/sys/unistd.h /usr/include/sys/_posix.h
+zcgi.o: ../include/dmsg.h ../lib/zcgi.h
+zio.o: ../include/def.h /usr/include/assert.h /usr/include/sys/cdefs.h
+zio.o: /usr/include/stdlib.h /usr/include/machine/ansi.h
+zio.o: /usr/include/ctype.h /usr/include/runetype.h ../include/conf.h
+zio.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+zio.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+zio.o: ../include/dmsg.h ../include/htmllib.h ../include/urllib.h
+zio.o: ../include/inlib.h /usr/include/time.h
+zio.o: /usr/include/sys/_posix.h ../include/newsopt.h
+zstg.o: /usr/include/string.h /usr/include/machine/ansi.h
+zstg.o: /usr/include/sys/cdefs.h ../lib/zstg.h ../include/zregex.h
+zstg.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+zstg.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+zstg.o: /usr/include/regex.h
+nntpact.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+nntpact.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+nntpact.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+nntpact.o: /usr/include/unistd.h /usr/include/sys/unistd.h
+nntpact.o: /usr/include/sys/_posix.h /usr/include/stdlib.h
+nntpact.o: /usr/include/stdio.h ../include/dmsg.h ../inet/cnntp.h
+nntpact.o: ../inet/clienttcp.h ../inet/inettcp.h
+nntpact.o: /usr/include/netinet/in.h /usr/include/netinet6/in6.h
+nntpact.o: /usr/include/sys/queue.h ../inet/csocket.h
+nntpact.o: /usr/include/sys/errno.h /usr/include/sys/socket.h
+nntpact.o: /usr/include/machine/param.h /usr/include/errno.h
+nntpact.o: /usr/include/strings.h /usr/include/string.h
+nntpact.o: /usr/include/fcntl.h ../inet/nntpact.h
+nntpart.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+nntpart.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+nntpart.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+nntpart.o: /usr/include/unistd.h /usr/include/sys/unistd.h
+nntpart.o: /usr/include/sys/_posix.h /usr/include/stdlib.h
+nntpart.o: /usr/include/stdio.h ../include/dmsg.h ../inet/cnntp.h
+nntpart.o: ../inet/clienttcp.h ../inet/inettcp.h
+nntpart.o: /usr/include/netinet/in.h /usr/include/netinet6/in6.h
+nntpart.o: /usr/include/sys/queue.h ../inet/csocket.h
+nntpart.o: /usr/include/sys/errno.h /usr/include/sys/socket.h
+nntpart.o: /usr/include/machine/param.h /usr/include/errno.h
+nntpart.o: /usr/include/strings.h /usr/include/string.h
+nntpart.o: /usr/include/fcntl.h ../inet/nntpart.h
+nntpov.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+nntpov.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+nntpov.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+nntpov.o: /usr/include/unistd.h /usr/include/sys/unistd.h
+nntpov.o: /usr/include/sys/_posix.h /usr/include/stdlib.h
+nntpov.o: /usr/include/stdio.h ../include/dmsg.h ../inet/cnntp.h
+nntpov.o: ../inet/clienttcp.h ../inet/inettcp.h
+nntpov.o: /usr/include/netinet/in.h /usr/include/netinet6/in6.h
+nntpov.o: /usr/include/sys/queue.h ../inet/csocket.h
+nntpov.o: /usr/include/sys/errno.h /usr/include/sys/socket.h
+nntpov.o: /usr/include/machine/param.h /usr/include/errno.h
+nntpov.o: /usr/include/strings.h /usr/include/string.h
+nntpov.o: /usr/include/fcntl.h ../inet/nntpov.h
+newsopt.o: /usr/include/stdio.h /usr/include/sys/cdefs.h
+newsopt.o: /usr/include/machine/ansi.h /usr/include/sys/stat.h
+newsopt.o: /usr/include/sys/time.h /usr/include/sys/types.h
+newsopt.o: /usr/include/sys/inttypes.h /usr/include/machine/types.h
+newsopt.o: /usr/include/machine/endian.h /usr/include/time.h
+newsopt.o: /usr/include/sys/_posix.h ../include/def.h
+newsopt.o: /usr/include/assert.h /usr/include/stdlib.h
+newsopt.o: /usr/include/ctype.h /usr/include/runetype.h
+newsopt.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+newsopt.o: ../include/urllib.h ../include/inlib.h ../include/newsopt.h
+newsopt.o: /usr/include/string.h ../include/userinfo.h
+newsgrp.o: ../include/def.h /usr/include/assert.h
+newsgrp.o: /usr/include/sys/cdefs.h /usr/include/stdlib.h
+newsgrp.o: /usr/include/machine/ansi.h /usr/include/ctype.h
+newsgrp.o: /usr/include/runetype.h ../include/conf.h
+newsgrp.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+newsgrp.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+newsgrp.o: ../include/dmsg.h ../include/htmllib.h ../include/urllib.h
+newsgrp.o: ../include/inlib.h /usr/include/time.h
+newsgrp.o: /usr/include/sys/_posix.h ../include/newsopt.h
+newsgrp.o: /usr/include/fcntl.h /usr/include/stdio.h
+newsgrp.o: /usr/include/sys/uio.h /usr/include/unistd.h
+newsgrp.o: /usr/include/sys/unistd.h /usr/include/string.h
+newsgrp.o: ../include/advert.h ../include/tmplerr.h
+newsgrp.o: ../include/ngshare.h ../include/newsgrp.h ../lib/status.h
+newsart.o: /usr/include/string.h /usr/include/machine/ansi.h
+newsart.o: /usr/include/sys/cdefs.h /usr/include/stdio.h
+newsart.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+newsart.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+newsart.o: /usr/include/sys/stat.h /usr/include/sys/time.h
+newsart.o: /usr/include/time.h /usr/include/sys/_posix.h
+newsart.o: /usr/include/fcntl.h /usr/include/sys/uio.h
+newsart.o: /usr/include/unistd.h /usr/include/sys/unistd.h
+newsart.o: ../include/def.h /usr/include/assert.h
+newsart.o: /usr/include/stdlib.h /usr/include/ctype.h
+newsart.o: /usr/include/runetype.h ../include/conf.h ../include/dmsg.h
+newsart.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+newsart.o: ../include/newsopt.h ../include/advert.h
+newsart.o: ../include/tmplerr.h ../include/userinfo.h
+newsart.o: ../include/newsmime.h ../include/zlist.h
+newsart.o: ../include/zfilemap.h ../include/newslist.h
+newsart.o: ../include/dgauth.h ../include/md5.h ../include/newsart.h
+newsart.o: ../include/artspool.h
+newslist.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+newslist.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+newslist.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+newslist.o: /usr/include/sys/stat.h /usr/include/sys/time.h
+newslist.o: /usr/include/time.h /usr/include/sys/_posix.h
+newslist.o: /usr/include/sys/errno.h /usr/include/unistd.h
+newslist.o: /usr/include/sys/unistd.h /usr/include/string.h
+newslist.o: ../include/def.h /usr/include/assert.h
+newslist.o: /usr/include/stdlib.h /usr/include/ctype.h
+newslist.o: /usr/include/runetype.h ../include/conf.h
+newslist.o: ../include/dmsg.h ../include/htmllib.h ../include/urllib.h
+newslist.o: ../include/inlib.h ../include/newsopt.h
+newslist.o: ../include/dgauth.h ../include/md5.h ../include/newslib.h
+newslist.o: ../include/advert.h ../include/tmplerr.h
+newslist.o: ../include/userinfo.h ../include/newslist.h
+newslist.o: /usr/include/stdio.h ../include/newsmidx.h
+newslist.o: ../include/newslidx.h ../lib/status.h
+newsmidx.o: ../include/def.h /usr/include/assert.h
+newsmidx.o: /usr/include/sys/cdefs.h /usr/include/stdlib.h
+newsmidx.o: /usr/include/machine/ansi.h /usr/include/ctype.h
+newsmidx.o: /usr/include/runetype.h ../include/conf.h
+newsmidx.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+newsmidx.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+newsmidx.o: ../include/dmsg.h ../include/htmllib.h ../include/urllib.h
+newsmidx.o: ../include/inlib.h /usr/include/time.h
+newsmidx.o: /usr/include/sys/_posix.h ../include/newsopt.h
+newsmidx.o: ../include/newsthread.h ../include/newslover.h
+newsmidx.o: ../include/newslidx.h ../lib/status.h
+newsmidx.o: ../include/newslartn.h ../include/newslsort.h
+newsmidx.o: ../include/newslsubj.h ../include/newslauth.h
+newsmidx.o: ../include/newsldate.h ../include/newslsum.h
+newsmidx.o: ../include/newssauth.h ../include/newssorts.h
+newsmidx.o: ../include/newssdate.h ../include/newsmidx.h
+newslidx.o: /usr/include/stdio.h /usr/include/sys/cdefs.h
+newslidx.o: /usr/include/machine/ansi.h ../include/def.h
+newslidx.o: /usr/include/assert.h /usr/include/stdlib.h
+newslidx.o: /usr/include/ctype.h /usr/include/runetype.h
+newslidx.o: ../include/conf.h /usr/include/sys/types.h
+newslidx.o: /usr/include/sys/inttypes.h /usr/include/machine/types.h
+newslidx.o: /usr/include/machine/endian.h ../include/dmsg.h
+newslidx.o: ../include/htmllib.h ../include/urllib.h
+newslidx.o: ../include/inlib.h /usr/include/time.h
+newslidx.o: /usr/include/sys/_posix.h ../include/newsopt.h
+newslidx.o: ../include/newslidx.h ../lib/status.h
+newslover.o: /usr/include/sys/errno.h /usr/include/sys/cdefs.h
+newslover.o: /usr/include/sys/stat.h /usr/include/sys/time.h
+newslover.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+newslover.o: /usr/include/machine/ansi.h /usr/include/machine/types.h
+newslover.o: /usr/include/machine/endian.h /usr/include/time.h
+newslover.o: /usr/include/sys/_posix.h /usr/include/unistd.h
+newslover.o: /usr/include/sys/unistd.h /usr/include/stdio.h
+newslover.o: /usr/include/fcntl.h /usr/include/string.h
+newslover.o: /usr/include/dirent.h /usr/include/sys/dirent.h
+newslover.o: /usr/include/errno.h ../include/def.h
+newslover.o: /usr/include/assert.h /usr/include/stdlib.h
+newslover.o: /usr/include/ctype.h /usr/include/runetype.h
+newslover.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+newslover.o: ../include/urllib.h ../include/inlib.h
+newslover.o: ../include/newsopt.h ../include/newslover.h
+newslover.o: ../include/newslidx.h ../lib/status.h ../inet/nntpov.h
+newsthread.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+newsthread.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+newsthread.o: /usr/include/machine/types.h
+newsthread.o: /usr/include/machine/endian.h /usr/include/sys/stat.h
+newsthread.o: /usr/include/sys/time.h /usr/include/time.h
+newsthread.o: /usr/include/sys/_posix.h /usr/include/unistd.h
+newsthread.o: /usr/include/sys/unistd.h ../include/def.h
+newsthread.o: /usr/include/assert.h /usr/include/stdlib.h
+newsthread.o: /usr/include/ctype.h /usr/include/runetype.h
+newsthread.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+newsthread.o: ../include/urllib.h ../include/inlib.h
+newsthread.o: ../include/newsopt.h ../include/szptr.h
+newsthread.o: /usr/include/string.h ../lib/status.h
+newsthread.o: ../include/newsthread.h ../include/newslover.h
+newsthread.o: ../include/newslidx.h
+newslsort.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+newslsort.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+newslsort.o: /usr/include/machine/types.h
+newslsort.o: /usr/include/machine/endian.h /usr/include/sys/stat.h
+newslsort.o: /usr/include/sys/time.h /usr/include/time.h
+newslsort.o: /usr/include/sys/_posix.h /usr/include/unistd.h
+newslsort.o: /usr/include/sys/unistd.h ../include/def.h
+newslsort.o: /usr/include/assert.h /usr/include/stdlib.h
+newslsort.o: /usr/include/ctype.h /usr/include/runetype.h
+newslsort.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+newslsort.o: ../include/urllib.h ../include/inlib.h
+newslsort.o: ../include/newsopt.h ../include/szptr.h
+newslsort.o: /usr/include/string.h ../lib/status.h
+newslsort.o: ../include/newslsort.h ../include/newslover.h
+newslsort.o: ../include/newslidx.h
+merge.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+merge.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+merge.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+merge.o: /usr/include/errno.h /usr/include/stdlib.h
+merge.o: /usr/include/string.h
+newslartn.o: ../include/def.h /usr/include/assert.h
+newslartn.o: /usr/include/sys/cdefs.h /usr/include/stdlib.h
+newslartn.o: /usr/include/machine/ansi.h /usr/include/ctype.h
+newslartn.o: /usr/include/runetype.h ../include/conf.h
+newslartn.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+newslartn.o: /usr/include/machine/types.h
+newslartn.o: /usr/include/machine/endian.h ../include/dmsg.h
+newslartn.o: ../include/htmllib.h ../include/urllib.h
+newslartn.o: ../include/inlib.h /usr/include/time.h
+newslartn.o: /usr/include/sys/_posix.h ../include/newsopt.h
+newslartn.o: ../include/newslartn.h ../include/newslsort.h
+newslartn.o: ../include/newslover.h ../include/newslidx.h
+newslartn.o: ../lib/status.h
+newslsubj.o: /usr/include/string.h /usr/include/machine/ansi.h
+newslsubj.o: /usr/include/sys/cdefs.h ../include/def.h
+newslsubj.o: /usr/include/assert.h /usr/include/stdlib.h
+newslsubj.o: /usr/include/ctype.h /usr/include/runetype.h
+newslsubj.o: ../include/conf.h /usr/include/sys/types.h
+newslsubj.o: /usr/include/sys/inttypes.h /usr/include/machine/types.h
+newslsubj.o: /usr/include/machine/endian.h ../include/dmsg.h
+newslsubj.o: ../include/htmllib.h ../include/urllib.h
+newslsubj.o: ../include/inlib.h /usr/include/time.h
+newslsubj.o: /usr/include/sys/_posix.h ../include/newsopt.h
+newslsubj.o: ../include/newslib.h ../include/newslsubj.h
+newslsubj.o: ../include/newslsort.h ../include/newslover.h
+newslsubj.o: ../include/newslidx.h ../lib/status.h
+newslsum.o: /usr/include/stdio.h /usr/include/sys/cdefs.h
+newslsum.o: /usr/include/machine/ansi.h /usr/include/string.h
+newslsum.o: ../include/def.h /usr/include/assert.h
+newslsum.o: /usr/include/stdlib.h /usr/include/ctype.h
+newslsum.o: /usr/include/runetype.h ../include/conf.h
+newslsum.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+newslsum.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+newslsum.o: ../include/dmsg.h ../include/htmllib.h ../include/urllib.h
+newslsum.o: ../include/inlib.h /usr/include/time.h
+newslsum.o: /usr/include/sys/_posix.h ../include/newsopt.h
+newslsum.o: ../include/userinfo.h ../include/newslsum.h
+newslsum.o: ../include/newslsubj.h ../include/newslsort.h
+newslsum.o: ../include/newslover.h ../include/newslidx.h
+newslsum.o: ../lib/status.h
+newslauth.o: /usr/include/string.h /usr/include/machine/ansi.h
+newslauth.o: /usr/include/sys/cdefs.h ../include/def.h
+newslauth.o: /usr/include/assert.h /usr/include/stdlib.h
+newslauth.o: /usr/include/ctype.h /usr/include/runetype.h
+newslauth.o: ../include/conf.h /usr/include/sys/types.h
+newslauth.o: /usr/include/sys/inttypes.h /usr/include/machine/types.h
+newslauth.o: /usr/include/machine/endian.h ../include/dmsg.h
+newslauth.o: ../include/htmllib.h ../include/urllib.h
+newslauth.o: ../include/inlib.h /usr/include/time.h
+newslauth.o: /usr/include/sys/_posix.h ../include/newsopt.h
+newslauth.o: ../include/newslauth.h ../include/newslsort.h
+newslauth.o: ../include/newslover.h ../include/newslidx.h
+newslauth.o: ../lib/status.h
+newsldate.o: ../include/def.h /usr/include/assert.h
+newsldate.o: /usr/include/sys/cdefs.h /usr/include/stdlib.h
+newsldate.o: /usr/include/machine/ansi.h /usr/include/ctype.h
+newsldate.o: /usr/include/runetype.h ../include/conf.h
+newsldate.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+newsldate.o: /usr/include/machine/types.h
+newsldate.o: /usr/include/machine/endian.h ../include/dmsg.h
+newsldate.o: ../include/htmllib.h ../include/urllib.h
+newsldate.o: ../include/inlib.h /usr/include/time.h
+newsldate.o: /usr/include/sys/_posix.h ../include/newsopt.h
+newsldate.o: ../include/newsldate.h ../include/newslsort.h
+newsldate.o: ../include/newslover.h ../include/newslidx.h
+newsldate.o: ../lib/status.h
+newssorts.o: ../include/def.h /usr/include/assert.h
+newssorts.o: /usr/include/sys/cdefs.h /usr/include/stdlib.h
+newssorts.o: /usr/include/machine/ansi.h /usr/include/ctype.h
+newssorts.o: /usr/include/runetype.h ../include/conf.h
+newssorts.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+newssorts.o: /usr/include/machine/types.h
+newssorts.o: /usr/include/machine/endian.h ../include/dmsg.h
+newssorts.o: ../include/htmllib.h ../include/urllib.h
+newssorts.o: ../include/inlib.h /usr/include/time.h
+newssorts.o: /usr/include/sys/_posix.h ../include/newsopt.h
+newssorts.o: ../include/newslsum.h ../include/newslsubj.h
+newssorts.o: ../include/newslsort.h ../include/newslover.h
+newssorts.o: ../include/newslidx.h ../lib/status.h
+newssorts.o: ../include/newssorts.h
+newssauth.o: /usr/include/string.h /usr/include/machine/ansi.h
+newssauth.o: /usr/include/sys/cdefs.h ../include/def.h
+newssauth.o: /usr/include/assert.h /usr/include/stdlib.h
+newssauth.o: /usr/include/ctype.h /usr/include/runetype.h
+newssauth.o: ../include/conf.h /usr/include/sys/types.h
+newssauth.o: /usr/include/sys/inttypes.h /usr/include/machine/types.h
+newssauth.o: /usr/include/machine/endian.h ../include/dmsg.h
+newssauth.o: ../include/htmllib.h ../include/urllib.h
+newssauth.o: ../include/inlib.h /usr/include/time.h
+newssauth.o: /usr/include/sys/_posix.h ../include/newsopt.h
+newssauth.o: ../include/newssauth.h ../include/newssorts.h
+newssauth.o: ../include/newslsort.h ../include/newslover.h
+newssauth.o: ../include/newslidx.h ../lib/status.h
+newssdate.o: ../include/def.h /usr/include/assert.h
+newssdate.o: /usr/include/sys/cdefs.h /usr/include/stdlib.h
+newssdate.o: /usr/include/machine/ansi.h /usr/include/ctype.h
+newssdate.o: /usr/include/runetype.h ../include/conf.h
+newssdate.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+newssdate.o: /usr/include/machine/types.h
+newssdate.o: /usr/include/machine/endian.h ../include/dmsg.h
+newssdate.o: ../include/htmllib.h ../include/urllib.h
+newssdate.o: ../include/inlib.h /usr/include/time.h
+newssdate.o: /usr/include/sys/_posix.h ../include/newsopt.h
+newssdate.o: ../include/newssdate.h ../include/newssorts.h
+newssdate.o: ../include/newslsort.h ../include/newslover.h
+newssdate.o: ../include/newslidx.h ../lib/status.h
+advert.o: /usr/include/string.h /usr/include/machine/ansi.h
+advert.o: /usr/include/sys/cdefs.h /usr/include/stdio.h
+advert.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+advert.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+advert.o: /usr/include/sys/stat.h /usr/include/sys/time.h
+advert.o: /usr/include/time.h /usr/include/sys/_posix.h
+advert.o: /usr/include/fcntl.h /usr/include/sys/uio.h
+advert.o: /usr/include/unistd.h /usr/include/sys/unistd.h
+advert.o: /usr/include/dirent.h /usr/include/sys/dirent.h
+advert.o: ../include/def.h /usr/include/assert.h /usr/include/stdlib.h
+advert.o: /usr/include/ctype.h /usr/include/runetype.h
+advert.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+advert.o: ../include/urllib.h ../include/inlib.h ../include/newsopt.h
+advert.o: ../include/advert.h
+tmplerr.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+tmplerr.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+tmplerr.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+tmplerr.o: /usr/include/sys/stat.h /usr/include/sys/time.h
+tmplerr.o: /usr/include/time.h /usr/include/sys/_posix.h
+tmplerr.o: /usr/include/sys/errno.h /usr/include/unistd.h
+tmplerr.o: /usr/include/sys/unistd.h /usr/include/string.h
+tmplerr.o: ../include/def.h /usr/include/assert.h
+tmplerr.o: /usr/include/stdlib.h /usr/include/ctype.h
+tmplerr.o: /usr/include/runetype.h ../include/conf.h ../include/dmsg.h
+tmplerr.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+tmplerr.o: ../include/newsopt.h ../include/tmplerr.h
+wwwnews.o: /usr/include/unistd.h /usr/include/sys/cdefs.h
+wwwnews.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+wwwnews.o: /usr/include/machine/ansi.h /usr/include/machine/types.h
+wwwnews.o: /usr/include/machine/endian.h /usr/include/sys/unistd.h
+wwwnews.o: /usr/include/sys/_posix.h /usr/include/string.h
+wwwnews.o: ../include/def.h /usr/include/assert.h
+wwwnews.o: /usr/include/stdlib.h /usr/include/ctype.h
+wwwnews.o: /usr/include/runetype.h ../include/conf.h ../include/dmsg.h
+wwwnews.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+wwwnews.o: /usr/include/time.h ../include/newsopt.h
+wwwnews.o: ../include/userinfo.h ../include/newsgrp.h ../lib/status.h
+wwwnews.o: ../include/newslist.h /usr/include/stdio.h
+wwwnews.o: ../include/dgauth.h ../include/md5.h ../include/newsart.h
+wwwnews.o: ../include/newsmime.h ../include/zlist.h
+wwwnews.o: ../include/zfilemap.h /usr/include/sys/time.h
+wwwprev.o: /usr/include/unistd.h /usr/include/sys/cdefs.h
+wwwprev.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+wwwprev.o: /usr/include/machine/ansi.h /usr/include/machine/types.h
+wwwprev.o: /usr/include/machine/endian.h /usr/include/sys/unistd.h
+wwwprev.o: /usr/include/sys/_posix.h /usr/include/string.h
+wwwprev.o: /usr/include/stdio.h ../include/def.h /usr/include/assert.h
+wwwprev.o: /usr/include/stdlib.h /usr/include/ctype.h
+wwwprev.o: /usr/include/runetype.h ../include/conf.h ../include/dmsg.h
+wwwprev.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+wwwprev.o: /usr/include/time.h ../include/newsopt.h
+wwwprev.o: ../include/userinfo.h ../include/advert.h
+wwwprev.o: ../include/newsmidx.h ../include/newslidx.h ../lib/status.h
+wwwprev.o: ../include/tmplerr.h
+wwwnext.o: /usr/include/unistd.h /usr/include/sys/cdefs.h
+wwwnext.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+wwwnext.o: /usr/include/machine/ansi.h /usr/include/machine/types.h
+wwwnext.o: /usr/include/machine/endian.h /usr/include/sys/unistd.h
+wwwnext.o: /usr/include/sys/_posix.h /usr/include/string.h
+wwwnext.o: /usr/include/stdio.h ../include/def.h /usr/include/assert.h
+wwwnext.o: /usr/include/stdlib.h /usr/include/ctype.h
+wwwnext.o: /usr/include/runetype.h ../include/conf.h ../include/dmsg.h
+wwwnext.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+wwwnext.o: /usr/include/time.h ../include/newsopt.h
+wwwnext.o: ../include/advert.h ../include/userinfo.h
+wwwnext.o: ../include/newsmidx.h ../include/newslidx.h ../lib/status.h
+wwwnext.o: ../include/tmplerr.h
+wwwheader.o: /usr/include/unistd.h /usr/include/sys/cdefs.h
+wwwheader.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+wwwheader.o: /usr/include/machine/ansi.h /usr/include/machine/types.h
+wwwheader.o: /usr/include/machine/endian.h /usr/include/sys/unistd.h
+wwwheader.o: /usr/include/sys/_posix.h /usr/include/string.h
+wwwheader.o: /usr/include/stdio.h ../include/def.h
+wwwheader.o: /usr/include/assert.h /usr/include/stdlib.h
+wwwheader.o: /usr/include/ctype.h /usr/include/runetype.h
+wwwheader.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+wwwheader.o: ../include/urllib.h ../include/inlib.h
+wwwheader.o: /usr/include/time.h ../include/newsopt.h
+wwwheader.o: ../include/advert.h ../include/userinfo.h
+wwwheader.o: ../include/tmplerr.h ../include/newsheader.h
+newsheader.o: /usr/include/string.h /usr/include/machine/ansi.h
+newsheader.o: /usr/include/sys/cdefs.h /usr/include/stdio.h
+newsheader.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+newsheader.o: /usr/include/machine/types.h
+newsheader.o: /usr/include/machine/endian.h /usr/include/sys/stat.h
+newsheader.o: /usr/include/sys/time.h /usr/include/time.h
+newsheader.o: /usr/include/sys/_posix.h /usr/include/fcntl.h
+newsheader.o: /usr/include/sys/uio.h /usr/include/unistd.h
+newsheader.o: /usr/include/sys/unistd.h ../include/def.h
+newsheader.o: /usr/include/assert.h /usr/include/stdlib.h
+newsheader.o: /usr/include/ctype.h /usr/include/runetype.h
+newsheader.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+newsheader.o: ../include/urllib.h ../include/inlib.h
+newsheader.o: ../include/newsopt.h ../include/advert.h
+newsheader.o: ../include/tmplerr.h ../include/userinfo.h
+newsheader.o: ../include/newsmime.h ../include/zlist.h
+newsheader.o: ../include/zfilemap.h ../include/newslist.h
+newsheader.o: ../include/dgauth.h ../include/md5.h
+newsheader.o: ../include/newsheader.h ../include/artspool.h
+wwwpost.o: /usr/include/unistd.h /usr/include/sys/cdefs.h
+wwwpost.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+wwwpost.o: /usr/include/machine/ansi.h /usr/include/machine/types.h
+wwwpost.o: /usr/include/machine/endian.h /usr/include/sys/unistd.h
+wwwpost.o: /usr/include/sys/_posix.h /usr/include/string.h
+wwwpost.o: /usr/include/stdio.h ../include/def.h /usr/include/assert.h
+wwwpost.o: /usr/include/stdlib.h /usr/include/ctype.h
+wwwpost.o: /usr/include/runetype.h ../include/conf.h ../include/dmsg.h
+wwwpost.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+wwwpost.o: /usr/include/time.h ../include/newsopt.h
+wwwpost.o: ../include/advert.h ../include/userinfo.h
+wwwpost.o: ../include/tmplerr.h ../include/newspost.h
+newspost.o: /usr/include/string.h /usr/include/machine/ansi.h
+newspost.o: /usr/include/sys/cdefs.h /usr/include/stdio.h
+newspost.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+newspost.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+newspost.o: /usr/include/sys/stat.h /usr/include/sys/time.h
+newspost.o: /usr/include/time.h /usr/include/sys/_posix.h
+newspost.o: /usr/include/fcntl.h /usr/include/sys/uio.h
+newspost.o: /usr/include/unistd.h /usr/include/sys/unistd.h
+newspost.o: ../include/def.h /usr/include/assert.h
+newspost.o: /usr/include/stdlib.h /usr/include/ctype.h
+newspost.o: /usr/include/runetype.h ../include/conf.h
+newspost.o: ../include/dmsg.h ../include/htmllib.h ../include/urllib.h
+newspost.o: ../include/inlib.h ../include/newsopt.h
+newspost.o: ../include/advert.h ../include/tmplerr.h
+newspost.o: ../include/userinfo.h ../include/newsmime.h
+newspost.o: ../include/zlist.h ../include/zfilemap.h
+newspost.o: ../include/newslist.h ../include/dgauth.h ../include/md5.h
+newspost.o: ../include/newspost.h ../include/artspool.h
+wwwinews.o: /usr/include/unistd.h /usr/include/sys/cdefs.h
+wwwinews.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+wwwinews.o: /usr/include/machine/ansi.h /usr/include/machine/types.h
+wwwinews.o: /usr/include/machine/endian.h /usr/include/sys/unistd.h
+wwwinews.o: /usr/include/sys/_posix.h /usr/include/string.h
+wwwinews.o: /usr/include/stdio.h ../include/def.h
+wwwinews.o: /usr/include/assert.h /usr/include/stdlib.h
+wwwinews.o: /usr/include/ctype.h /usr/include/runetype.h
+wwwinews.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+wwwinews.o: ../include/urllib.h ../include/inlib.h /usr/include/time.h
+wwwinews.o: ../include/newsopt.h ../include/szptr.h
+wwwinews.o: ../include/advert.h ../include/userinfo.h
+wwwinews.o: ../include/tmplerr.h ../lib/zstg.h ../include/zregex.h
+wwwinews.o: /usr/include/regex.h ../lib/zcgi.h ../lib/status.h
+wwwinews.o: ../inet/cnntp.h ../inet/clienttcp.h ../inet/inettcp.h
+wwwinews.o: /usr/include/netinet/in.h /usr/include/netinet6/in6.h
+wwwinews.o: /usr/include/sys/queue.h ../inet/csocket.h
+wwwinews.o: /usr/include/sys/errno.h /usr/include/sys/socket.h
+wwwinews.o: /usr/include/machine/param.h /usr/include/errno.h
+wwwinews.o: /usr/include/strings.h /usr/include/fcntl.h
+wwwlistgrp.o: /usr/include/unistd.h /usr/include/sys/cdefs.h
+wwwlistgrp.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+wwwlistgrp.o: /usr/include/machine/ansi.h /usr/include/machine/types.h
+wwwlistgrp.o: /usr/include/machine/endian.h /usr/include/sys/unistd.h
+wwwlistgrp.o: /usr/include/sys/_posix.h /usr/include/errno.h
+wwwlistgrp.o: /usr/include/string.h ../include/def.h
+wwwlistgrp.o: /usr/include/assert.h /usr/include/stdlib.h
+wwwlistgrp.o: /usr/include/ctype.h /usr/include/runetype.h
+wwwlistgrp.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+wwwlistgrp.o: ../include/urllib.h ../include/inlib.h
+wwwlistgrp.o: /usr/include/time.h ../include/newsopt.h ../lib/zcgi.h
+wwwlistgrp.o: ../include/userinfo.h ../include/tmplerr.h
+wwwlistgrp.o: ../include/newsgrp.h ../lib/status.h
+wwwlistgrp.o: ../include/newssub.h
+newssub.o: ../include/dmsg.h ../include/newssub.h
+wwwsubscribe.o: /usr/include/stdio.h /usr/include/sys/cdefs.h
+wwwsubscribe.o: /usr/include/machine/ansi.h /usr/include/unistd.h
+wwwsubscribe.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+wwwsubscribe.o: /usr/include/machine/types.h
+wwwsubscribe.o: /usr/include/machine/endian.h
+wwwsubscribe.o: /usr/include/sys/unistd.h /usr/include/sys/_posix.h
+wwwsubscribe.o: /usr/include/errno.h /usr/include/string.h
+wwwsubscribe.o: /usr/include/sys/stat.h /usr/include/sys/time.h
+wwwsubscribe.o: /usr/include/time.h ../include/def.h
+wwwsubscribe.o: /usr/include/assert.h /usr/include/stdlib.h
+wwwsubscribe.o: /usr/include/ctype.h /usr/include/runetype.h
+wwwsubscribe.o: ../include/conf.h ../include/dmsg.h
+wwwsubscribe.o: ../include/htmllib.h ../include/urllib.h
+wwwsubscribe.o: ../include/inlib.h ../include/newsopt.h ../lib/zcgi.h
+wwwsubscribe.o: ../include/userinfo.h ../include/tmplerr.h
+wwwsubscribe.o: ../include/newssub.h
+newsdecode.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+newsdecode.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+newsdecode.o: /usr/include/machine/types.h
+newsdecode.o: /usr/include/machine/endian.h /usr/include/sys/time.h
+newsdecode.o: /usr/include/time.h /usr/include/sys/_posix.h
+newsdecode.o: /usr/include/sys/stat.h /usr/include/sys/resource.h
+newsdecode.o: /usr/include/unistd.h /usr/include/sys/unistd.h
+newsdecode.o: /usr/include/signal.h /usr/include/sys/signal.h
+newsdecode.o: /usr/include/machine/signal.h
+newsdecode.o: /usr/include/machine/trap.h /usr/include/sys/ucontext.h
+newsdecode.o: /usr/include/machine/ucontext.h /usr/include/fcntl.h
+newsdecode.o: /usr/include/errno.h /usr/include/syslog.h
+newsdecode.o: /usr/include/string.h ../include/def.h
+newsdecode.o: /usr/include/assert.h /usr/include/stdlib.h
+newsdecode.o: /usr/include/ctype.h /usr/include/runetype.h
+newsdecode.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+newsdecode.o: ../include/urllib.h ../include/inlib.h
+newsdecode.o: ../include/newsopt.h ../include/userinfo.h
+newsdecode.o: ../include/dgauth.h ../include/md5.h
+newsdecode.o: ../include/tmplerr.h ../include/artspool.h
+newsdecode.o: ../include/base64.h /usr/include/stdio.h
+newsdecode.o: ../include/uudecode.h ../include/hexbin.h
+newsdecode.o: ../include/newslover.h ../include/newslidx.h
+newsdecode.o: ../lib/status.h ../inet/nntpov.h ../include/newsdecode.h
+newsdecode.o: /usr/include/ndbm.h /usr/include/db.h
+newsdecode.o: /usr/include/limits.h /usr/include/machine/limits.h
+newsdecode.o: /usr/include/sys/syslimits.h ../include/cgi.h
+newsdecode.o: ../include/gdt.h ../include/gdt-sys.h
+newsdecode.o: ../include/newslib.h ../include/newsmime.h
+newsdecode.o: ../include/zlist.h ../include/zfilemap.h
+newsdecode.o: ../include/drncache.h
+uudecode.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+uudecode.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+uudecode.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+uudecode.o: /usr/include/sys/stat.h /usr/include/sys/time.h
+uudecode.o: /usr/include/time.h /usr/include/sys/_posix.h
+uudecode.o: /usr/include/string.h ../include/def.h
+uudecode.o: /usr/include/assert.h /usr/include/stdlib.h
+uudecode.o: /usr/include/ctype.h /usr/include/runetype.h
+uudecode.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+uudecode.o: ../include/urllib.h ../include/inlib.h
+uudecode.o: ../include/newsopt.h ../include/uudecode.h
+base64.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+base64.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+base64.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+base64.o: /usr/include/sys/stat.h /usr/include/sys/time.h
+base64.o: /usr/include/time.h /usr/include/sys/_posix.h
+base64.o: /usr/include/string.h ../include/def.h /usr/include/assert.h
+base64.o: /usr/include/stdlib.h /usr/include/ctype.h
+base64.o: /usr/include/runetype.h ../include/conf.h ../include/dmsg.h
+base64.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+base64.o: ../include/newsopt.h ../include/base64.h
+base64.o: /usr/include/stdio.h
+hexbin.o: ../include/def.h /usr/include/assert.h
+hexbin.o: /usr/include/sys/cdefs.h /usr/include/stdlib.h
+hexbin.o: /usr/include/machine/ansi.h /usr/include/ctype.h
+hexbin.o: /usr/include/runetype.h ../include/conf.h
+hexbin.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+hexbin.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+hexbin.o: ../include/dmsg.h ../include/htmllib.h ../include/urllib.h
+hexbin.o: ../include/inlib.h /usr/include/time.h
+hexbin.o: /usr/include/sys/_posix.h ../include/newsopt.h
+hexbin.o: /usr/include/stdio.h /usr/include/dirent.h
+hexbin.o: /usr/include/sys/dirent.h /usr/include/sys/timeb.h
+hexbin.o: /usr/include/sys/stat.h /usr/include/sys/time.h
+hexbin.o: /usr/include/string.h /usr/include/strings.h
+hexbin.o: /usr/include/unistd.h /usr/include/sys/unistd.h
+hexbin.o: /usr/include/fcntl.h ../include/artspool.h
+hexbin.o: ../include/hexbin.h
+wwwdecode.o: /usr/include/unistd.h /usr/include/sys/cdefs.h
+wwwdecode.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+wwwdecode.o: /usr/include/machine/ansi.h /usr/include/machine/types.h
+wwwdecode.o: /usr/include/machine/endian.h /usr/include/sys/unistd.h
+wwwdecode.o: /usr/include/sys/_posix.h /usr/include/string.h
+wwwdecode.o: /usr/include/sys/time.h /usr/include/time.h
+wwwdecode.o: /usr/include/sys/resource.h ../include/def.h
+wwwdecode.o: /usr/include/assert.h /usr/include/stdlib.h
+wwwdecode.o: /usr/include/ctype.h /usr/include/runetype.h
+wwwdecode.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+wwwdecode.o: ../include/urllib.h ../include/inlib.h
+wwwdecode.o: ../include/newsopt.h ../include/userinfo.h
+wwwdecode.o: ../include/tmplerr.h ../include/newsdecode.h
+wwwdecode.o: /usr/include/ndbm.h /usr/include/db.h
+wwwdecode.o: /usr/include/limits.h /usr/include/machine/limits.h
+wwwdecode.o: /usr/include/sys/syslimits.h ../include/cgi.h
+wwwdecode.o: ../include/gdt.h /usr/include/stdio.h
+wwwdecode.o: ../include/gdt-sys.h ../include/newslib.h
+wwwdecode.o: ../include/newsmime.h ../include/zlist.h
+wwwdecode.o: ../include/zfilemap.h
+wwwmdecode.o: /usr/include/unistd.h /usr/include/sys/cdefs.h
+wwwmdecode.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+wwwmdecode.o: /usr/include/machine/ansi.h /usr/include/machine/types.h
+wwwmdecode.o: /usr/include/machine/endian.h /usr/include/sys/unistd.h
+wwwmdecode.o: /usr/include/sys/_posix.h /usr/include/string.h
+wwwmdecode.o: /usr/include/sys/time.h /usr/include/time.h
+wwwmdecode.o: /usr/include/sys/resource.h ../include/def.h
+wwwmdecode.o: /usr/include/assert.h /usr/include/stdlib.h
+wwwmdecode.o: /usr/include/ctype.h /usr/include/runetype.h
+wwwmdecode.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+wwwmdecode.o: ../include/urllib.h ../include/inlib.h
+wwwmdecode.o: ../include/newsopt.h ../include/cgi.h ../include/gdt.h
+wwwmdecode.o: /usr/include/stdio.h ../include/gdt-sys.h
+wwwmdecode.o: ../include/userinfo.h ../include/newsdecode.h
+wwwmdecode.o: /usr/include/ndbm.h /usr/include/db.h
+wwwmdecode.o: /usr/include/limits.h /usr/include/machine/limits.h
+wwwmdecode.o: /usr/include/sys/syslimits.h ../include/newslib.h
+wwwmdecode.o: ../include/newsmime.h ../include/zlist.h
+wwwmdecode.o: ../include/zfilemap.h
+drnclean.o: /usr/include/sys/types.h /usr/include/sys/cdefs.h
+drnclean.o: /usr/include/sys/inttypes.h /usr/include/machine/ansi.h
+drnclean.o: /usr/include/machine/types.h /usr/include/machine/endian.h
+drnclean.o: /usr/include/sys/stat.h /usr/include/sys/time.h
+drnclean.o: /usr/include/time.h /usr/include/sys/_posix.h
+drnclean.o: /usr/include/sys/uio.h /usr/include/sys/param.h
+drnclean.o: /usr/include/sys/syslimits.h /usr/include/sys/signal.h
+drnclean.o: /usr/include/machine/signal.h /usr/include/machine/trap.h
+drnclean.o: /usr/include/sys/ucontext.h
+drnclean.o: /usr/include/machine/ucontext.h
+drnclean.o: /usr/include/machine/param.h /usr/include/machine/limits.h
+drnclean.o: /usr/include/sys/mount.h /usr/include/sys/ucred.h
+drnclean.o: /usr/include/sys/queue.h /usr/include/unistd.h
+drnclean.o: /usr/include/sys/unistd.h /usr/include/fcntl.h
+drnclean.o: /usr/include/errno.h /usr/include/signal.h
+drnclean.o: /usr/include/stdio.h /usr/include/ndbm.h /usr/include/db.h
+drnclean.o: /usr/include/limits.h ../lib/zstg.h ../include/zregex.h
+drnclean.o: /usr/include/regex.h ../include/drncache.h
+finish.o: /usr/include/unistd.h /usr/include/sys/cdefs.h
+finish.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+finish.o: /usr/include/machine/ansi.h /usr/include/machine/types.h
+finish.o: /usr/include/machine/endian.h /usr/include/sys/unistd.h
+finish.o: /usr/include/sys/_posix.h

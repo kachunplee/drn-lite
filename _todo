@@ -1,0 +1,53 @@
+General:
+- DRNclean
+- Write daily batch
+	+ clean up ov.index
+
+* Rewrite post attachment from perl to C/C++ - kachun 991008
+- Rewrite spellchecker from perl to C/C++
+
+* Change group list from share memory to use NewsGroupShare - kachun 991006
+* Fix NNTP so only connect once for posting - kachun 991007
+
+- Set access mode (664) in fetching overview file
+- Lock getting overview file for multiple accesses
+- display no server message in newsgrp.cpp
+
+* Put roting status for getting newsgroup - kachun 991104
+* Put roting status for nntp overview file loop - kachun 991104
+
+- Individual user preference
+- user subscription list
+- Sort active for grouped group list
+* Add link to www.newsadmin.com at each page - teresa 991103
+
+- Don't create ov.index if group not exist
+- Fix newsdecode to use ZCGI
+
+NNTP:
+* NNTP MIME article - kachun 991020
+* NNTP decoding article - teresa 991025
+* NNTP posting article - teresa 991029
+
+Conf:
+* Add server and auth into conf file - kachun 991028
+- Add OV_DELAY into conf file
+- Cleanup conf in general
+- Add [Cancel] to DRN Default Setup form
+
+Template:
+- ImageMap show better status instead of 'javascript:...()'
+- Take out cancel in template
+- Clean up to use error template
+- Error template not to display Error: Article Goes Here - teresa 991107
+
+Dist:
+* generate dist/flist - kachun 990128
+- Save backup copy of drn.conf
+- drn-setup/finish should save #User section
+- rpm can take a prefix
+- %config in rpm spec
+- preserve drn.conf during uninstall and reinstall
+
+Setup:
+- 'Try DRN' set target window back to netscape (main)

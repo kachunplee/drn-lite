@@ -1,0 +1,160 @@
+#! /usr/bin/perl
+
+$| = 1;
+
+print 'Content-type: text/html',"\n";
+print "\n";
+
+print <<EOM;
+
+<HTML>
+<HEAD>
+<TITLE>DRN Default Configuration</TITLE>
+</HEAD>
+<script language="JavaScript">
+<!--
+
+function WindowClose()
+{
+	window.close();
+}
+//-->
+</script>
+
+<body bgcolor="#FFFFFF">
+<table border="0" cellpadding="0" width="602" bgcolor="#FFFFFF" bordercolordark="#FFFFFF" cellspacing="0" bordercolor="#000000" bordercolorlight="#000000">
+  <tr>
+    <td align="center" bgcolor="#FFFFFF" width="582"><img border="0" src="/drn-setup/images/startupbar.gif" width="600" height="47"></td></tr>
+  <tr>
+    <td valign="top" bgcolor="#FFFFFF" align="left" width="582"><div align="center"><center><table border="0" cellpadding="10" cellspacing="0" width="600" bordercolor="#326698">
+  <tr>
+        <td bordercolor="#6380A7">
+</center>
+</center>
+  <table border="0" cellpadding="7" cellspacing="0" width="100%">
+  <tr>
+   <td valign="top" width="173"><img border="0" src="/drn-setup/images/startside4.gif" width="173" height="290"></td>
+   <td valign=middle width=300><center>
+	<strong><font face="Arial" size="2" color="#326698">
+EOM
+
+if ($ENV{'REQUEST_METHOD'} ne 'POST')
+{
+	print <<EOM;
+<h3>Cannot set DRN Default Configuration - Require Post Method</h3>
+</HTML>
+EOM
+	exit 1;
+}
+
+my $inbuf;
+if ($ENV{'CONTENT_LENGTH'})
+{
+	read(STDIN, $inbuf, $ENV{'CONTENT_LENGTH'});
+}
+
+my @pairs = split(/&/, $inbuf);
+my $name, $value;
+my %FORM;
+foreach $pair (@pairs)
+{
+	($name, $value) = split(/=/, $pair);
+	$value =~ tr/+/ /;
+	$value =~ s/%([a-fA-F0-9][a-fA-F0-9])/pack("C", hex($1))/eg;
+	$FORM{$name} = $value;
+}
+
+my $cBegin, $cEnd;
+my $pwd = $0;
+$pwd =~ s/\/[^\/]*$//;
+chdir $pwd;
+
+my $DRNCONF = "../etc/drn.conf";
+my $TMPCONF = "$DRNCONF.$$";
+if(!open(NCONF, "> $TMPCONF"))
+{
+	print <<EOM;
+<h3>Cannot open temporary file to save the DRN Default Configuration</h3>
+</HTML>
+EOM
+	exit 1;
+}
+
+if(-f $DRNCONF)
+{
+	if(open(CONF, $DRNCONF))
+	{
+		while(<CONF>)
+		{
+			$cBegin .= $_;
+			chop;
+			last if(/^\#\[User\]$/);
+		}
+		while(<CONF>)
+		{
+			if(/^#/)
+			{
+				$cEnd .= $_;
+			}
+		}
+		while(<CONF>)
+		{
+			$cEnd .= $_;
+		}
+		close(CONF);
+	}
+}
+else
+{
+	$cBegin = "#[User]\n";
+	$cEnd = "#[End]\n";
+}
+
+print NCONF $cBegin;
+my $n;
+foreach $n (keys %FORM)
+{
+	print NCONF "\$", $n;
+	if($FORM{$n} =~ /^[0-9]+$/)
+	{
+		print NCONF "=", $FORM{$n}, ";\n";
+	}
+	else
+	{
+		print NCONF "=\"", $FORM{$n}, "\";\n";
+	}
+}
+print NCONF "\n";
+print NCONF $cEnd;
+
+close(NCONF);
+
+rename $DRNCONF, "$DRNCONF.old";
+rename $TMPCONF, $DRNCONF;
+
+print <<EOM;
+<strong>Direct Read News Default Configuration Completed</strong>
+<p>
+<p><center><a href="javascript:WindowClose();"><img border="0" src="/drn-setup/images/installfinish.gif"></a>
+
+</center></font></strong></td>
+ </td>
+ </tr>
+<tr>
+ <td colspan="2" valign="bottom">
+ </tr>
+ </table>
+ </td>
+ </tr>
+</table>
+  </td>
+ </tr>
+    </table>
+        </div></td>
+  </tr>
+</table>
+
+</BODY>
+</HTML>
+
+EOM

@@ -1,0 +1,162 @@
+# -I. -I../include -I/usr/local/include/egcs/g++ -g -O -Wall -DDEBUG zregtest.cpp ../src/zstg.cpp zstgtest.cpp ../src/zstg.cpp sstgtest.cpp multitest.cpp ../src/newslib.cpp
+zregtest.o: zregtest.cpp ../include/zstg.h \
+ /usr/local/include/egcs/g++/string \
+ /usr/local/include/egcs/g++/std/bastring.h \
+ /usr/local/include/egcs/g++/cstddef /usr/include/stddef.h \
+ /usr/include/machine/ansi.h /usr/local/include/egcs/g++/std/straits.h \
+ /usr/local/include/egcs/g++/cctype /usr/include/ctype.h \
+ /usr/include/runetype.h /usr/include/sys/cdefs.h \
+ /usr/local/include/egcs/g++/cstring /usr/include/string.h \
+ /usr/local/include/egcs/g++/alloc.h \
+ /usr/local/include/egcs/g++/stl_config.h /usr/include/g++/_G_config.h \
+ /usr/local/include/egcs/g++/stl_alloc.h \
+ /usr/local/include/egcs/g++/iostream.h \
+ /usr/local/include/egcs/g++/streambuf.h \
+ /usr/local/include/egcs/g++/libio.h /usr/include/stdarg.h \
+ /usr/include/stdlib.h /usr/include/assert.h \
+ /usr/local/include/egcs/g++/iterator \
+ /usr/local/include/egcs/g++/stl_relops.h \
+ /usr/local/include/egcs/g++/stl_iterator.h \
+ /usr/local/include/egcs/g++/cassert \
+ /usr/local/include/egcs/g++/std/bastring.cc \
+ /usr/local/include/egcs/g++/strstream.h \
+ /usr/local/include/egcs/g++/strfile.h ../include/zregex.h \
+ /usr/include/sys/types.h /usr/include/sys/inttypes.h \
+ /usr/include/machine/types.h /usr/include/machine/endian.h \
+ /usr/include/regex.h
+zstg.o: ../src/zstg.cpp /usr/include/string.h \
+ /usr/include/machine/ansi.h /usr/include/sys/cdefs.h \
+ ../include/zstg.h /usr/local/include/egcs/g++/string \
+ /usr/local/include/egcs/g++/std/bastring.h \
+ /usr/local/include/egcs/g++/cstddef /usr/include/stddef.h \
+ /usr/local/include/egcs/g++/std/straits.h \
+ /usr/local/include/egcs/g++/cctype /usr/include/ctype.h \
+ /usr/include/runetype.h /usr/local/include/egcs/g++/cstring \
+ /usr/local/include/egcs/g++/alloc.h \
+ /usr/local/include/egcs/g++/stl_config.h /usr/include/g++/_G_config.h \
+ /usr/local/include/egcs/g++/stl_alloc.h \
+ /usr/local/include/egcs/g++/iostream.h \
+ /usr/local/include/egcs/g++/streambuf.h \
+ /usr/local/include/egcs/g++/libio.h /usr/include/stdarg.h \
+ /usr/include/stdlib.h /usr/include/assert.h \
+ /usr/local/include/egcs/g++/iterator \
+ /usr/local/include/egcs/g++/stl_relops.h \
+ /usr/local/include/egcs/g++/stl_iterator.h \
+ /usr/local/include/egcs/g++/cassert \
+ /usr/local/include/egcs/g++/std/bastring.cc \
+ /usr/local/include/egcs/g++/strstream.h \
+ /usr/local/include/egcs/g++/strfile.h ../include/zregex.h \
+ /usr/include/sys/types.h /usr/include/sys/inttypes.h \
+ /usr/include/machine/types.h /usr/include/machine/endian.h \
+ /usr/include/regex.h
+zstgtest.o: zstgtest.cpp /usr/local/include/egcs/g++/fstream.h \
+ /usr/local/include/egcs/g++/iostream.h \
+ /usr/local/include/egcs/g++/streambuf.h \
+ /usr/local/include/egcs/g++/libio.h /usr/include/g++/_G_config.h \
+ /usr/include/stdarg.h /usr/include/sys/cdefs.h ../include/zstg.h \
+ /usr/local/include/egcs/g++/string \
+ /usr/local/include/egcs/g++/std/bastring.h \
+ /usr/local/include/egcs/g++/cstddef /usr/include/stddef.h \
+ /usr/include/machine/ansi.h /usr/local/include/egcs/g++/std/straits.h \
+ /usr/local/include/egcs/g++/cctype /usr/include/ctype.h \
+ /usr/include/runetype.h /usr/local/include/egcs/g++/cstring \
+ /usr/include/string.h /usr/local/include/egcs/g++/alloc.h \
+ /usr/local/include/egcs/g++/stl_config.h \
+ /usr/local/include/egcs/g++/stl_alloc.h /usr/include/stdlib.h \
+ /usr/include/assert.h /usr/local/include/egcs/g++/iterator \
+ /usr/local/include/egcs/g++/stl_relops.h \
+ /usr/local/include/egcs/g++/stl_iterator.h \
+ /usr/local/include/egcs/g++/cassert \
+ /usr/local/include/egcs/g++/std/bastring.cc \
+ /usr/local/include/egcs/g++/strstream.h \
+ /usr/local/include/egcs/g++/strfile.h ../include/zregex.h \
+ /usr/include/sys/types.h /usr/include/sys/inttypes.h \
+ /usr/include/machine/types.h /usr/include/machine/endian.h \
+ /usr/include/regex.h
+zstg.o: ../src/zstg.cpp /usr/include/string.h \
+ /usr/include/machine/ansi.h /usr/include/sys/cdefs.h \
+ ../include/zstg.h /usr/local/include/egcs/g++/string \
+ /usr/local/include/egcs/g++/std/bastring.h \
+ /usr/local/include/egcs/g++/cstddef /usr/include/stddef.h \
+ /usr/local/include/egcs/g++/std/straits.h \
+ /usr/local/include/egcs/g++/cctype /usr/include/ctype.h \
+ /usr/include/runetype.h /usr/local/include/egcs/g++/cstring \
+ /usr/local/include/egcs/g++/alloc.h \
+ /usr/local/include/egcs/g++/stl_config.h /usr/include/g++/_G_config.h \
+ /usr/local/include/egcs/g++/stl_alloc.h \
+ /usr/local/include/egcs/g++/iostream.h \
+ /usr/local/include/egcs/g++/streambuf.h \
+ /usr/local/include/egcs/g++/libio.h /usr/include/stdarg.h \
+ /usr/include/stdlib.h /usr/include/assert.h \
+ /usr/local/include/egcs/g++/iterator \
+ /usr/local/include/egcs/g++/stl_relops.h \
+ /usr/local/include/egcs/g++/stl_iterator.h \
+ /usr/local/include/egcs/g++/cassert \
+ /usr/local/include/egcs/g++/std/bastring.cc \
+ /usr/local/include/egcs/g++/strstream.h \
+ /usr/local/include/egcs/g++/strfile.h ../include/zregex.h \
+ /usr/include/sys/types.h /usr/include/sys/inttypes.h \
+ /usr/include/machine/types.h /usr/include/machine/endian.h \
+ /usr/include/regex.h
+sstgtest.o: sstgtest.cpp /usr/local/include/egcs/g++/fstream.h \
+ /usr/local/include/egcs/g++/iostream.h \
+ /usr/local/include/egcs/g++/streambuf.h \
+ /usr/local/include/egcs/g++/libio.h /usr/include/g++/_G_config.h \
+ /usr/include/stdarg.h /usr/include/sys/cdefs.h \
+ /usr/include/g++/String.h /usr/include/g++/Regex.h
+multitest.o: multitest.cpp /usr/local/include/egcs/g++/iostream.h \
+ /usr/local/include/egcs/g++/streambuf.h \
+ /usr/local/include/egcs/g++/libio.h /usr/include/g++/_G_config.h \
+ /usr/include/stdarg.h /usr/include/sys/cdefs.h \
+ /usr/local/include/egcs/g++/string \
+ /usr/local/include/egcs/g++/std/bastring.h \
+ /usr/local/include/egcs/g++/cstddef /usr/include/stddef.h \
+ /usr/include/machine/ansi.h /usr/local/include/egcs/g++/std/straits.h \
+ /usr/local/include/egcs/g++/cctype /usr/include/ctype.h \
+ /usr/include/runetype.h /usr/local/include/egcs/g++/cstring \
+ /usr/include/string.h /usr/local/include/egcs/g++/alloc.h \
+ /usr/local/include/egcs/g++/stl_config.h \
+ /usr/local/include/egcs/g++/stl_alloc.h /usr/include/stdlib.h \
+ /usr/include/assert.h /usr/local/include/egcs/g++/iterator \
+ /usr/local/include/egcs/g++/stl_relops.h \
+ /usr/local/include/egcs/g++/stl_iterator.h \
+ /usr/local/include/egcs/g++/cassert \
+ /usr/local/include/egcs/g++/std/bastring.cc ../include/def.h \
+ ../include/conf.h /usr/include/sys/types.h \
+ /usr/include/sys/inttypes.h /usr/include/machine/types.h \
+ /usr/include/machine/endian.h ../include/dmsg.h ../include/zio.h \
+ /usr/local/include/egcs/g++/fstream.h ../include/zstg.h \
+ /usr/local/include/egcs/g++/strstream.h \
+ /usr/local/include/egcs/g++/strfile.h ../include/zregex.h \
+ /usr/include/regex.h ../include/htmllib.h ../include/urllib.h \
+ ../include/inlib.h /usr/include/time.h /usr/include/sys/_posix.h \
+ ../include/newsopt.h ../include/newslib.h
+newslib.o: ../src/newslib.cpp ../include/def.h /usr/include/assert.h \
+ /usr/include/sys/cdefs.h /usr/include/stdlib.h \
+ /usr/include/machine/ansi.h /usr/include/ctype.h \
+ /usr/include/runetype.h ../include/conf.h /usr/include/sys/types.h \
+ /usr/include/sys/inttypes.h /usr/include/machine/types.h \
+ /usr/include/machine/endian.h ../include/dmsg.h ../include/zio.h \
+ /usr/local/include/egcs/g++/iostream.h \
+ /usr/local/include/egcs/g++/streambuf.h \
+ /usr/local/include/egcs/g++/libio.h /usr/include/g++/_G_config.h \
+ /usr/include/stdarg.h /usr/local/include/egcs/g++/fstream.h \
+ ../include/zstg.h /usr/local/include/egcs/g++/string \
+ /usr/local/include/egcs/g++/std/bastring.h \
+ /usr/local/include/egcs/g++/cstddef /usr/include/stddef.h \
+ /usr/local/include/egcs/g++/std/straits.h \
+ /usr/local/include/egcs/g++/cctype \
+ /usr/local/include/egcs/g++/cstring /usr/include/string.h \
+ /usr/local/include/egcs/g++/alloc.h \
+ /usr/local/include/egcs/g++/stl_config.h \
+ /usr/local/include/egcs/g++/stl_alloc.h \
+ /usr/local/include/egcs/g++/iterator \
+ /usr/local/include/egcs/g++/stl_relops.h \
+ /usr/local/include/egcs/g++/stl_iterator.h \
+ /usr/local/include/egcs/g++/cassert \
+ /usr/local/include/egcs/g++/std/bastring.cc \
+ /usr/local/include/egcs/g++/strstream.h \
+ /usr/local/include/egcs/g++/strfile.h ../include/zregex.h \
+ /usr/include/regex.h ../include/htmllib.h ../include/urllib.h \
+ ../include/inlib.h /usr/include/time.h /usr/include/sys/_posix.h \
+ ../include/newsopt.h ../include/newslib.h

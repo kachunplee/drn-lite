@@ -1,0 +1,61 @@
+<HTML>
+<HEAD>
+<TITLE>DRN Setup</TITLE>
+<script language=javascript>
+<!--
+
+function OpenStart ()
+{
+	var host = (location.protocol != 'http:') ? 'http://localhost' : '';
+	var SpellWin = window.open(host + '/drn-setup/start', 'Setup',
+			'resizable=no,scrollbars=yes,status=0,width=640,height=420');
+	if(navigator.appName=='Netscape')
+	{
+    	SpellWin.focus();
+	}
+}
+
+// -->
+</script>
+</HEAD>
+<body vlink="#000000" alink="#000000" basefont="3" topmargin="0" leftmargin="0" link="#000000" bgcolor="#FFFFFF" text="#000000">
+<div align="center"><center>
+
+<table border="0" cellpadding="0" width="602" bgcolor="#FFFFFF" bordercolordark="#FFFFFF" cellspacing="0" bordercolor="#000000" bordercolorlight="#000000">
+  <tr>
+    <td align="center" bgcolor="#FFFFFF" width="582"><img border="0" src="images/startupbar.gif" width="600" height="47"></td>
+  </tr>
+  <tr>
+    <td valign="top" bgcolor="#FFFFFF" align="left" width="582"><div align="center"><center><table border="1" cellpadding="10" cellspacing="0" width="600" bordercolor="#326698">
+      <tr>
+        <td bordercolor="#6380A7">
+    </center>
+</center>
+      <table border="0" cellpadding="7" cellspacing="0" width="560">
+        <tr>
+          <td valign="top"><img border="0" src="images/startside4.gif" width="173" height="290"></td>
+          <td valign="top"><img border="0" src="images/greendot.gif" width="10" height="9">  
+          <strong><font face="Arial" size="2" color="#326698">Apache
+          Configuration:</font></strong>
+            <font face="Arial" size="2">The Direct Read News installation will
+            search for and make updates to your Apache configuration file (httpd.conf).If you have not installed your web server (Apache) yet, please close this page then revisting this link after that has been installed.
+            <br>
+            <br>
+            If you do not use the Apache web server, you can still complete the
+            installation. If an Apache server is not detected during
+            installation, the temporary httpd.conf file will be saved to the /var/local/drn/tmp/
+            directory. This information could then be used for updating your web
+            server configuration.</font>
+            <p align="center"><map name="FPMap0">
+            <area href="javascript:OpenStart()" shape="rect" coords="0, 0, 86, 22"></map><img border="0" src="images/installcontinue.gif" align="bottom" usemap="#FPMap0" width="92" height="29"></td>
+        </tr>
+      </table>
+        </td>
+      </tr>
+    </table>
+        </div></td>
+  </tr>
+</table>
+</div>
+</body>
+</HTML>

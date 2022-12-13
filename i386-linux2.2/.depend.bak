@@ -1,0 +1,1683 @@
+# DO NOT DELETE
+
+cinet.o: /usr/include/sys/types.h /usr/include/features.h
+cinet.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+cinet.o: /usr/include/bits/types.h
+cinet.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+cinet.o: /usr/include/time.h /usr/include/endian.h
+cinet.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+cinet.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+cinet.o: /usr/include/sys/sysmacros.h /usr/include/sys/socket.h
+cinet.o: /usr/include/bits/socket.h /usr/include/bits/sockaddr.h
+cinet.o: /usr/include/asm/socket.h /usr/include/asm/sockios.h
+cinet.o: /usr/include/netinet/in.h /usr/include/stdint.h
+cinet.o: /usr/include/bits/in.h /usr/include/bits/byteswap.h
+cinet.o: /usr/include/arpa/inet.h /usr/include/netdb.h
+cinet.o: /usr/include/rpc/netdb.h ../inet/cinet.h
+inettcp.o: /usr/include/sys/types.h /usr/include/features.h
+inettcp.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+inettcp.o: /usr/include/bits/types.h
+inettcp.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+inettcp.o: /usr/include/time.h /usr/include/endian.h
+inettcp.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+inettcp.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+inettcp.o: /usr/include/sys/sysmacros.h /usr/include/sys/time.h
+inettcp.o: /usr/include/bits/time.h /usr/include/unistd.h
+inettcp.o: /usr/include/bits/posix_opt.h /usr/include/bits/confname.h
+inettcp.o: /usr/include/getopt.h /usr/include/string.h
+inettcp.o: /usr/include/stdio.h
+inettcp.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+inettcp.o: /usr/include/libio.h /usr/include/_G_config.h
+inettcp.o: /usr/include/bits/stdio_lim.h ../include/dmsg.h
+inettcp.o: ../inet/inettcp.h /usr/include/netinet/in.h
+inettcp.o: /usr/include/stdint.h /usr/include/bits/socket.h
+inettcp.o: /usr/include/bits/sockaddr.h /usr/include/asm/socket.h
+inettcp.o: /usr/include/asm/sockios.h /usr/include/bits/in.h
+inettcp.o: /usr/include/bits/byteswap.h ../inet/csocket.h
+inettcp.o: /usr/include/sys/errno.h /usr/include/errno.h
+inettcp.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+inettcp.o: /usr/include/asm/errno.h /usr/include/sys/socket.h
+inettcp.o: /usr/include/fcntl.h /usr/include/bits/fcntl.h
+clienttcp.o: /usr/include/sys/types.h /usr/include/features.h
+clienttcp.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+clienttcp.o: /usr/include/bits/types.h
+clienttcp.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+clienttcp.o: /usr/include/time.h /usr/include/endian.h
+clienttcp.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+clienttcp.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+clienttcp.o: /usr/include/sys/sysmacros.h /usr/include/unistd.h
+clienttcp.o: /usr/include/bits/posix_opt.h
+clienttcp.o: /usr/include/bits/confname.h /usr/include/getopt.h
+clienttcp.o: /usr/include/stdio.h
+clienttcp.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+clienttcp.o: /usr/include/libio.h /usr/include/_G_config.h
+clienttcp.o: /usr/include/bits/stdio_lim.h /usr/include/stdlib.h
+clienttcp.o: /usr/include/alloca.h /usr/include/g++-2/iostream.h
+clienttcp.o: /usr/include/g++-2/streambuf.h /usr/include/string.h
+clienttcp.o: ../include/dmsg.h ../inet/cinet.h ../inet/inettcp.h
+clienttcp.o: /usr/include/netinet/in.h /usr/include/stdint.h
+clienttcp.o: /usr/include/bits/socket.h /usr/include/bits/sockaddr.h
+clienttcp.o: /usr/include/asm/socket.h /usr/include/asm/sockios.h
+clienttcp.o: /usr/include/bits/in.h /usr/include/bits/byteswap.h
+clienttcp.o: ../inet/csocket.h /usr/include/sys/errno.h
+clienttcp.o: /usr/include/errno.h /usr/include/bits/errno.h
+clienttcp.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+clienttcp.o: /usr/include/sys/socket.h /usr/include/fcntl.h
+clienttcp.o: /usr/include/bits/fcntl.h ../inet/clienttcp.h
+clienttcp.o: /usr/include/g++-2/string
+clienttcp.o: /usr/include/g++-2/std/bastring.h
+clienttcp.o: /usr/include/g++-2/cstddef
+clienttcp.o: /usr/include/g++-2/std/straits.h
+clienttcp.o: /usr/include/g++-2/cctype /usr/include/ctype.h
+clienttcp.o: /usr/include/g++-2/cstring /usr/include/g++-2/alloc.h
+clienttcp.o: /usr/include/g++-2/stl_config.h
+clienttcp.o: /usr/include/g++-2/stl_alloc.h /usr/include/assert.h
+clienttcp.o: /usr/include/pthread.h /usr/include/sched.h
+clienttcp.o: /usr/include/bits/sched.h /usr/include/signal.h
+clienttcp.o: /usr/include/bits/pthreadtypes.h
+clienttcp.o: /usr/include/bits/sigthread.h
+clienttcp.o: /usr/include/g++-2/iterator
+clienttcp.o: /usr/include/g++-2/stl_relops.h
+clienttcp.o: /usr/include/g++-2/stl_iterator.h
+clienttcp.o: /usr/include/g++-2/cassert
+clienttcp.o: /usr/include/g++-2/std/bastring.cc
+cnntp.o: /usr/include/sys/types.h /usr/include/features.h
+cnntp.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+cnntp.o: /usr/include/bits/types.h
+cnntp.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+cnntp.o: /usr/include/time.h /usr/include/endian.h
+cnntp.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+cnntp.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+cnntp.o: /usr/include/sys/sysmacros.h /usr/include/unistd.h
+cnntp.o: /usr/include/bits/posix_opt.h /usr/include/bits/confname.h
+cnntp.o: /usr/include/getopt.h /usr/include/stdlib.h
+cnntp.o: /usr/include/alloca.h /usr/include/stdio.h
+cnntp.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+cnntp.o: /usr/include/libio.h /usr/include/_G_config.h
+cnntp.o: /usr/include/bits/stdio_lim.h /usr/include/g++-2/string
+cnntp.o: /usr/include/g++-2/std/bastring.h /usr/include/g++-2/cstddef
+cnntp.o: /usr/include/g++-2/std/straits.h /usr/include/g++-2/cctype
+cnntp.o: /usr/include/ctype.h /usr/include/g++-2/cstring
+cnntp.o: /usr/include/string.h /usr/include/g++-2/alloc.h
+cnntp.o: /usr/include/g++-2/stl_config.h
+cnntp.o: /usr/include/g++-2/stl_alloc.h /usr/include/g++-2/iostream.h
+cnntp.o: /usr/include/g++-2/streambuf.h /usr/include/assert.h
+cnntp.o: /usr/include/pthread.h /usr/include/sched.h
+cnntp.o: /usr/include/bits/sched.h /usr/include/signal.h
+cnntp.o: /usr/include/bits/pthreadtypes.h
+cnntp.o: /usr/include/bits/sigthread.h /usr/include/g++-2/iterator
+cnntp.o: /usr/include/g++-2/stl_relops.h
+cnntp.o: /usr/include/g++-2/stl_iterator.h /usr/include/g++-2/cassert
+cnntp.o: /usr/include/g++-2/std/bastring.cc ../include/dmsg.h
+cnntp.o: ../inet/cnntp.h ../inet/clienttcp.h ../inet/inettcp.h
+cnntp.o: /usr/include/netinet/in.h /usr/include/stdint.h
+cnntp.o: /usr/include/bits/socket.h /usr/include/bits/sockaddr.h
+cnntp.o: /usr/include/asm/socket.h /usr/include/asm/sockios.h
+cnntp.o: /usr/include/bits/in.h /usr/include/bits/byteswap.h
+cnntp.o: ../inet/csocket.h /usr/include/sys/errno.h
+cnntp.o: /usr/include/errno.h /usr/include/bits/errno.h
+cnntp.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+cnntp.o: /usr/include/sys/socket.h /usr/include/fcntl.h
+cnntp.o: /usr/include/bits/fcntl.h
+newsmime.o: /usr/include/string.h /usr/include/features.h
+newsmime.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+newsmime.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newsmime.o: ../include/def.h /usr/include/assert.h
+newsmime.o: /usr/include/stdlib.h /usr/include/sys/types.h
+newsmime.o: /usr/include/bits/types.h /usr/include/time.h
+newsmime.o: /usr/include/endian.h /usr/include/bits/endian.h
+newsmime.o: /usr/include/sys/select.h /usr/include/bits/select.h
+newsmime.o: /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h
+newsmime.o: /usr/include/alloca.h /usr/include/ctype.h
+newsmime.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+newsmime.o: ../include/urllib.h ../include/inlib.h
+newsmime.o: ../include/newsopt.h ../include/rfc822.h
+newsmime.o: ../include/newsmime.h ../include/zlist.h
+newsmime.o: ../include/zfilemap.h /usr/include/stdio.h
+newsmime.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+newsmime.o: /usr/include/libio.h /usr/include/_G_config.h
+newsmime.o: /usr/include/bits/stdio_lim.h /usr/include/sys/time.h
+newsmime.o: /usr/include/bits/time.h ../include/newsart.h
+newsmime.o: ../include/dgauth.h ./md5.h
+newslib.o: ../include/def.h /usr/include/assert.h
+newslib.o: /usr/include/features.h /usr/include/sys/cdefs.h
+newslib.o: /usr/include/gnu/stubs.h /usr/include/stdlib.h
+newslib.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newslib.o: /usr/include/sys/types.h /usr/include/bits/types.h
+newslib.o: /usr/include/time.h /usr/include/endian.h
+newslib.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+newslib.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+newslib.o: /usr/include/sys/sysmacros.h /usr/include/alloca.h
+newslib.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+newslib.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+newslib.o: ../include/newsopt.h ../include/newslib.h
+inlib.o: /usr/include/sys/types.h /usr/include/features.h
+inlib.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+inlib.o: /usr/include/bits/types.h
+inlib.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+inlib.o: /usr/include/time.h /usr/include/endian.h
+inlib.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+inlib.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+inlib.o: /usr/include/sys/sysmacros.h /usr/include/stdio.h
+inlib.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+inlib.o: /usr/include/libio.h /usr/include/_G_config.h
+inlib.o: /usr/include/bits/stdio_lim.h /usr/include/string.h
+inlib.o: ../include/def.h /usr/include/assert.h /usr/include/stdlib.h
+inlib.o: /usr/include/alloca.h /usr/include/ctype.h ../include/conf.h
+inlib.o: ../include/dmsg.h ../include/htmllib.h ../include/urllib.h
+inlib.o: ../include/inlib.h ../include/newsopt.h
+htmllib.o: /usr/include/string.h /usr/include/features.h
+htmllib.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+htmllib.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+htmllib.o: ../include/def.h /usr/include/assert.h
+htmllib.o: /usr/include/stdlib.h /usr/include/sys/types.h
+htmllib.o: /usr/include/bits/types.h /usr/include/time.h
+htmllib.o: /usr/include/endian.h /usr/include/bits/endian.h
+htmllib.o: /usr/include/sys/select.h /usr/include/bits/select.h
+htmllib.o: /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h
+htmllib.o: /usr/include/alloca.h /usr/include/ctype.h
+htmllib.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+htmllib.o: ../include/urllib.h ../include/inlib.h ../include/newsopt.h
+urllib.o: /usr/include/string.h /usr/include/features.h
+urllib.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+urllib.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+urllib.o: ../include/def.h /usr/include/assert.h /usr/include/stdlib.h
+urllib.o: /usr/include/sys/types.h /usr/include/bits/types.h
+urllib.o: /usr/include/time.h /usr/include/endian.h
+urllib.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+urllib.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+urllib.o: /usr/include/sys/sysmacros.h /usr/include/alloca.h
+urllib.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+urllib.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+urllib.o: ../include/newsopt.h
+rfc822.o: /usr/include/time.h /usr/include/bits/types.h
+rfc822.o: /usr/include/features.h /usr/include/sys/cdefs.h
+rfc822.o: /usr/include/gnu/stubs.h
+rfc822.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+rfc822.o: ../include/def.h /usr/include/assert.h /usr/include/stdlib.h
+rfc822.o: /usr/include/sys/types.h /usr/include/endian.h
+rfc822.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+rfc822.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+rfc822.o: /usr/include/sys/sysmacros.h /usr/include/alloca.h
+rfc822.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+rfc822.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+rfc822.o: ../include/newsopt.h ../include/rfc822.h
+cgi.o: /usr/include/stdio.h /usr/include/features.h
+cgi.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+cgi.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+cgi.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+cgi.o: /usr/include/bits/types.h /usr/include/libio.h
+cgi.o: /usr/include/_G_config.h /usr/include/bits/stdio_lim.h
+cgi.o: /usr/include/stdlib.h /usr/include/sys/types.h
+cgi.o: /usr/include/time.h /usr/include/endian.h
+cgi.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+cgi.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+cgi.o: /usr/include/sys/sysmacros.h /usr/include/alloca.h
+cgi.o: /usr/include/string.h ../include/cgi.h ../include/gdt.h
+cgi.o: ../include/gdt-sys.h ../include/httpbox.h
+httpbox.o: /usr/include/stdio.h /usr/include/features.h
+httpbox.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+httpbox.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+httpbox.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+httpbox.o: /usr/include/bits/types.h /usr/include/libio.h
+httpbox.o: /usr/include/_G_config.h /usr/include/bits/stdio_lim.h
+httpbox.o: /usr/include/stdlib.h /usr/include/sys/types.h
+httpbox.o: /usr/include/time.h /usr/include/endian.h
+httpbox.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+httpbox.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+httpbox.o: /usr/include/sys/sysmacros.h /usr/include/alloca.h
+httpbox.o: ../include/httpbox.h
+zlist.o: ../include/def.h /usr/include/assert.h
+zlist.o: /usr/include/features.h /usr/include/sys/cdefs.h
+zlist.o: /usr/include/gnu/stubs.h /usr/include/stdlib.h
+zlist.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+zlist.o: /usr/include/sys/types.h /usr/include/bits/types.h
+zlist.o: /usr/include/time.h /usr/include/endian.h
+zlist.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+zlist.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+zlist.o: /usr/include/sys/sysmacros.h /usr/include/alloca.h
+zlist.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+zlist.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+zlist.o: ../include/newsopt.h ../include/zlist.h
+zfilemap.o: /usr/include/sys/types.h /usr/include/features.h
+zfilemap.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+zfilemap.o: /usr/include/bits/types.h
+zfilemap.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+zfilemap.o: /usr/include/time.h /usr/include/endian.h
+zfilemap.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+zfilemap.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+zfilemap.o: /usr/include/sys/sysmacros.h /usr/include/sys/stat.h
+zfilemap.o: /usr/include/bits/stat.h /usr/include/fcntl.h
+zfilemap.o: /usr/include/bits/fcntl.h /usr/include/unistd.h
+zfilemap.o: /usr/include/bits/posix_opt.h /usr/include/bits/confname.h
+zfilemap.o: /usr/include/getopt.h ../include/def.h
+zfilemap.o: /usr/include/assert.h /usr/include/stdlib.h
+zfilemap.o: /usr/include/alloca.h /usr/include/ctype.h
+zfilemap.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+zfilemap.o: ../include/urllib.h ../include/inlib.h
+zfilemap.o: ../include/newsopt.h ../include/zfilemap.h
+zfilemap.o: /usr/include/stdio.h
+zfilemap.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+zfilemap.o: /usr/include/libio.h /usr/include/_G_config.h
+zfilemap.o: /usr/include/bits/stdio_lim.h /usr/include/sys/time.h
+zfilemap.o: /usr/include/bits/time.h
+dmsg.o: /usr/include/sys/types.h /usr/include/features.h
+dmsg.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+dmsg.o: /usr/include/bits/types.h
+dmsg.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+dmsg.o: /usr/include/time.h /usr/include/endian.h
+dmsg.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+dmsg.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+dmsg.o: /usr/include/sys/sysmacros.h /usr/include/stdio.h
+dmsg.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+dmsg.o: /usr/include/libio.h /usr/include/_G_config.h
+dmsg.o: /usr/include/bits/stdio_lim.h
+assert.o: ../include/conf.h /usr/include/sys/types.h
+assert.o: /usr/include/features.h /usr/include/sys/cdefs.h
+assert.o: /usr/include/gnu/stubs.h /usr/include/bits/types.h
+assert.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+assert.o: /usr/include/time.h /usr/include/endian.h
+assert.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+assert.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+assert.o: /usr/include/sys/sysmacros.h
+cleanup.o: /usr/include/sys/types.h /usr/include/features.h
+cleanup.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+cleanup.o: /usr/include/bits/types.h
+cleanup.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+cleanup.o: /usr/include/time.h /usr/include/endian.h
+cleanup.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+cleanup.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+cleanup.o: /usr/include/sys/sysmacros.h /usr/include/sys/ipc.h
+cleanup.o: /usr/include/bits/ipc.h /usr/include/sys/sem.h
+cleanup.o: /usr/include/bits/sem.h /usr/include/sys/shm.h
+cleanup.o: /usr/include/unistd.h /usr/include/bits/posix_opt.h
+cleanup.o: /usr/include/bits/confname.h /usr/include/getopt.h
+cleanup.o: /usr/include/bits/shm.h /usr/include/signal.h
+cleanup.o: /usr/include/fcntl.h /usr/include/bits/fcntl.h
+cleanup.o: /usr/include/stdio.h
+cleanup.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+cleanup.o: /usr/include/libio.h /usr/include/_G_config.h
+cleanup.o: /usr/include/bits/stdio_lim.h ../include/def.h
+cleanup.o: /usr/include/assert.h /usr/include/stdlib.h
+cleanup.o: /usr/include/alloca.h /usr/include/ctype.h
+cleanup.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+cleanup.o: ../include/urllib.h ../include/inlib.h ../include/newsopt.h
+misc.o: /usr/include/sys/stat.h /usr/include/features.h
+misc.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+misc.o: /usr/include/bits/types.h
+misc.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+misc.o: /usr/include/bits/stat.h /usr/include/unistd.h
+misc.o: /usr/include/bits/posix_opt.h /usr/include/bits/confname.h
+misc.o: /usr/include/getopt.h /usr/include/g++-2/string
+misc.o: /usr/include/g++-2/std/bastring.h /usr/include/g++-2/cstddef
+misc.o: /usr/include/g++-2/std/straits.h /usr/include/g++-2/cctype
+misc.o: /usr/include/ctype.h /usr/include/endian.h
+misc.o: /usr/include/bits/endian.h /usr/include/g++-2/cstring
+misc.o: /usr/include/string.h /usr/include/g++-2/alloc.h
+misc.o: /usr/include/g++-2/stl_config.h /usr/include/_G_config.h
+misc.o: /usr/include/g++-2/stl_alloc.h /usr/include/g++-2/iostream.h
+misc.o: /usr/include/g++-2/streambuf.h /usr/include/libio.h
+misc.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+misc.o: /usr/include/stdlib.h /usr/include/sys/types.h
+misc.o: /usr/include/time.h /usr/include/sys/select.h
+misc.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+misc.o: /usr/include/sys/sysmacros.h /usr/include/alloca.h
+misc.o: /usr/include/assert.h /usr/include/pthread.h
+misc.o: /usr/include/sched.h /usr/include/bits/sched.h
+misc.o: /usr/include/signal.h /usr/include/bits/pthreadtypes.h
+misc.o: /usr/include/bits/sigthread.h /usr/include/g++-2/iterator
+misc.o: /usr/include/g++-2/stl_relops.h
+misc.o: /usr/include/g++-2/stl_iterator.h /usr/include/g++-2/cassert
+misc.o: /usr/include/g++-2/std/bastring.cc ../include/def.h
+misc.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+misc.o: ../include/urllib.h ../include/inlib.h ../include/newsopt.h
+newsacc.o: ../include/def.h /usr/include/assert.h
+newsacc.o: /usr/include/features.h /usr/include/sys/cdefs.h
+newsacc.o: /usr/include/gnu/stubs.h /usr/include/stdlib.h
+newsacc.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newsacc.o: /usr/include/sys/types.h /usr/include/bits/types.h
+newsacc.o: /usr/include/time.h /usr/include/endian.h
+newsacc.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+newsacc.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+newsacc.o: /usr/include/sys/sysmacros.h /usr/include/alloca.h
+newsacc.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+newsacc.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+newsacc.o: ../include/newsopt.h /usr/include/string.h
+newsacc.o: /usr/include/stdio.h
+newsacc.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+newsacc.o: /usr/include/libio.h /usr/include/_G_config.h
+newsacc.o: /usr/include/bits/stdio_lim.h /usr/include/sys/time.h
+newsacc.o: /usr/include/bits/time.h /usr/include/sys/stat.h
+newsacc.o: /usr/include/bits/stat.h ../include/newsacc.h
+newsacc.o: ../include/ngshare.h
+ngshare.o: /usr/include/sys/types.h /usr/include/features.h
+ngshare.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+ngshare.o: /usr/include/bits/types.h
+ngshare.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+ngshare.o: /usr/include/time.h /usr/include/endian.h
+ngshare.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+ngshare.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+ngshare.o: /usr/include/sys/sysmacros.h /usr/include/stdio.h
+ngshare.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+ngshare.o: /usr/include/libio.h /usr/include/_G_config.h
+ngshare.o: /usr/include/bits/stdio_lim.h ../include/def.h
+ngshare.o: /usr/include/assert.h /usr/include/stdlib.h
+ngshare.o: /usr/include/alloca.h /usr/include/ctype.h
+ngshare.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+ngshare.o: ../include/urllib.h ../include/inlib.h ../include/newsopt.h
+ngshare.o: ../inet/nntpact.h ../include/userinfo.h
+ngshare.o: ../include/ngshare.h
+userinfo.o: /usr/include/sys/types.h /usr/include/features.h
+userinfo.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+userinfo.o: /usr/include/bits/types.h
+userinfo.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+userinfo.o: /usr/include/time.h /usr/include/endian.h
+userinfo.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+userinfo.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+userinfo.o: /usr/include/sys/sysmacros.h /usr/include/sys/stat.h
+userinfo.o: /usr/include/bits/stat.h /usr/include/sys/uio.h
+userinfo.o: /usr/include/bits/uio.h /usr/include/unistd.h
+userinfo.o: /usr/include/bits/posix_opt.h /usr/include/bits/confname.h
+userinfo.o: /usr/include/getopt.h /usr/include/stdio.h
+userinfo.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+userinfo.o: /usr/include/libio.h /usr/include/_G_config.h
+userinfo.o: /usr/include/bits/stdio_lim.h /usr/include/fcntl.h
+userinfo.o: /usr/include/bits/fcntl.h /usr/include/signal.h
+userinfo.o: /usr/include/setjmp.h /usr/include/bits/setjmp.h
+userinfo.o: /usr/include/string.h ../include/def.h
+userinfo.o: /usr/include/assert.h /usr/include/stdlib.h
+userinfo.o: /usr/include/alloca.h /usr/include/ctype.h
+userinfo.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+userinfo.o: ../include/urllib.h ../include/inlib.h
+userinfo.o: ../include/newsopt.h ../include/userinfo.h
+conf.o: ../include/conf.h /usr/include/sys/types.h
+conf.o: /usr/include/features.h /usr/include/sys/cdefs.h
+conf.o: /usr/include/gnu/stubs.h /usr/include/bits/types.h
+conf.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+conf.o: /usr/include/time.h /usr/include/endian.h
+conf.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+conf.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+conf.o: /usr/include/sys/sysmacros.h
+artspool.o: /usr/include/errno.h /usr/include/features.h
+artspool.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+artspool.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+artspool.o: /usr/include/asm/errno.h /usr/include/string.h
+artspool.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+artspool.o: /usr/include/stdio.h
+artspool.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+artspool.o: /usr/include/bits/types.h /usr/include/libio.h
+artspool.o: /usr/include/_G_config.h /usr/include/bits/stdio_lim.h
+artspool.o: /usr/include/unistd.h /usr/include/bits/posix_opt.h
+artspool.o: /usr/include/bits/confname.h /usr/include/getopt.h
+artspool.o: ../include/def.h /usr/include/assert.h
+artspool.o: /usr/include/stdlib.h /usr/include/sys/types.h
+artspool.o: /usr/include/time.h /usr/include/endian.h
+artspool.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+artspool.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+artspool.o: /usr/include/sys/sysmacros.h /usr/include/alloca.h
+artspool.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+artspool.o: ../include/htmllib.h ../include/urllib.h
+artspool.o: ../include/inlib.h ../include/newsopt.h ../inet/nntpart.h
+artspool.o: ../include/artspool.h /usr/include/g++-2/list.h
+artspool.o: /usr/include/g++-2/algobase.h /usr/include/g++-2/pair.h
+artspool.o: /usr/include/g++-2/stl_config.h
+artspool.o: /usr/include/g++-2/stl_relops.h
+artspool.o: /usr/include/g++-2/stl_pair.h
+artspool.o: /usr/include/g++-2/iterator.h
+artspool.o: /usr/include/g++-2/function.h
+artspool.o: /usr/include/g++-2/stl_function.h
+artspool.o: /usr/include/g++-2/iostream.h
+artspool.o: /usr/include/g++-2/streambuf.h
+artspool.o: /usr/include/g++-2/stl_iterator.h
+artspool.o: /usr/include/g++-2/type_traits.h
+artspool.o: /usr/include/g++-2/stl_construct.h
+artspool.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/new.h
+artspool.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/new
+artspool.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/exception
+artspool.o: /usr/include/g++-2/stl_raw_storage_iter.h
+artspool.o: /usr/include/g++-2/stl_algobase.h /usr/include/limits.h
+artspool.o: /usr/include/bits/posix1_lim.h
+artspool.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+artspool.o: /usr/include/bits/posix2_lim.h
+artspool.o: /usr/include/g++-2/stl_uninitialized.h
+artspool.o: /usr/include/g++-2/alloc.h /usr/include/g++-2/stl_alloc.h
+artspool.o: /usr/include/pthread.h /usr/include/sched.h
+artspool.o: /usr/include/bits/sched.h /usr/include/signal.h
+artspool.o: /usr/include/bits/pthreadtypes.h
+artspool.o: /usr/include/bits/sigthread.h
+artspool.o: /usr/include/g++-2/stl_list.h
+status.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+status.o: ../include/def.h /usr/include/assert.h
+status.o: /usr/include/features.h /usr/include/sys/cdefs.h
+status.o: /usr/include/gnu/stubs.h /usr/include/stdlib.h
+status.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+status.o: /usr/include/sys/types.h /usr/include/bits/types.h
+status.o: /usr/include/time.h /usr/include/endian.h
+status.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+status.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+status.o: /usr/include/sys/sysmacros.h /usr/include/alloca.h
+status.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+status.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+status.o: ../include/newsopt.h ../lib/status.h
+status.o: /usr/include/g++-2/iostream.h /usr/include/g++-2/streambuf.h
+status.o: /usr/include/libio.h /usr/include/_G_config.h
+zcgi.o: /usr/include/stdio.h /usr/include/features.h
+zcgi.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+zcgi.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+zcgi.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+zcgi.o: /usr/include/bits/types.h /usr/include/libio.h
+zcgi.o: /usr/include/_G_config.h /usr/include/bits/stdio_lim.h
+zcgi.o: /usr/include/unistd.h /usr/include/bits/posix_opt.h
+zcgi.o: /usr/include/bits/confname.h /usr/include/getopt.h
+zcgi.o: /usr/include/g++-2/string /usr/include/g++-2/std/bastring.h
+zcgi.o: /usr/include/g++-2/cstddef /usr/include/g++-2/std/straits.h
+zcgi.o: /usr/include/g++-2/cctype /usr/include/ctype.h
+zcgi.o: /usr/include/endian.h /usr/include/bits/endian.h
+zcgi.o: /usr/include/g++-2/cstring /usr/include/string.h
+zcgi.o: /usr/include/g++-2/alloc.h /usr/include/g++-2/stl_config.h
+zcgi.o: /usr/include/g++-2/stl_alloc.h /usr/include/g++-2/iostream.h
+zcgi.o: /usr/include/g++-2/streambuf.h /usr/include/stdlib.h
+zcgi.o: /usr/include/sys/types.h /usr/include/time.h
+zcgi.o: /usr/include/sys/select.h /usr/include/bits/select.h
+zcgi.o: /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h
+zcgi.o: /usr/include/alloca.h /usr/include/assert.h
+zcgi.o: /usr/include/pthread.h /usr/include/sched.h
+zcgi.o: /usr/include/bits/sched.h /usr/include/signal.h
+zcgi.o: /usr/include/bits/pthreadtypes.h /usr/include/bits/sigthread.h
+zcgi.o: /usr/include/g++-2/iterator /usr/include/g++-2/stl_relops.h
+zcgi.o: /usr/include/g++-2/stl_iterator.h /usr/include/g++-2/cassert
+zcgi.o: /usr/include/g++-2/std/bastring.cc ../include/dmsg.h
+zcgi.o: ../lib/zcgi.h /usr/include/g++-2/map.h
+zcgi.o: /usr/include/g++-2/tree.h /usr/include/g++-2/stl_tree.h
+zcgi.o: /usr/include/g++-2/stl_algobase.h
+zcgi.o: /usr/include/g++-2/type_traits.h /usr/include/limits.h
+zcgi.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+zcgi.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+zcgi.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/new.h
+zcgi.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/new
+zcgi.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/exception
+zcgi.o: /usr/include/g++-2/stl_construct.h
+zcgi.o: /usr/include/g++-2/stl_function.h
+zcgi.o: /usr/include/g++-2/algobase.h /usr/include/g++-2/pair.h
+zcgi.o: /usr/include/g++-2/stl_pair.h /usr/include/g++-2/iterator.h
+zcgi.o: /usr/include/g++-2/function.h
+zcgi.o: /usr/include/g++-2/stl_raw_storage_iter.h
+zcgi.o: /usr/include/g++-2/stl_uninitialized.h
+zcgi.o: /usr/include/g++-2/stl_map.h
+zio.o: ../include/def.h /usr/include/assert.h /usr/include/features.h
+zio.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+zio.o: /usr/include/stdlib.h
+zio.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+zio.o: /usr/include/sys/types.h /usr/include/bits/types.h
+zio.o: /usr/include/time.h /usr/include/endian.h
+zio.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+zio.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+zio.o: /usr/include/sys/sysmacros.h /usr/include/alloca.h
+zio.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+zio.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+zio.o: ../include/newsopt.h
+zstg.o: /usr/include/string.h /usr/include/features.h
+zstg.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+zstg.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+zstg.o: ../lib/zstg.h /usr/include/g++-2/string
+zstg.o: /usr/include/g++-2/std/bastring.h /usr/include/g++-2/cstddef
+zstg.o: /usr/include/g++-2/std/straits.h /usr/include/g++-2/cctype
+zstg.o: /usr/include/ctype.h /usr/include/bits/types.h
+zstg.o: /usr/include/endian.h /usr/include/bits/endian.h
+zstg.o: /usr/include/g++-2/cstring /usr/include/g++-2/alloc.h
+zstg.o: /usr/include/g++-2/stl_config.h /usr/include/_G_config.h
+zstg.o: /usr/include/g++-2/stl_alloc.h /usr/include/g++-2/iostream.h
+zstg.o: /usr/include/g++-2/streambuf.h /usr/include/libio.h
+zstg.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+zstg.o: /usr/include/stdlib.h /usr/include/sys/types.h
+zstg.o: /usr/include/time.h /usr/include/sys/select.h
+zstg.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+zstg.o: /usr/include/sys/sysmacros.h /usr/include/alloca.h
+zstg.o: /usr/include/assert.h /usr/include/pthread.h
+zstg.o: /usr/include/sched.h /usr/include/bits/sched.h
+zstg.o: /usr/include/signal.h /usr/include/bits/pthreadtypes.h
+zstg.o: /usr/include/bits/sigthread.h /usr/include/g++-2/iterator
+zstg.o: /usr/include/g++-2/stl_relops.h
+zstg.o: /usr/include/g++-2/stl_iterator.h /usr/include/g++-2/cassert
+zstg.o: /usr/include/g++-2/std/bastring.cc
+zstg.o: /usr/include/g++-2/strstream.h /usr/include/g++-2/strfile.h
+zstg.o: ../include/zregex.h /usr/include/regex.h
+nntpact.o: /usr/include/sys/types.h /usr/include/features.h
+nntpact.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+nntpact.o: /usr/include/bits/types.h
+nntpact.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+nntpact.o: /usr/include/time.h /usr/include/endian.h
+nntpact.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+nntpact.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nntpact.o: /usr/include/sys/sysmacros.h /usr/include/unistd.h
+nntpact.o: /usr/include/bits/posix_opt.h /usr/include/bits/confname.h
+nntpact.o: /usr/include/getopt.h /usr/include/stdlib.h
+nntpact.o: /usr/include/alloca.h /usr/include/stdio.h
+nntpact.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+nntpact.o: /usr/include/libio.h /usr/include/_G_config.h
+nntpact.o: /usr/include/bits/stdio_lim.h ../include/dmsg.h
+nntpact.o: ../inet/cnntp.h ../inet/clienttcp.h
+nntpact.o: /usr/include/g++-2/string
+nntpact.o: /usr/include/g++-2/std/bastring.h
+nntpact.o: /usr/include/g++-2/cstddef
+nntpact.o: /usr/include/g++-2/std/straits.h /usr/include/g++-2/cctype
+nntpact.o: /usr/include/ctype.h /usr/include/g++-2/cstring
+nntpact.o: /usr/include/string.h /usr/include/g++-2/alloc.h
+nntpact.o: /usr/include/g++-2/stl_config.h
+nntpact.o: /usr/include/g++-2/stl_alloc.h
+nntpact.o: /usr/include/g++-2/iostream.h
+nntpact.o: /usr/include/g++-2/streambuf.h /usr/include/assert.h
+nntpact.o: /usr/include/pthread.h /usr/include/sched.h
+nntpact.o: /usr/include/bits/sched.h /usr/include/signal.h
+nntpact.o: /usr/include/bits/pthreadtypes.h
+nntpact.o: /usr/include/bits/sigthread.h /usr/include/g++-2/iterator
+nntpact.o: /usr/include/g++-2/stl_relops.h
+nntpact.o: /usr/include/g++-2/stl_iterator.h
+nntpact.o: /usr/include/g++-2/cassert
+nntpact.o: /usr/include/g++-2/std/bastring.cc ../inet/inettcp.h
+nntpact.o: /usr/include/netinet/in.h /usr/include/stdint.h
+nntpact.o: /usr/include/bits/socket.h /usr/include/bits/sockaddr.h
+nntpact.o: /usr/include/asm/socket.h /usr/include/asm/sockios.h
+nntpact.o: /usr/include/bits/in.h /usr/include/bits/byteswap.h
+nntpact.o: ../inet/csocket.h /usr/include/sys/errno.h
+nntpact.o: /usr/include/errno.h /usr/include/bits/errno.h
+nntpact.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+nntpact.o: /usr/include/sys/socket.h /usr/include/fcntl.h
+nntpact.o: /usr/include/bits/fcntl.h ../inet/nntpact.h
+nntpart.o: /usr/include/sys/types.h /usr/include/features.h
+nntpart.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+nntpart.o: /usr/include/bits/types.h
+nntpart.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+nntpart.o: /usr/include/time.h /usr/include/endian.h
+nntpart.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+nntpart.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nntpart.o: /usr/include/sys/sysmacros.h /usr/include/unistd.h
+nntpart.o: /usr/include/bits/posix_opt.h /usr/include/bits/confname.h
+nntpart.o: /usr/include/getopt.h /usr/include/stdlib.h
+nntpart.o: /usr/include/alloca.h /usr/include/stdio.h
+nntpart.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+nntpart.o: /usr/include/libio.h /usr/include/_G_config.h
+nntpart.o: /usr/include/bits/stdio_lim.h ../include/dmsg.h
+nntpart.o: ../inet/cnntp.h ../inet/clienttcp.h
+nntpart.o: /usr/include/g++-2/string
+nntpart.o: /usr/include/g++-2/std/bastring.h
+nntpart.o: /usr/include/g++-2/cstddef
+nntpart.o: /usr/include/g++-2/std/straits.h /usr/include/g++-2/cctype
+nntpart.o: /usr/include/ctype.h /usr/include/g++-2/cstring
+nntpart.o: /usr/include/string.h /usr/include/g++-2/alloc.h
+nntpart.o: /usr/include/g++-2/stl_config.h
+nntpart.o: /usr/include/g++-2/stl_alloc.h
+nntpart.o: /usr/include/g++-2/iostream.h
+nntpart.o: /usr/include/g++-2/streambuf.h /usr/include/assert.h
+nntpart.o: /usr/include/pthread.h /usr/include/sched.h
+nntpart.o: /usr/include/bits/sched.h /usr/include/signal.h
+nntpart.o: /usr/include/bits/pthreadtypes.h
+nntpart.o: /usr/include/bits/sigthread.h /usr/include/g++-2/iterator
+nntpart.o: /usr/include/g++-2/stl_relops.h
+nntpart.o: /usr/include/g++-2/stl_iterator.h
+nntpart.o: /usr/include/g++-2/cassert
+nntpart.o: /usr/include/g++-2/std/bastring.cc ../inet/inettcp.h
+nntpart.o: /usr/include/netinet/in.h /usr/include/stdint.h
+nntpart.o: /usr/include/bits/socket.h /usr/include/bits/sockaddr.h
+nntpart.o: /usr/include/asm/socket.h /usr/include/asm/sockios.h
+nntpart.o: /usr/include/bits/in.h /usr/include/bits/byteswap.h
+nntpart.o: ../inet/csocket.h /usr/include/sys/errno.h
+nntpart.o: /usr/include/errno.h /usr/include/bits/errno.h
+nntpart.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+nntpart.o: /usr/include/sys/socket.h /usr/include/fcntl.h
+nntpart.o: /usr/include/bits/fcntl.h ../inet/nntpart.h
+nntpov.o: /usr/include/sys/types.h /usr/include/features.h
+nntpov.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+nntpov.o: /usr/include/bits/types.h
+nntpov.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+nntpov.o: /usr/include/time.h /usr/include/endian.h
+nntpov.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+nntpov.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+nntpov.o: /usr/include/sys/sysmacros.h /usr/include/unistd.h
+nntpov.o: /usr/include/bits/posix_opt.h /usr/include/bits/confname.h
+nntpov.o: /usr/include/getopt.h /usr/include/stdlib.h
+nntpov.o: /usr/include/alloca.h /usr/include/stdio.h
+nntpov.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+nntpov.o: /usr/include/libio.h /usr/include/_G_config.h
+nntpov.o: /usr/include/bits/stdio_lim.h ../include/dmsg.h
+nntpov.o: ../inet/cnntp.h ../inet/clienttcp.h
+nntpov.o: /usr/include/g++-2/string /usr/include/g++-2/std/bastring.h
+nntpov.o: /usr/include/g++-2/cstddef /usr/include/g++-2/std/straits.h
+nntpov.o: /usr/include/g++-2/cctype /usr/include/ctype.h
+nntpov.o: /usr/include/g++-2/cstring /usr/include/string.h
+nntpov.o: /usr/include/g++-2/alloc.h /usr/include/g++-2/stl_config.h
+nntpov.o: /usr/include/g++-2/stl_alloc.h
+nntpov.o: /usr/include/g++-2/iostream.h
+nntpov.o: /usr/include/g++-2/streambuf.h /usr/include/assert.h
+nntpov.o: /usr/include/pthread.h /usr/include/sched.h
+nntpov.o: /usr/include/bits/sched.h /usr/include/signal.h
+nntpov.o: /usr/include/bits/pthreadtypes.h
+nntpov.o: /usr/include/bits/sigthread.h /usr/include/g++-2/iterator
+nntpov.o: /usr/include/g++-2/stl_relops.h
+nntpov.o: /usr/include/g++-2/stl_iterator.h
+nntpov.o: /usr/include/g++-2/cassert
+nntpov.o: /usr/include/g++-2/std/bastring.cc ../inet/inettcp.h
+nntpov.o: /usr/include/netinet/in.h /usr/include/stdint.h
+nntpov.o: /usr/include/bits/socket.h /usr/include/bits/sockaddr.h
+nntpov.o: /usr/include/asm/socket.h /usr/include/asm/sockios.h
+nntpov.o: /usr/include/bits/in.h /usr/include/bits/byteswap.h
+nntpov.o: ../inet/csocket.h /usr/include/sys/errno.h
+nntpov.o: /usr/include/errno.h /usr/include/bits/errno.h
+nntpov.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+nntpov.o: /usr/include/sys/socket.h /usr/include/fcntl.h
+nntpov.o: /usr/include/bits/fcntl.h ../inet/nntpov.h
+newsopt.o: /usr/include/stdio.h /usr/include/features.h
+newsopt.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+newsopt.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newsopt.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+newsopt.o: /usr/include/bits/types.h /usr/include/libio.h
+newsopt.o: /usr/include/_G_config.h /usr/include/bits/stdio_lim.h
+newsopt.o: /usr/include/sys/stat.h /usr/include/bits/stat.h
+newsopt.o: ../include/def.h /usr/include/assert.h
+newsopt.o: /usr/include/stdlib.h /usr/include/sys/types.h
+newsopt.o: /usr/include/time.h /usr/include/endian.h
+newsopt.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+newsopt.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+newsopt.o: /usr/include/sys/sysmacros.h /usr/include/alloca.h
+newsopt.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+newsopt.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+newsopt.o: ../include/newsopt.h /usr/include/string.h
+newsopt.o: ../include/userinfo.h
+newsgrp.o: ../include/def.h /usr/include/assert.h
+newsgrp.o: /usr/include/features.h /usr/include/sys/cdefs.h
+newsgrp.o: /usr/include/gnu/stubs.h /usr/include/stdlib.h
+newsgrp.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newsgrp.o: /usr/include/sys/types.h /usr/include/bits/types.h
+newsgrp.o: /usr/include/time.h /usr/include/endian.h
+newsgrp.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+newsgrp.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+newsgrp.o: /usr/include/sys/sysmacros.h /usr/include/alloca.h
+newsgrp.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+newsgrp.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+newsgrp.o: ../include/newsopt.h /usr/include/fcntl.h
+newsgrp.o: /usr/include/bits/fcntl.h /usr/include/stdio.h
+newsgrp.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+newsgrp.o: /usr/include/libio.h /usr/include/_G_config.h
+newsgrp.o: /usr/include/bits/stdio_lim.h /usr/include/sys/uio.h
+newsgrp.o: /usr/include/bits/uio.h /usr/include/unistd.h
+newsgrp.o: /usr/include/bits/posix_opt.h /usr/include/bits/confname.h
+newsgrp.o: /usr/include/getopt.h /usr/include/string.h
+newsgrp.o: ../include/advert.h ../include/tmplerr.h
+newsgrp.o: ../include/ngshare.h ../include/newsgrp.h ../lib/status.h
+newsgrp.o: /usr/include/g++-2/iostream.h
+newsgrp.o: /usr/include/g++-2/streambuf.h
+newsart.o: /usr/include/string.h /usr/include/features.h
+newsart.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+newsart.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newsart.o: /usr/include/stdio.h
+newsart.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+newsart.o: /usr/include/bits/types.h /usr/include/libio.h
+newsart.o: /usr/include/_G_config.h /usr/include/bits/stdio_lim.h
+newsart.o: /usr/include/sys/types.h /usr/include/time.h
+newsart.o: /usr/include/endian.h /usr/include/bits/endian.h
+newsart.o: /usr/include/sys/select.h /usr/include/bits/select.h
+newsart.o: /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h
+newsart.o: /usr/include/sys/stat.h /usr/include/bits/stat.h
+newsart.o: /usr/include/fcntl.h /usr/include/bits/fcntl.h
+newsart.o: /usr/include/sys/uio.h /usr/include/bits/uio.h
+newsart.o: /usr/include/unistd.h /usr/include/bits/posix_opt.h
+newsart.o: /usr/include/bits/confname.h /usr/include/getopt.h
+newsart.o: ../include/def.h /usr/include/assert.h
+newsart.o: /usr/include/stdlib.h /usr/include/alloca.h
+newsart.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+newsart.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+newsart.o: ../include/newsopt.h ../include/advert.h
+newsart.o: ../include/tmplerr.h ../include/userinfo.h
+newsart.o: ../include/newsmime.h ../include/zlist.h
+newsart.o: ../include/zfilemap.h /usr/include/sys/time.h
+newsart.o: /usr/include/bits/time.h ../include/newslist.h
+newsart.o: ../include/dgauth.h ./md5.h ../include/newsart.h
+newsart.o: ../include/artspool.h /usr/include/g++-2/list.h
+newsart.o: /usr/include/g++-2/algobase.h /usr/include/g++-2/pair.h
+newsart.o: /usr/include/g++-2/stl_config.h
+newsart.o: /usr/include/g++-2/stl_relops.h
+newsart.o: /usr/include/g++-2/stl_pair.h /usr/include/g++-2/iterator.h
+newsart.o: /usr/include/g++-2/function.h
+newsart.o: /usr/include/g++-2/stl_function.h
+newsart.o: /usr/include/g++-2/iostream.h
+newsart.o: /usr/include/g++-2/streambuf.h
+newsart.o: /usr/include/g++-2/stl_iterator.h
+newsart.o: /usr/include/g++-2/type_traits.h
+newsart.o: /usr/include/g++-2/stl_construct.h
+newsart.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/new.h
+newsart.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/new
+newsart.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/exception
+newsart.o: /usr/include/g++-2/stl_raw_storage_iter.h
+newsart.o: /usr/include/g++-2/stl_algobase.h /usr/include/limits.h
+newsart.o: /usr/include/bits/posix1_lim.h
+newsart.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+newsart.o: /usr/include/bits/posix2_lim.h
+newsart.o: /usr/include/g++-2/stl_uninitialized.h
+newsart.o: /usr/include/g++-2/alloc.h /usr/include/g++-2/stl_alloc.h
+newsart.o: /usr/include/pthread.h /usr/include/sched.h
+newsart.o: /usr/include/bits/sched.h /usr/include/signal.h
+newsart.o: /usr/include/bits/pthreadtypes.h
+newsart.o: /usr/include/bits/sigthread.h /usr/include/g++-2/stl_list.h
+newslist.o: /usr/include/sys/types.h /usr/include/features.h
+newslist.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+newslist.o: /usr/include/bits/types.h
+newslist.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newslist.o: /usr/include/time.h /usr/include/endian.h
+newslist.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+newslist.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+newslist.o: /usr/include/sys/sysmacros.h /usr/include/sys/stat.h
+newslist.o: /usr/include/bits/stat.h /usr/include/sys/errno.h
+newslist.o: /usr/include/errno.h /usr/include/bits/errno.h
+newslist.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+newslist.o: /usr/include/unistd.h /usr/include/bits/posix_opt.h
+newslist.o: /usr/include/bits/confname.h /usr/include/getopt.h
+newslist.o: /usr/include/string.h /usr/include/g++-2/string
+newslist.o: /usr/include/g++-2/std/bastring.h
+newslist.o: /usr/include/g++-2/cstddef
+newslist.o: /usr/include/g++-2/std/straits.h /usr/include/g++-2/cctype
+newslist.o: /usr/include/ctype.h /usr/include/g++-2/cstring
+newslist.o: /usr/include/g++-2/alloc.h /usr/include/g++-2/stl_config.h
+newslist.o: /usr/include/_G_config.h /usr/include/g++-2/stl_alloc.h
+newslist.o: /usr/include/g++-2/iostream.h
+newslist.o: /usr/include/g++-2/streambuf.h /usr/include/libio.h
+newslist.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+newslist.o: /usr/include/stdlib.h /usr/include/alloca.h
+newslist.o: /usr/include/assert.h /usr/include/pthread.h
+newslist.o: /usr/include/sched.h /usr/include/bits/sched.h
+newslist.o: /usr/include/signal.h /usr/include/bits/pthreadtypes.h
+newslist.o: /usr/include/bits/sigthread.h /usr/include/g++-2/iterator
+newslist.o: /usr/include/g++-2/stl_relops.h
+newslist.o: /usr/include/g++-2/stl_iterator.h
+newslist.o: /usr/include/g++-2/cassert
+newslist.o: /usr/include/g++-2/std/bastring.cc ../include/def.h
+newslist.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+newslist.o: ../include/urllib.h ../include/inlib.h
+newslist.o: ../include/newsopt.h ../include/dgauth.h ./md5.h
+newslist.o: ../include/newslib.h ../include/advert.h
+newslist.o: ../include/tmplerr.h ../include/userinfo.h
+newslist.o: ../include/newslist.h /usr/include/stdio.h
+newslist.o: /usr/include/bits/stdio_lim.h ../include/newsmidx.h
+newslist.o: ../include/newslidx.h ../lib/status.h
+newsmidx.o: ../include/def.h /usr/include/assert.h
+newsmidx.o: /usr/include/features.h /usr/include/sys/cdefs.h
+newsmidx.o: /usr/include/gnu/stubs.h /usr/include/stdlib.h
+newsmidx.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newsmidx.o: /usr/include/sys/types.h /usr/include/bits/types.h
+newsmidx.o: /usr/include/time.h /usr/include/endian.h
+newsmidx.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+newsmidx.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+newsmidx.o: /usr/include/sys/sysmacros.h /usr/include/alloca.h
+newsmidx.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+newsmidx.o: ../include/htmllib.h ../include/urllib.h
+newsmidx.o: ../include/inlib.h ../include/newsopt.h
+newsmidx.o: ../include/newsthread.h ../include/newslover.h
+newsmidx.o: ../include/newslidx.h ../lib/status.h
+newsmidx.o: /usr/include/g++-2/iostream.h
+newsmidx.o: /usr/include/g++-2/streambuf.h /usr/include/libio.h
+newsmidx.o: /usr/include/_G_config.h
+newsmidx.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+newsmidx.o: ../include/newslartn.h ../include/newslsort.h
+newsmidx.o: ../include/newslsubj.h ../include/newslauth.h
+newsmidx.o: ../include/newsldate.h ../include/newslsum.h
+newsmidx.o: ../include/newssauth.h ../include/newssorts.h
+newsmidx.o: ../include/newssdate.h ../include/newsmidx.h
+newslidx.o: /usr/include/stdio.h /usr/include/features.h
+newslidx.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+newslidx.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newslidx.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+newslidx.o: /usr/include/bits/types.h /usr/include/libio.h
+newslidx.o: /usr/include/_G_config.h /usr/include/bits/stdio_lim.h
+newslidx.o: ../include/def.h /usr/include/assert.h
+newslidx.o: /usr/include/stdlib.h /usr/include/sys/types.h
+newslidx.o: /usr/include/time.h /usr/include/endian.h
+newslidx.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+newslidx.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+newslidx.o: /usr/include/sys/sysmacros.h /usr/include/alloca.h
+newslidx.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+newslidx.o: ../include/htmllib.h ../include/urllib.h
+newslidx.o: ../include/inlib.h ../include/newsopt.h
+newslidx.o: ../include/newslidx.h ../lib/status.h
+newslidx.o: /usr/include/g++-2/iostream.h
+newslidx.o: /usr/include/g++-2/streambuf.h
+newslover.o: /usr/include/sys/errno.h /usr/include/errno.h
+newslover.o: /usr/include/features.h /usr/include/sys/cdefs.h
+newslover.o: /usr/include/gnu/stubs.h /usr/include/bits/errno.h
+newslover.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+newslover.o: /usr/include/sys/stat.h /usr/include/bits/types.h
+newslover.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newslover.o: /usr/include/bits/stat.h /usr/include/unistd.h
+newslover.o: /usr/include/bits/posix_opt.h
+newslover.o: /usr/include/bits/confname.h /usr/include/getopt.h
+newslover.o: /usr/include/stdio.h
+newslover.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+newslover.o: /usr/include/libio.h /usr/include/_G_config.h
+newslover.o: /usr/include/bits/stdio_lim.h /usr/include/fcntl.h
+newslover.o: /usr/include/bits/fcntl.h /usr/include/sys/types.h
+newslover.o: /usr/include/time.h /usr/include/endian.h
+newslover.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+newslover.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+newslover.o: /usr/include/sys/sysmacros.h /usr/include/string.h
+newslover.o: /usr/include/dirent.h /usr/include/bits/dirent.h
+newslover.o: /usr/include/bits/posix1_lim.h
+newslover.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+newslover.o: /usr/include/utime.h /usr/include/sys/file.h
+newslover.o: ../include/def.h /usr/include/assert.h
+newslover.o: /usr/include/stdlib.h /usr/include/alloca.h
+newslover.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+newslover.o: ../include/htmllib.h ../include/urllib.h
+newslover.o: ../include/inlib.h ../include/newsopt.h
+newslover.o: ../include/newslover.h ../include/newslidx.h
+newslover.o: ../lib/status.h /usr/include/g++-2/iostream.h
+newslover.o: /usr/include/g++-2/streambuf.h ../inet/nntpov.h
+newsthread.o: /usr/include/sys/types.h /usr/include/features.h
+newsthread.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+newsthread.o: /usr/include/bits/types.h
+newsthread.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newsthread.o: /usr/include/time.h /usr/include/endian.h
+newsthread.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+newsthread.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+newsthread.o: /usr/include/sys/sysmacros.h /usr/include/sys/stat.h
+newsthread.o: /usr/include/bits/stat.h /usr/include/unistd.h
+newsthread.o: /usr/include/bits/posix_opt.h
+newsthread.o: /usr/include/bits/confname.h /usr/include/getopt.h
+newsthread.o: /usr/include/g++-2/map /usr/include/g++-2/stl_tree.h
+newsthread.o: /usr/include/g++-2/stl_algobase.h
+newsthread.o: /usr/include/g++-2/type_traits.h /usr/include/string.h
+newsthread.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+newsthread.o: /usr/include/bits/local_lim.h
+newsthread.o: /usr/include/linux/limits.h
+newsthread.o: /usr/include/bits/posix2_lim.h /usr/include/stdlib.h
+newsthread.o: /usr/include/alloca.h
+newsthread.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/new.h
+newsthread.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/new
+newsthread.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/exception
+newsthread.o: /usr/include/g++-2/iostream.h
+newsthread.o: /usr/include/g++-2/streambuf.h /usr/include/libio.h
+newsthread.o: /usr/include/_G_config.h
+newsthread.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+newsthread.o: /usr/include/g++-2/stl_alloc.h /usr/include/assert.h
+newsthread.o: /usr/include/pthread.h /usr/include/sched.h
+newsthread.o: /usr/include/bits/sched.h /usr/include/signal.h
+newsthread.o: /usr/include/bits/pthreadtypes.h
+newsthread.o: /usr/include/bits/sigthread.h
+newsthread.o: /usr/include/g++-2/stl_construct.h
+newsthread.o: /usr/include/g++-2/stl_function.h
+newsthread.o: /usr/include/g++-2/stl_map.h
+newsthread.o: /usr/include/g++-2/stl_multimap.h ../include/def.h
+newsthread.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+newsthread.o: ../include/htmllib.h ../include/urllib.h
+newsthread.o: ../include/inlib.h ../include/newsopt.h
+newsthread.o: ../include/szptr.h /usr/include/g++-2/string
+newsthread.o: /usr/include/g++-2/std/bastring.h
+newsthread.o: /usr/include/g++-2/cstddef
+newsthread.o: /usr/include/g++-2/std/straits.h
+newsthread.o: /usr/include/g++-2/cctype /usr/include/g++-2/cstring
+newsthread.o: /usr/include/g++-2/alloc.h
+newsthread.o: /usr/include/g++-2/stl_config.h
+newsthread.o: /usr/include/g++-2/iterator
+newsthread.o: /usr/include/g++-2/stl_relops.h
+newsthread.o: /usr/include/g++-2/stl_iterator.h
+newsthread.o: /usr/include/g++-2/cassert
+newsthread.o: /usr/include/g++-2/std/bastring.cc ../lib/status.h
+newsthread.o: ../include/newsthread.h ../include/newslover.h
+newsthread.o: ../include/newslidx.h
+newslsort.o: /usr/include/sys/types.h /usr/include/features.h
+newslsort.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+newslsort.o: /usr/include/bits/types.h
+newslsort.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newslsort.o: /usr/include/time.h /usr/include/endian.h
+newslsort.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+newslsort.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+newslsort.o: /usr/include/sys/sysmacros.h /usr/include/sys/stat.h
+newslsort.o: /usr/include/bits/stat.h /usr/include/unistd.h
+newslsort.o: /usr/include/bits/posix_opt.h
+newslsort.o: /usr/include/bits/confname.h /usr/include/getopt.h
+newslsort.o: ../include/def.h /usr/include/assert.h
+newslsort.o: /usr/include/stdlib.h /usr/include/alloca.h
+newslsort.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+newslsort.o: ../include/htmllib.h ../include/urllib.h
+newslsort.o: ../include/inlib.h ../include/newsopt.h
+newslsort.o: ../include/szptr.h /usr/include/string.h
+newslsort.o: /usr/include/g++-2/string
+newslsort.o: /usr/include/g++-2/std/bastring.h
+newslsort.o: /usr/include/g++-2/cstddef
+newslsort.o: /usr/include/g++-2/std/straits.h
+newslsort.o: /usr/include/g++-2/cctype /usr/include/g++-2/cstring
+newslsort.o: /usr/include/g++-2/alloc.h
+newslsort.o: /usr/include/g++-2/stl_config.h /usr/include/_G_config.h
+newslsort.o: /usr/include/g++-2/stl_alloc.h
+newslsort.o: /usr/include/g++-2/iostream.h
+newslsort.o: /usr/include/g++-2/streambuf.h /usr/include/libio.h
+newslsort.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+newslsort.o: /usr/include/pthread.h /usr/include/sched.h
+newslsort.o: /usr/include/bits/sched.h /usr/include/signal.h
+newslsort.o: /usr/include/bits/pthreadtypes.h
+newslsort.o: /usr/include/bits/sigthread.h /usr/include/g++-2/iterator
+newslsort.o: /usr/include/g++-2/stl_relops.h
+newslsort.o: /usr/include/g++-2/stl_iterator.h
+newslsort.o: /usr/include/g++-2/cassert
+newslsort.o: /usr/include/g++-2/std/bastring.cc ../lib/status.h
+newslsort.o: ../include/newslsort.h ../include/newslover.h
+newslsort.o: ../include/newslidx.h
+merge.o: /usr/include/sys/types.h /usr/include/features.h
+merge.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+merge.o: /usr/include/bits/types.h
+merge.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+merge.o: /usr/include/time.h /usr/include/endian.h
+merge.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+merge.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+merge.o: /usr/include/sys/sysmacros.h /usr/include/errno.h
+merge.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+merge.o: /usr/include/asm/errno.h /usr/include/stdlib.h
+merge.o: /usr/include/alloca.h /usr/include/string.h
+newslartn.o: ../include/def.h /usr/include/assert.h
+newslartn.o: /usr/include/features.h /usr/include/sys/cdefs.h
+newslartn.o: /usr/include/gnu/stubs.h /usr/include/stdlib.h
+newslartn.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newslartn.o: /usr/include/sys/types.h /usr/include/bits/types.h
+newslartn.o: /usr/include/time.h /usr/include/endian.h
+newslartn.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+newslartn.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+newslartn.o: /usr/include/sys/sysmacros.h /usr/include/alloca.h
+newslartn.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+newslartn.o: ../include/htmllib.h ../include/urllib.h
+newslartn.o: ../include/inlib.h ../include/newsopt.h
+newslartn.o: ../include/newslartn.h ../include/newslsort.h
+newslartn.o: ../include/newslover.h ../include/newslidx.h
+newslartn.o: ../lib/status.h /usr/include/g++-2/iostream.h
+newslartn.o: /usr/include/g++-2/streambuf.h /usr/include/libio.h
+newslartn.o: /usr/include/_G_config.h
+newslartn.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+newslsubj.o: /usr/include/string.h /usr/include/features.h
+newslsubj.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+newslsubj.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newslsubj.o: ../include/def.h /usr/include/assert.h
+newslsubj.o: /usr/include/stdlib.h /usr/include/sys/types.h
+newslsubj.o: /usr/include/bits/types.h /usr/include/time.h
+newslsubj.o: /usr/include/endian.h /usr/include/bits/endian.h
+newslsubj.o: /usr/include/sys/select.h /usr/include/bits/select.h
+newslsubj.o: /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h
+newslsubj.o: /usr/include/alloca.h /usr/include/ctype.h
+newslsubj.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+newslsubj.o: ../include/urllib.h ../include/inlib.h
+newslsubj.o: ../include/newsopt.h ../include/newslib.h
+newslsubj.o: ../include/newslsubj.h ../include/newslsort.h
+newslsubj.o: ../include/newslover.h ../include/newslidx.h
+newslsubj.o: ../lib/status.h /usr/include/g++-2/iostream.h
+newslsubj.o: /usr/include/g++-2/streambuf.h /usr/include/libio.h
+newslsubj.o: /usr/include/_G_config.h
+newslsubj.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+newslsum.o: /usr/include/stdio.h /usr/include/features.h
+newslsum.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+newslsum.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newslsum.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+newslsum.o: /usr/include/bits/types.h /usr/include/libio.h
+newslsum.o: /usr/include/_G_config.h /usr/include/bits/stdio_lim.h
+newslsum.o: /usr/include/string.h ../include/def.h
+newslsum.o: /usr/include/assert.h /usr/include/stdlib.h
+newslsum.o: /usr/include/sys/types.h /usr/include/time.h
+newslsum.o: /usr/include/endian.h /usr/include/bits/endian.h
+newslsum.o: /usr/include/sys/select.h /usr/include/bits/select.h
+newslsum.o: /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h
+newslsum.o: /usr/include/alloca.h /usr/include/ctype.h
+newslsum.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+newslsum.o: ../include/urllib.h ../include/inlib.h
+newslsum.o: ../include/newsopt.h ../include/userinfo.h
+newslsum.o: ../include/newslsum.h ../include/newslsubj.h
+newslsum.o: ../include/newslsort.h ../include/newslover.h
+newslsum.o: ../include/newslidx.h ../lib/status.h
+newslsum.o: /usr/include/g++-2/iostream.h
+newslsum.o: /usr/include/g++-2/streambuf.h
+newslauth.o: /usr/include/string.h /usr/include/features.h
+newslauth.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+newslauth.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newslauth.o: ../include/def.h /usr/include/assert.h
+newslauth.o: /usr/include/stdlib.h /usr/include/sys/types.h
+newslauth.o: /usr/include/bits/types.h /usr/include/time.h
+newslauth.o: /usr/include/endian.h /usr/include/bits/endian.h
+newslauth.o: /usr/include/sys/select.h /usr/include/bits/select.h
+newslauth.o: /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h
+newslauth.o: /usr/include/alloca.h /usr/include/ctype.h
+newslauth.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+newslauth.o: ../include/urllib.h ../include/inlib.h
+newslauth.o: ../include/newsopt.h ../include/newslauth.h
+newslauth.o: ../include/newslsort.h ../include/newslover.h
+newslauth.o: ../include/newslidx.h ../lib/status.h
+newslauth.o: /usr/include/g++-2/iostream.h
+newslauth.o: /usr/include/g++-2/streambuf.h /usr/include/libio.h
+newslauth.o: /usr/include/_G_config.h
+newslauth.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+newsldate.o: ../include/def.h /usr/include/assert.h
+newsldate.o: /usr/include/features.h /usr/include/sys/cdefs.h
+newsldate.o: /usr/include/gnu/stubs.h /usr/include/stdlib.h
+newsldate.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newsldate.o: /usr/include/sys/types.h /usr/include/bits/types.h
+newsldate.o: /usr/include/time.h /usr/include/endian.h
+newsldate.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+newsldate.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+newsldate.o: /usr/include/sys/sysmacros.h /usr/include/alloca.h
+newsldate.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+newsldate.o: ../include/htmllib.h ../include/urllib.h
+newsldate.o: ../include/inlib.h ../include/newsopt.h
+newsldate.o: ../include/newsldate.h ../include/newslsort.h
+newsldate.o: ../include/newslover.h ../include/newslidx.h
+newsldate.o: ../lib/status.h /usr/include/g++-2/iostream.h
+newsldate.o: /usr/include/g++-2/streambuf.h /usr/include/libio.h
+newsldate.o: /usr/include/_G_config.h
+newsldate.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+newssorts.o: ../include/def.h /usr/include/assert.h
+newssorts.o: /usr/include/features.h /usr/include/sys/cdefs.h
+newssorts.o: /usr/include/gnu/stubs.h /usr/include/stdlib.h
+newssorts.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newssorts.o: /usr/include/sys/types.h /usr/include/bits/types.h
+newssorts.o: /usr/include/time.h /usr/include/endian.h
+newssorts.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+newssorts.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+newssorts.o: /usr/include/sys/sysmacros.h /usr/include/alloca.h
+newssorts.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+newssorts.o: ../include/htmllib.h ../include/urllib.h
+newssorts.o: ../include/inlib.h ../include/newsopt.h
+newssorts.o: ../include/newslsum.h ../include/newslsubj.h
+newssorts.o: ../include/newslsort.h ../include/newslover.h
+newssorts.o: ../include/newslidx.h ../lib/status.h
+newssorts.o: /usr/include/g++-2/iostream.h
+newssorts.o: /usr/include/g++-2/streambuf.h /usr/include/libio.h
+newssorts.o: /usr/include/_G_config.h
+newssorts.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+newssorts.o: ../include/newssorts.h
+newssauth.o: /usr/include/string.h /usr/include/features.h
+newssauth.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+newssauth.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newssauth.o: ../include/def.h /usr/include/assert.h
+newssauth.o: /usr/include/stdlib.h /usr/include/sys/types.h
+newssauth.o: /usr/include/bits/types.h /usr/include/time.h
+newssauth.o: /usr/include/endian.h /usr/include/bits/endian.h
+newssauth.o: /usr/include/sys/select.h /usr/include/bits/select.h
+newssauth.o: /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h
+newssauth.o: /usr/include/alloca.h /usr/include/ctype.h
+newssauth.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+newssauth.o: ../include/urllib.h ../include/inlib.h
+newssauth.o: ../include/newsopt.h ../include/newssauth.h
+newssauth.o: ../include/newssorts.h ../include/newslsort.h
+newssauth.o: ../include/newslover.h ../include/newslidx.h
+newssauth.o: ../lib/status.h /usr/include/g++-2/iostream.h
+newssauth.o: /usr/include/g++-2/streambuf.h /usr/include/libio.h
+newssauth.o: /usr/include/_G_config.h
+newssauth.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+newssdate.o: ../include/def.h /usr/include/assert.h
+newssdate.o: /usr/include/features.h /usr/include/sys/cdefs.h
+newssdate.o: /usr/include/gnu/stubs.h /usr/include/stdlib.h
+newssdate.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newssdate.o: /usr/include/sys/types.h /usr/include/bits/types.h
+newssdate.o: /usr/include/time.h /usr/include/endian.h
+newssdate.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+newssdate.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+newssdate.o: /usr/include/sys/sysmacros.h /usr/include/alloca.h
+newssdate.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+newssdate.o: ../include/htmllib.h ../include/urllib.h
+newssdate.o: ../include/inlib.h ../include/newsopt.h
+newssdate.o: ../include/newssdate.h ../include/newssorts.h
+newssdate.o: ../include/newslsort.h ../include/newslover.h
+newssdate.o: ../include/newslidx.h ../lib/status.h
+newssdate.o: /usr/include/g++-2/iostream.h
+newssdate.o: /usr/include/g++-2/streambuf.h /usr/include/libio.h
+newssdate.o: /usr/include/_G_config.h
+newssdate.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+advert.o: /usr/include/string.h /usr/include/features.h
+advert.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+advert.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+advert.o: /usr/include/stdio.h
+advert.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+advert.o: /usr/include/bits/types.h /usr/include/libio.h
+advert.o: /usr/include/_G_config.h /usr/include/bits/stdio_lim.h
+advert.o: /usr/include/sys/types.h /usr/include/time.h
+advert.o: /usr/include/endian.h /usr/include/bits/endian.h
+advert.o: /usr/include/sys/select.h /usr/include/bits/select.h
+advert.o: /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h
+advert.o: /usr/include/sys/stat.h /usr/include/bits/stat.h
+advert.o: /usr/include/fcntl.h /usr/include/bits/fcntl.h
+advert.o: /usr/include/sys/uio.h /usr/include/bits/uio.h
+advert.o: /usr/include/unistd.h /usr/include/bits/posix_opt.h
+advert.o: /usr/include/bits/confname.h /usr/include/getopt.h
+advert.o: /usr/include/dirent.h /usr/include/bits/dirent.h
+advert.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+advert.o: /usr/include/linux/limits.h ../include/def.h
+advert.o: /usr/include/assert.h /usr/include/stdlib.h
+advert.o: /usr/include/alloca.h /usr/include/ctype.h ../include/conf.h
+advert.o: ../include/dmsg.h ../include/htmllib.h ../include/urllib.h
+advert.o: ../include/inlib.h ../include/newsopt.h ../include/advert.h
+tmplerr.o: /usr/include/sys/types.h /usr/include/features.h
+tmplerr.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+tmplerr.o: /usr/include/bits/types.h
+tmplerr.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+tmplerr.o: /usr/include/time.h /usr/include/endian.h
+tmplerr.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+tmplerr.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+tmplerr.o: /usr/include/sys/sysmacros.h /usr/include/sys/stat.h
+tmplerr.o: /usr/include/bits/stat.h /usr/include/sys/errno.h
+tmplerr.o: /usr/include/errno.h /usr/include/bits/errno.h
+tmplerr.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+tmplerr.o: /usr/include/unistd.h /usr/include/bits/posix_opt.h
+tmplerr.o: /usr/include/bits/confname.h /usr/include/getopt.h
+tmplerr.o: /usr/include/string.h /usr/include/g++-2/string
+tmplerr.o: /usr/include/g++-2/std/bastring.h
+tmplerr.o: /usr/include/g++-2/cstddef /usr/include/g++-2/std/straits.h
+tmplerr.o: /usr/include/g++-2/cctype /usr/include/ctype.h
+tmplerr.o: /usr/include/g++-2/cstring /usr/include/g++-2/alloc.h
+tmplerr.o: /usr/include/g++-2/stl_config.h /usr/include/_G_config.h
+tmplerr.o: /usr/include/g++-2/stl_alloc.h
+tmplerr.o: /usr/include/g++-2/iostream.h
+tmplerr.o: /usr/include/g++-2/streambuf.h /usr/include/libio.h
+tmplerr.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+tmplerr.o: /usr/include/stdlib.h /usr/include/alloca.h
+tmplerr.o: /usr/include/assert.h /usr/include/pthread.h
+tmplerr.o: /usr/include/sched.h /usr/include/bits/sched.h
+tmplerr.o: /usr/include/signal.h /usr/include/bits/pthreadtypes.h
+tmplerr.o: /usr/include/bits/sigthread.h /usr/include/g++-2/iterator
+tmplerr.o: /usr/include/g++-2/stl_relops.h
+tmplerr.o: /usr/include/g++-2/stl_iterator.h
+tmplerr.o: /usr/include/g++-2/cassert
+tmplerr.o: /usr/include/g++-2/std/bastring.cc ../include/def.h
+tmplerr.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+tmplerr.o: ../include/urllib.h ../include/inlib.h ../include/newsopt.h
+tmplerr.o: ../include/tmplerr.h
+wwwnews.o: /usr/include/unistd.h /usr/include/features.h
+wwwnews.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+wwwnews.o: /usr/include/bits/posix_opt.h /usr/include/bits/types.h
+wwwnews.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+wwwnews.o: /usr/include/bits/confname.h /usr/include/getopt.h
+wwwnews.o: /usr/include/string.h ../include/def.h
+wwwnews.o: /usr/include/assert.h /usr/include/stdlib.h
+wwwnews.o: /usr/include/sys/types.h /usr/include/time.h
+wwwnews.o: /usr/include/endian.h /usr/include/bits/endian.h
+wwwnews.o: /usr/include/sys/select.h /usr/include/bits/select.h
+wwwnews.o: /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h
+wwwnews.o: /usr/include/alloca.h /usr/include/ctype.h
+wwwnews.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+wwwnews.o: ../include/urllib.h ../include/inlib.h ../include/newsopt.h
+wwwnews.o: ../include/userinfo.h ../include/newsgrp.h ../lib/status.h
+wwwnews.o: /usr/include/g++-2/iostream.h
+wwwnews.o: /usr/include/g++-2/streambuf.h /usr/include/libio.h
+wwwnews.o: /usr/include/_G_config.h
+wwwnews.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+wwwnews.o: ../include/newslist.h /usr/include/stdio.h
+wwwnews.o: /usr/include/bits/stdio_lim.h ../include/dgauth.h ./md5.h
+wwwnews.o: ../include/newsart.h ../include/newsmime.h
+wwwnews.o: ../include/zlist.h ../include/zfilemap.h
+wwwnews.o: /usr/include/sys/time.h /usr/include/bits/time.h
+wwwprev.o: /usr/include/unistd.h /usr/include/features.h
+wwwprev.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+wwwprev.o: /usr/include/bits/posix_opt.h /usr/include/bits/types.h
+wwwprev.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+wwwprev.o: /usr/include/bits/confname.h /usr/include/getopt.h
+wwwprev.o: /usr/include/string.h /usr/include/stdio.h
+wwwprev.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+wwwprev.o: /usr/include/libio.h /usr/include/_G_config.h
+wwwprev.o: /usr/include/bits/stdio_lim.h ../include/def.h
+wwwprev.o: /usr/include/assert.h /usr/include/stdlib.h
+wwwprev.o: /usr/include/sys/types.h /usr/include/time.h
+wwwprev.o: /usr/include/endian.h /usr/include/bits/endian.h
+wwwprev.o: /usr/include/sys/select.h /usr/include/bits/select.h
+wwwprev.o: /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h
+wwwprev.o: /usr/include/alloca.h /usr/include/ctype.h
+wwwprev.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+wwwprev.o: ../include/urllib.h ../include/inlib.h ../include/newsopt.h
+wwwprev.o: ../include/userinfo.h ../include/advert.h
+wwwprev.o: ../include/newsmidx.h ../include/newslidx.h ../lib/status.h
+wwwprev.o: /usr/include/g++-2/iostream.h
+wwwprev.o: /usr/include/g++-2/streambuf.h ../include/tmplerr.h
+wwwnext.o: /usr/include/unistd.h /usr/include/features.h
+wwwnext.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+wwwnext.o: /usr/include/bits/posix_opt.h /usr/include/bits/types.h
+wwwnext.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+wwwnext.o: /usr/include/bits/confname.h /usr/include/getopt.h
+wwwnext.o: /usr/include/string.h /usr/include/stdio.h
+wwwnext.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+wwwnext.o: /usr/include/libio.h /usr/include/_G_config.h
+wwwnext.o: /usr/include/bits/stdio_lim.h ../include/def.h
+wwwnext.o: /usr/include/assert.h /usr/include/stdlib.h
+wwwnext.o: /usr/include/sys/types.h /usr/include/time.h
+wwwnext.o: /usr/include/endian.h /usr/include/bits/endian.h
+wwwnext.o: /usr/include/sys/select.h /usr/include/bits/select.h
+wwwnext.o: /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h
+wwwnext.o: /usr/include/alloca.h /usr/include/ctype.h
+wwwnext.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+wwwnext.o: ../include/urllib.h ../include/inlib.h ../include/newsopt.h
+wwwnext.o: ../include/advert.h ../include/userinfo.h
+wwwnext.o: ../include/newsmidx.h ../include/newslidx.h ../lib/status.h
+wwwnext.o: /usr/include/g++-2/iostream.h
+wwwnext.o: /usr/include/g++-2/streambuf.h ../include/tmplerr.h
+wwwheader.o: /usr/include/unistd.h /usr/include/features.h
+wwwheader.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+wwwheader.o: /usr/include/bits/posix_opt.h /usr/include/bits/types.h
+wwwheader.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+wwwheader.o: /usr/include/bits/confname.h /usr/include/getopt.h
+wwwheader.o: /usr/include/string.h /usr/include/stdio.h
+wwwheader.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+wwwheader.o: /usr/include/libio.h /usr/include/_G_config.h
+wwwheader.o: /usr/include/bits/stdio_lim.h ../include/def.h
+wwwheader.o: /usr/include/assert.h /usr/include/stdlib.h
+wwwheader.o: /usr/include/sys/types.h /usr/include/time.h
+wwwheader.o: /usr/include/endian.h /usr/include/bits/endian.h
+wwwheader.o: /usr/include/sys/select.h /usr/include/bits/select.h
+wwwheader.o: /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h
+wwwheader.o: /usr/include/alloca.h /usr/include/ctype.h
+wwwheader.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+wwwheader.o: ../include/urllib.h ../include/inlib.h
+wwwheader.o: ../include/newsopt.h ../include/advert.h
+wwwheader.o: ../include/userinfo.h ../include/tmplerr.h
+wwwheader.o: ../include/newsheader.h
+newsheader.o: /usr/include/string.h /usr/include/features.h
+newsheader.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+newsheader.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newsheader.o: /usr/include/stdio.h
+newsheader.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+newsheader.o: /usr/include/bits/types.h /usr/include/libio.h
+newsheader.o: /usr/include/_G_config.h /usr/include/bits/stdio_lim.h
+newsheader.o: /usr/include/sys/types.h /usr/include/time.h
+newsheader.o: /usr/include/endian.h /usr/include/bits/endian.h
+newsheader.o: /usr/include/sys/select.h /usr/include/bits/select.h
+newsheader.o: /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h
+newsheader.o: /usr/include/sys/stat.h /usr/include/bits/stat.h
+newsheader.o: /usr/include/fcntl.h /usr/include/bits/fcntl.h
+newsheader.o: /usr/include/sys/uio.h /usr/include/bits/uio.h
+newsheader.o: /usr/include/unistd.h /usr/include/bits/posix_opt.h
+newsheader.o: /usr/include/bits/confname.h /usr/include/getopt.h
+newsheader.o: ../include/def.h /usr/include/assert.h
+newsheader.o: /usr/include/stdlib.h /usr/include/alloca.h
+newsheader.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+newsheader.o: ../include/htmllib.h ../include/urllib.h
+newsheader.o: ../include/inlib.h ../include/newsopt.h
+newsheader.o: ../include/advert.h ../include/tmplerr.h
+newsheader.o: ../include/userinfo.h ../include/newsmime.h
+newsheader.o: ../include/zlist.h ../include/zfilemap.h
+newsheader.o: /usr/include/sys/time.h /usr/include/bits/time.h
+newsheader.o: ../include/newslist.h ../include/dgauth.h ./md5.h
+newsheader.o: ../include/newsheader.h ../include/artspool.h
+newsheader.o: /usr/include/g++-2/list.h /usr/include/g++-2/algobase.h
+newsheader.o: /usr/include/g++-2/pair.h
+newsheader.o: /usr/include/g++-2/stl_config.h
+newsheader.o: /usr/include/g++-2/stl_relops.h
+newsheader.o: /usr/include/g++-2/stl_pair.h
+newsheader.o: /usr/include/g++-2/iterator.h
+newsheader.o: /usr/include/g++-2/function.h
+newsheader.o: /usr/include/g++-2/stl_function.h
+newsheader.o: /usr/include/g++-2/iostream.h
+newsheader.o: /usr/include/g++-2/streambuf.h
+newsheader.o: /usr/include/g++-2/stl_iterator.h
+newsheader.o: /usr/include/g++-2/type_traits.h
+newsheader.o: /usr/include/g++-2/stl_construct.h
+newsheader.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/new.h
+newsheader.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/new
+newsheader.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/exception
+newsheader.o: /usr/include/g++-2/stl_raw_storage_iter.h
+newsheader.o: /usr/include/g++-2/stl_algobase.h /usr/include/limits.h
+newsheader.o: /usr/include/bits/posix1_lim.h
+newsheader.o: /usr/include/bits/local_lim.h
+newsheader.o: /usr/include/linux/limits.h
+newsheader.o: /usr/include/bits/posix2_lim.h
+newsheader.o: /usr/include/g++-2/stl_uninitialized.h
+newsheader.o: /usr/include/g++-2/alloc.h
+newsheader.o: /usr/include/g++-2/stl_alloc.h /usr/include/pthread.h
+newsheader.o: /usr/include/sched.h /usr/include/bits/sched.h
+newsheader.o: /usr/include/signal.h /usr/include/bits/pthreadtypes.h
+newsheader.o: /usr/include/bits/sigthread.h
+newsheader.o: /usr/include/g++-2/stl_list.h
+wwwpost.o: /usr/include/unistd.h /usr/include/features.h
+wwwpost.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+wwwpost.o: /usr/include/bits/posix_opt.h /usr/include/bits/types.h
+wwwpost.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+wwwpost.o: /usr/include/bits/confname.h /usr/include/getopt.h
+wwwpost.o: /usr/include/string.h /usr/include/stdio.h
+wwwpost.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+wwwpost.o: /usr/include/libio.h /usr/include/_G_config.h
+wwwpost.o: /usr/include/bits/stdio_lim.h ../include/def.h
+wwwpost.o: /usr/include/assert.h /usr/include/stdlib.h
+wwwpost.o: /usr/include/sys/types.h /usr/include/time.h
+wwwpost.o: /usr/include/endian.h /usr/include/bits/endian.h
+wwwpost.o: /usr/include/sys/select.h /usr/include/bits/select.h
+wwwpost.o: /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h
+wwwpost.o: /usr/include/alloca.h /usr/include/ctype.h
+wwwpost.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+wwwpost.o: ../include/urllib.h ../include/inlib.h ../include/newsopt.h
+wwwpost.o: ../include/advert.h ../include/userinfo.h
+wwwpost.o: ../include/tmplerr.h ../include/newspost.h
+newspost.o: /usr/include/string.h /usr/include/features.h
+newspost.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+newspost.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newspost.o: /usr/include/stdio.h
+newspost.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+newspost.o: /usr/include/bits/types.h /usr/include/libio.h
+newspost.o: /usr/include/_G_config.h /usr/include/bits/stdio_lim.h
+newspost.o: /usr/include/sys/types.h /usr/include/time.h
+newspost.o: /usr/include/endian.h /usr/include/bits/endian.h
+newspost.o: /usr/include/sys/select.h /usr/include/bits/select.h
+newspost.o: /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h
+newspost.o: /usr/include/sys/stat.h /usr/include/bits/stat.h
+newspost.o: /usr/include/fcntl.h /usr/include/bits/fcntl.h
+newspost.o: /usr/include/sys/uio.h /usr/include/bits/uio.h
+newspost.o: /usr/include/unistd.h /usr/include/bits/posix_opt.h
+newspost.o: /usr/include/bits/confname.h /usr/include/getopt.h
+newspost.o: ../include/def.h /usr/include/assert.h
+newspost.o: /usr/include/stdlib.h /usr/include/alloca.h
+newspost.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+newspost.o: ../include/htmllib.h ../include/urllib.h
+newspost.o: ../include/inlib.h ../include/newsopt.h
+newspost.o: ../include/advert.h ../include/tmplerr.h
+newspost.o: ../include/userinfo.h ../include/newsmime.h
+newspost.o: ../include/zlist.h ../include/zfilemap.h
+newspost.o: /usr/include/sys/time.h /usr/include/bits/time.h
+newspost.o: ../include/newslist.h ../include/dgauth.h ./md5.h
+newspost.o: ../include/newspost.h ../include/artspool.h
+newspost.o: /usr/include/g++-2/list.h /usr/include/g++-2/algobase.h
+newspost.o: /usr/include/g++-2/pair.h /usr/include/g++-2/stl_config.h
+newspost.o: /usr/include/g++-2/stl_relops.h
+newspost.o: /usr/include/g++-2/stl_pair.h
+newspost.o: /usr/include/g++-2/iterator.h
+newspost.o: /usr/include/g++-2/function.h
+newspost.o: /usr/include/g++-2/stl_function.h
+newspost.o: /usr/include/g++-2/iostream.h
+newspost.o: /usr/include/g++-2/streambuf.h
+newspost.o: /usr/include/g++-2/stl_iterator.h
+newspost.o: /usr/include/g++-2/type_traits.h
+newspost.o: /usr/include/g++-2/stl_construct.h
+newspost.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/new.h
+newspost.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/new
+newspost.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/exception
+newspost.o: /usr/include/g++-2/stl_raw_storage_iter.h
+newspost.o: /usr/include/g++-2/stl_algobase.h /usr/include/limits.h
+newspost.o: /usr/include/bits/posix1_lim.h
+newspost.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+newspost.o: /usr/include/bits/posix2_lim.h
+newspost.o: /usr/include/g++-2/stl_uninitialized.h
+newspost.o: /usr/include/g++-2/alloc.h /usr/include/g++-2/stl_alloc.h
+newspost.o: /usr/include/pthread.h /usr/include/sched.h
+newspost.o: /usr/include/bits/sched.h /usr/include/signal.h
+newspost.o: /usr/include/bits/pthreadtypes.h
+newspost.o: /usr/include/bits/sigthread.h
+newspost.o: /usr/include/g++-2/stl_list.h
+wwwinews.o: /usr/include/unistd.h /usr/include/features.h
+wwwinews.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+wwwinews.o: /usr/include/bits/posix_opt.h /usr/include/bits/types.h
+wwwinews.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+wwwinews.o: /usr/include/bits/confname.h /usr/include/getopt.h
+wwwinews.o: /usr/include/string.h /usr/include/stdio.h
+wwwinews.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+wwwinews.o: /usr/include/libio.h /usr/include/_G_config.h
+wwwinews.o: /usr/include/bits/stdio_lim.h ../include/def.h
+wwwinews.o: /usr/include/assert.h /usr/include/stdlib.h
+wwwinews.o: /usr/include/sys/types.h /usr/include/time.h
+wwwinews.o: /usr/include/endian.h /usr/include/bits/endian.h
+wwwinews.o: /usr/include/sys/select.h /usr/include/bits/select.h
+wwwinews.o: /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h
+wwwinews.o: /usr/include/alloca.h /usr/include/ctype.h
+wwwinews.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+wwwinews.o: ../include/urllib.h ../include/inlib.h
+wwwinews.o: ../include/newsopt.h ../include/szptr.h
+wwwinews.o: /usr/include/g++-2/string
+wwwinews.o: /usr/include/g++-2/std/bastring.h
+wwwinews.o: /usr/include/g++-2/cstddef
+wwwinews.o: /usr/include/g++-2/std/straits.h /usr/include/g++-2/cctype
+wwwinews.o: /usr/include/g++-2/cstring /usr/include/g++-2/alloc.h
+wwwinews.o: /usr/include/g++-2/stl_config.h
+wwwinews.o: /usr/include/g++-2/stl_alloc.h
+wwwinews.o: /usr/include/g++-2/iostream.h
+wwwinews.o: /usr/include/g++-2/streambuf.h /usr/include/pthread.h
+wwwinews.o: /usr/include/sched.h /usr/include/bits/sched.h
+wwwinews.o: /usr/include/signal.h /usr/include/bits/pthreadtypes.h
+wwwinews.o: /usr/include/bits/sigthread.h /usr/include/g++-2/iterator
+wwwinews.o: /usr/include/g++-2/stl_relops.h
+wwwinews.o: /usr/include/g++-2/stl_iterator.h
+wwwinews.o: /usr/include/g++-2/cassert
+wwwinews.o: /usr/include/g++-2/std/bastring.cc ../include/advert.h
+wwwinews.o: ../include/userinfo.h ../include/tmplerr.h ../lib/zstg.h
+wwwinews.o: /usr/include/g++-2/strstream.h
+wwwinews.o: /usr/include/g++-2/strfile.h ../include/zregex.h
+wwwinews.o: /usr/include/regex.h ../lib/zcgi.h
+wwwinews.o: /usr/include/g++-2/map.h /usr/include/g++-2/tree.h
+wwwinews.o: /usr/include/g++-2/stl_tree.h
+wwwinews.o: /usr/include/g++-2/stl_algobase.h
+wwwinews.o: /usr/include/g++-2/type_traits.h /usr/include/limits.h
+wwwinews.o: /usr/include/bits/posix1_lim.h
+wwwinews.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+wwwinews.o: /usr/include/bits/posix2_lim.h
+wwwinews.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/new.h
+wwwinews.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/new
+wwwinews.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/exception
+wwwinews.o: /usr/include/g++-2/stl_construct.h
+wwwinews.o: /usr/include/g++-2/stl_function.h
+wwwinews.o: /usr/include/g++-2/algobase.h /usr/include/g++-2/pair.h
+wwwinews.o: /usr/include/g++-2/stl_pair.h
+wwwinews.o: /usr/include/g++-2/iterator.h
+wwwinews.o: /usr/include/g++-2/function.h
+wwwinews.o: /usr/include/g++-2/stl_raw_storage_iter.h
+wwwinews.o: /usr/include/g++-2/stl_uninitialized.h
+wwwinews.o: /usr/include/g++-2/stl_map.h ../lib/status.h
+wwwinews.o: ../inet/cnntp.h ../inet/clienttcp.h ../inet/inettcp.h
+wwwinews.o: /usr/include/netinet/in.h /usr/include/stdint.h
+wwwinews.o: /usr/include/bits/socket.h /usr/include/bits/sockaddr.h
+wwwinews.o: /usr/include/asm/socket.h /usr/include/asm/sockios.h
+wwwinews.o: /usr/include/bits/in.h /usr/include/bits/byteswap.h
+wwwinews.o: ../inet/csocket.h /usr/include/sys/errno.h
+wwwinews.o: /usr/include/errno.h /usr/include/bits/errno.h
+wwwinews.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+wwwinews.o: /usr/include/sys/socket.h /usr/include/fcntl.h
+wwwinews.o: /usr/include/bits/fcntl.h
+wwwlistgrp.o: /usr/include/unistd.h /usr/include/features.h
+wwwlistgrp.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+wwwlistgrp.o: /usr/include/bits/posix_opt.h /usr/include/bits/types.h
+wwwlistgrp.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+wwwlistgrp.o: /usr/include/bits/confname.h /usr/include/getopt.h
+wwwlistgrp.o: /usr/include/errno.h /usr/include/bits/errno.h
+wwwlistgrp.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+wwwlistgrp.o: /usr/include/string.h ../include/def.h
+wwwlistgrp.o: /usr/include/assert.h /usr/include/stdlib.h
+wwwlistgrp.o: /usr/include/sys/types.h /usr/include/time.h
+wwwlistgrp.o: /usr/include/endian.h /usr/include/bits/endian.h
+wwwlistgrp.o: /usr/include/sys/select.h /usr/include/bits/select.h
+wwwlistgrp.o: /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h
+wwwlistgrp.o: /usr/include/alloca.h /usr/include/ctype.h
+wwwlistgrp.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+wwwlistgrp.o: ../include/urllib.h ../include/inlib.h
+wwwlistgrp.o: ../include/newsopt.h ../lib/zcgi.h
+wwwlistgrp.o: /usr/include/g++-2/string
+wwwlistgrp.o: /usr/include/g++-2/std/bastring.h
+wwwlistgrp.o: /usr/include/g++-2/cstddef
+wwwlistgrp.o: /usr/include/g++-2/std/straits.h
+wwwlistgrp.o: /usr/include/g++-2/cctype /usr/include/g++-2/cstring
+wwwlistgrp.o: /usr/include/g++-2/alloc.h
+wwwlistgrp.o: /usr/include/g++-2/stl_config.h /usr/include/_G_config.h
+wwwlistgrp.o: /usr/include/g++-2/stl_alloc.h
+wwwlistgrp.o: /usr/include/g++-2/iostream.h
+wwwlistgrp.o: /usr/include/g++-2/streambuf.h /usr/include/libio.h
+wwwlistgrp.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+wwwlistgrp.o: /usr/include/pthread.h /usr/include/sched.h
+wwwlistgrp.o: /usr/include/bits/sched.h /usr/include/signal.h
+wwwlistgrp.o: /usr/include/bits/pthreadtypes.h
+wwwlistgrp.o: /usr/include/bits/sigthread.h
+wwwlistgrp.o: /usr/include/g++-2/iterator
+wwwlistgrp.o: /usr/include/g++-2/stl_relops.h
+wwwlistgrp.o: /usr/include/g++-2/stl_iterator.h
+wwwlistgrp.o: /usr/include/g++-2/cassert
+wwwlistgrp.o: /usr/include/g++-2/std/bastring.cc
+wwwlistgrp.o: /usr/include/g++-2/map.h /usr/include/g++-2/tree.h
+wwwlistgrp.o: /usr/include/g++-2/stl_tree.h
+wwwlistgrp.o: /usr/include/g++-2/stl_algobase.h
+wwwlistgrp.o: /usr/include/g++-2/type_traits.h /usr/include/limits.h
+wwwlistgrp.o: /usr/include/bits/posix1_lim.h
+wwwlistgrp.o: /usr/include/bits/local_lim.h
+wwwlistgrp.o: /usr/include/linux/limits.h
+wwwlistgrp.o: /usr/include/bits/posix2_lim.h
+wwwlistgrp.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/new.h
+wwwlistgrp.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/new
+wwwlistgrp.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/exception
+wwwlistgrp.o: /usr/include/g++-2/stl_construct.h
+wwwlistgrp.o: /usr/include/g++-2/stl_function.h
+wwwlistgrp.o: /usr/include/g++-2/algobase.h /usr/include/g++-2/pair.h
+wwwlistgrp.o: /usr/include/g++-2/stl_pair.h
+wwwlistgrp.o: /usr/include/g++-2/iterator.h
+wwwlistgrp.o: /usr/include/g++-2/function.h
+wwwlistgrp.o: /usr/include/g++-2/stl_raw_storage_iter.h
+wwwlistgrp.o: /usr/include/g++-2/stl_uninitialized.h
+wwwlistgrp.o: /usr/include/g++-2/stl_map.h ../include/userinfo.h
+wwwlistgrp.o: ../include/tmplerr.h ../include/newsgrp.h
+wwwlistgrp.o: ../lib/status.h
+newsdecode.o: /usr/include/sys/types.h /usr/include/features.h
+newsdecode.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+newsdecode.o: /usr/include/bits/types.h
+newsdecode.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+newsdecode.o: /usr/include/time.h /usr/include/endian.h
+newsdecode.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+newsdecode.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+newsdecode.o: /usr/include/sys/sysmacros.h /usr/include/sys/time.h
+newsdecode.o: /usr/include/bits/time.h /usr/include/sys/stat.h
+newsdecode.o: /usr/include/bits/stat.h /usr/include/sys/resource.h
+newsdecode.o: /usr/include/bits/resource.h /usr/include/asm/resource.h
+newsdecode.o: /usr/include/sys/file.h /usr/include/unistd.h
+newsdecode.o: /usr/include/bits/posix_opt.h
+newsdecode.o: /usr/include/bits/confname.h /usr/include/getopt.h
+newsdecode.o: /usr/include/signal.h /usr/include/fcntl.h
+newsdecode.o: /usr/include/bits/fcntl.h /usr/include/errno.h
+newsdecode.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
+newsdecode.o: /usr/include/asm/errno.h /usr/include/syslog.h
+newsdecode.o: /usr/include/sys/syslog.h
+newsdecode.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+newsdecode.o: /usr/include/string.h ../include/def.h
+newsdecode.o: /usr/include/assert.h /usr/include/stdlib.h
+newsdecode.o: /usr/include/alloca.h /usr/include/ctype.h
+newsdecode.o: ../include/conf.h ../include/dmsg.h ../include/htmllib.h
+newsdecode.o: ../include/urllib.h ../include/inlib.h
+newsdecode.o: ../include/newsopt.h ../include/userinfo.h
+newsdecode.o: ../include/dgauth.h ./md5.h ../include/tmplerr.h
+newsdecode.o: ../include/artspool.h /usr/include/g++-2/list.h
+newsdecode.o: /usr/include/g++-2/algobase.h /usr/include/g++-2/pair.h
+newsdecode.o: /usr/include/g++-2/stl_config.h /usr/include/_G_config.h
+newsdecode.o: /usr/include/g++-2/stl_relops.h
+newsdecode.o: /usr/include/g++-2/stl_pair.h
+newsdecode.o: /usr/include/g++-2/iterator.h
+newsdecode.o: /usr/include/g++-2/function.h
+newsdecode.o: /usr/include/g++-2/stl_function.h
+newsdecode.o: /usr/include/g++-2/iostream.h
+newsdecode.o: /usr/include/g++-2/streambuf.h /usr/include/libio.h
+newsdecode.o: /usr/include/g++-2/stl_iterator.h
+newsdecode.o: /usr/include/g++-2/type_traits.h
+newsdecode.o: /usr/include/g++-2/stl_construct.h
+newsdecode.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/new.h
+newsdecode.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/new
+newsdecode.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/exception
+newsdecode.o: /usr/include/g++-2/stl_raw_storage_iter.h
+newsdecode.o: /usr/include/g++-2/stl_algobase.h /usr/include/limits.h
+newsdecode.o: /usr/include/bits/posix1_lim.h
+newsdecode.o: /usr/include/bits/local_lim.h
+newsdecode.o: /usr/include/linux/limits.h
+newsdecode.o: /usr/include/bits/posix2_lim.h
+newsdecode.o: /usr/include/g++-2/stl_uninitialized.h
+newsdecode.o: /usr/include/g++-2/alloc.h
+newsdecode.o: /usr/include/g++-2/stl_alloc.h /usr/include/pthread.h
+newsdecode.o: /usr/include/sched.h /usr/include/bits/sched.h
+newsdecode.o: /usr/include/bits/pthreadtypes.h
+newsdecode.o: /usr/include/bits/sigthread.h
+newsdecode.o: /usr/include/g++-2/stl_list.h ../include/base64.h
+newsdecode.o: /usr/include/stdio.h /usr/include/bits/stdio_lim.h
+newsdecode.o: ../include/uudecode.h ../include/hexbin.h
+newsdecode.o: ../include/newslover.h ../include/newslidx.h
+newsdecode.o: ../lib/status.h ../inet/nntpov.h ../include/newsdecode.h
+newsdecode.o: /usr/include/db1/ndbm.h /usr/include/db.h
+newsdecode.o: ../include/cgi.h ../include/gdt.h ../include/gdt-sys.h
+newsdecode.o: ../include/newslib.h ../include/newsmime.h
+newsdecode.o: ../include/zlist.h ../include/zfilemap.h
+newsdecode.o: ../include/drncache.h
+uudecode.o: /usr/include/sys/types.h /usr/include/features.h
+uudecode.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+uudecode.o: /usr/include/bits/types.h
+uudecode.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+uudecode.o: /usr/include/time.h /usr/include/endian.h
+uudecode.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+uudecode.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+uudecode.o: /usr/include/sys/sysmacros.h /usr/include/sys/stat.h
+uudecode.o: /usr/include/bits/stat.h /usr/include/string.h
+uudecode.o: ../include/def.h /usr/include/assert.h
+uudecode.o: /usr/include/stdlib.h /usr/include/alloca.h
+uudecode.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+uudecode.o: ../include/htmllib.h ../include/urllib.h
+uudecode.o: ../include/inlib.h ../include/newsopt.h
+uudecode.o: ../include/uudecode.h
+base64.o: /usr/include/sys/types.h /usr/include/features.h
+base64.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+base64.o: /usr/include/bits/types.h
+base64.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+base64.o: /usr/include/time.h /usr/include/endian.h
+base64.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+base64.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+base64.o: /usr/include/sys/sysmacros.h /usr/include/sys/stat.h
+base64.o: /usr/include/bits/stat.h /usr/include/string.h
+base64.o: ../include/def.h /usr/include/assert.h /usr/include/stdlib.h
+base64.o: /usr/include/alloca.h /usr/include/ctype.h ../include/conf.h
+base64.o: ../include/dmsg.h ../include/htmllib.h ../include/urllib.h
+base64.o: ../include/inlib.h ../include/newsopt.h ../include/base64.h
+base64.o: /usr/include/stdio.h
+base64.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+base64.o: /usr/include/libio.h /usr/include/_G_config.h
+base64.o: /usr/include/bits/stdio_lim.h
+hexbin.o: ../include/def.h /usr/include/assert.h
+hexbin.o: /usr/include/features.h /usr/include/sys/cdefs.h
+hexbin.o: /usr/include/gnu/stubs.h /usr/include/stdlib.h
+hexbin.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+hexbin.o: /usr/include/sys/types.h /usr/include/bits/types.h
+hexbin.o: /usr/include/time.h /usr/include/endian.h
+hexbin.o: /usr/include/bits/endian.h /usr/include/sys/select.h
+hexbin.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+hexbin.o: /usr/include/sys/sysmacros.h /usr/include/alloca.h
+hexbin.o: /usr/include/ctype.h ../include/conf.h ../include/dmsg.h
+hexbin.o: ../include/htmllib.h ../include/urllib.h ../include/inlib.h
+hexbin.o: ../include/newsopt.h /usr/include/stdio.h
+hexbin.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stdarg.h
+hexbin.o: /usr/include/libio.h /usr/include/_G_config.h
+hexbin.o: /usr/include/bits/stdio_lim.h /usr/include/dirent.h
+hexbin.o: /usr/include/bits/dirent.h /usr/include/bits/posix1_lim.h
+hexbin.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+hexbin.o: /usr/include/sys/timeb.h /usr/include/sys/stat.h
+hexbin.o: /usr/include/bits/stat.h /usr/include/string.h
+hexbin.o: /usr/include/unistd.h /usr/include/bits/posix_opt.h
+hexbin.o: /usr/include/bits/confname.h /usr/include/getopt.h
+hexbin.o: /usr/include/fcntl.h /usr/include/bits/fcntl.h
+hexbin.o: ../include/artspool.h /usr/include/g++-2/list.h
+hexbin.o: /usr/include/g++-2/algobase.h /usr/include/g++-2/pair.h
+hexbin.o: /usr/include/g++-2/stl_config.h
+hexbin.o: /usr/include/g++-2/stl_relops.h
+hexbin.o: /usr/include/g++-2/stl_pair.h /usr/include/g++-2/iterator.h
+hexbin.o: /usr/include/g++-2/function.h
+hexbin.o: /usr/include/g++-2/stl_function.h
+hexbin.o: /usr/include/g++-2/iostream.h /usr/include/g++-2/streambuf.h
+hexbin.o: /usr/include/g++-2/stl_iterator.h
+hexbin.o: /usr/include/g++-2/type_traits.h
+hexbin.o: /usr/include/g++-2/stl_construct.h
+hexbin.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/new.h
+hexbin.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/new
+hexbin.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/exception
+hexbin.o: /usr/include/g++-2/stl_raw_storage_iter.h
+hexbin.o: /usr/include/g++-2/stl_algobase.h /usr/include/limits.h
+hexbin.o: /usr/include/bits/posix2_lim.h
+hexbin.o: /usr/include/g++-2/stl_uninitialized.h
+hexbin.o: /usr/include/g++-2/alloc.h /usr/include/g++-2/stl_alloc.h
+hexbin.o: /usr/include/pthread.h /usr/include/sched.h
+hexbin.o: /usr/include/bits/sched.h /usr/include/signal.h
+hexbin.o: /usr/include/bits/pthreadtypes.h
+hexbin.o: /usr/include/bits/sigthread.h /usr/include/g++-2/stl_list.h
+hexbin.o: ../include/hexbin.h /usr/include/sys/time.h
+hexbin.o: /usr/include/bits/time.h
+wwwdecode.o: /usr/include/unistd.h /usr/include/features.h
+wwwdecode.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+wwwdecode.o: /usr/include/bits/posix_opt.h /usr/include/bits/types.h
+wwwdecode.o: /usr/lib/gcc-lib/i386-redhat-linux/egcs-2.91.66/include/stddef.h
+wwwdecode.o: /usr/include/bits/confname.h /usr/include/getopt.h
+wwwdecode.o: /usr/include/string.h /usr/include/sys/time.h
+wwwdecode.o: /usr/include/time.h /usr/include/sys/select.h
+wwwdecode.o: /usr/include/bits/select.h /usr/include/bits/sigset.h
+wwwdecode.o: /usr/include/bits/time.h /usr/include/sys/resource.h
+wwwdecode.o: /usr/include/bits/resource.h /usr/include/asm/resource.h
+wwwdecode.o: ../include/def.h /usr/include/assert.h
+wwwdecode.o: /usr/include/stdlib.h /usr/include/sys/types.h
+wwwdecode.o: /usr/include/endian.h /usr/include/bits/endian.h
+wwwdecode.o: /usr/include/sys/sysmacros.h /usr/include/alloca.h
+wwwdecode.o: /usr/include/ctype

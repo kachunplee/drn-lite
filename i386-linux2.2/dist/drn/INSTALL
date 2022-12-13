@@ -1,0 +1,15 @@
+- Untar the archive to /var/local...
+
+	e.g. zcat drn-3.11.tar.gz | tar xvf -
+
+- Rename the created directory to drn:
+
+	e.g. mv drn-3.11 drn
+
+- Run /var/local/drn/bin/install.pl...
+
+	/var/local/drn/bin/install.pl [-b Local_Brower] [Apache_Conf_File]
+
+For latest info, please go to:
+
+	http://www.newsadmin.com

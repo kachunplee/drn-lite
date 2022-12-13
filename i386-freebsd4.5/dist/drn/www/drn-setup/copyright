@@ -1,0 +1,190 @@
+#! /usr/bin/perl
+
+$| = 1;
+print 'Content-type: text/html',"\n";
+print "\n";
+
+%FORM = ();
+if ($ENV{'REQUEST_METHOD'} eq 'POST')
+{
+	my $inbuf;
+	if ($ENV{'CONTENT_LENGTH'})
+	{
+		read(STDIN, $inbuf, $ENV{'CONTENT_LENGTH'});
+	}
+
+	my @pairs = split(/&/, $inbuf);
+	my $name, $value;
+	foreach $pair (@pairs)
+	{
+		($name, $value) = split(/=/, $pair);
+		$value =~ tr/+/ /;
+		$value =~ s/%([a-fA-F0-9][a-fA-F0-9])/pack("C", hex($1))/eg;
+		$FORM{$name} = $value;
+	}
+}
+
+my $agree, $disagree;
+if(defined($FORM{'agree'}))
+{
+	if($FORM{'agree'} eq 'yes')
+	{
+		$agree = ' checked';
+	}
+	elsif($FORM{'agree'} eq 'no')
+	{
+		$disagree = ' checked';
+	}
+}
+
+#
+# Output form
+#
+print <<EOM;
+<HTML>
+<HEAD>
+<TITLE>DRN Setup - Copyright</TITLE>
+</HEAD>
+
+<script language="JavaScript">
+<!--
+
+function WindowClose()
+{
+	window.close();
+}
+function WindowPrev()
+{
+	window.history.back();
+}
+//-->
+</script>
+
+<script language=javascript><!--
+function Default_Validator(theForm)
+{
+  var radioSelected = false;
+  for (i = 0;  i < theForm.agree.length;  i++)
+  {
+    if (theForm.agree[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \\\"Copyright Right Agreement\\\" options.");
+    return (false);
+  }
+  
+  return (true);
+}
+// --></script>
+
+<body vlink="#000000" alink="#000000" basefont="3" topmargin="0" leftmargin="0" link="#000000" bgcolor="#FFFFFF" text="#000000">
+<div align="center"><center>
+
+<table border="0" cellpadding="0" width="602" bgcolor="#FFFFFF" bordercolordark="#FFFFFF" cellspacing="0" bordercolor="#000000" bordercolorlight="#000000">
+  <tr>
+    <td align="center" bgcolor="#FFFFFF" width="582"><img border="0" src="/drn-setup/images/startupbar.gif" width="600" height="47"></td>
+  </tr>
+  <tr>
+    <td valign="top" bgcolor="#FFFFFF" align="left" width="582"><div align="center"><center><table border="1" cellpadding="10" cellspacing="0" width="600" bordercolor="#326698">
+      <tr>
+        <td bordercolor="#6380A7">
+    </center>
+</center>
+      <table border="0" cellpadding="7" cellspacing="0" width="560">
+        <tr>
+          <td valign="top"><img border="0" src="/drn-setup/images/startside4.gif" width="173" height="290"></td>
+          <td valign="top">
+
+<FORM ACTION="/drn-setup/input" onsubmit="return Default_Validator(this)" METHOD=POST>
+<font face=Arial size=2 color=#000000>
+<textarea name=Body rows=15 cols=50>
+AGREEMENT
+PathLink Technology Corporation
+
+GENERAL TERMS AND CONDITIONS  --  READ BEFORE INSTALLING SOFTWARE:
+
+THE SOFTWARE PROGRAMS CONTAINED HEREIN ARE LICENSED IN ACCORDANCE WITH THE FOLLOWING TERMS AND CONDITIONS.  BY CLICKING THE "FINISH" KEY BELOW, YOU WILL HAVE AGREED TO BE BOUND BY THE TERMS SET FORTH BELOW.
+
+COPYRIGHT NOTICES
+Copyright 1999, Pathlink Technology Corporation ("PathLink").  All Rights Reserved.  Unless otherwise specified, this software and its content are owned by PathLink and are protected by the United States Copyright Act of 1976, as amended, and the copyright laws of other countries.  Certain materials are used by permission of their respective owners.
+
+The materials provided in this software, including graphic images, buttons, and text, may not be copied, reproduced, republished, uploaded, posted, transmitted, or distributed in any way, without the prior written permission, except that you may download, and display on any single computer provided that you keep intact all copyright, trademark, and other proprietary notices.  Modification of the materials or use of the materials for any other purpose is a violation of PathLink's, its affiliates', or its third-party information providers' copyrights and other proprietary rights.  Nothing contained herein shall be construed as conferring by implication, estoppel, or otherwise, any license or right under any copyright, patent, trademark, or other proprietary interest of PathLink, its affiliates, or any third party.
+
+TRADEMARKS
+NewsGuy News Service and Direct Read News are trademarks of PathLink Technology Corporation.  All other trademarks, service marks, and trade names contained in this service belong to their respective owners.
+
+DISCLAIMERS AND LIMITATIONS
+PathLink Technology Corporation, ("PathLink") and its affiliates intend that the information contained in this service be accurate and reliable; however, errors sometimes occur.  THIS SERVICE IS PROVIDED "AS IS".  PATHLINK AND ITS AFFILIATES DISCLAIM ANY WARRANTY OF ANY KIND, WHETHER EXPRESS OR IMPLIED, AS TO ANY MATTER WHATSOEVER RELATING TO THIS SOFTWARE, INCLUDING WITHOUT LIMITATION THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.  USE OF THIS SOFTWARE IS AT YOUR OWN RISK.  PATHLINK AND ITS AFFILIATES ARE NOT LIABLE FOR DAMAGES OR INJURY, INCLUDING WITHOUT LIMITATION, DAMAGES OR INJURY CAUSED BY ANY PERFORMANCE, FAILURE OF PERFORMANCE, ERROR, OMISSION, INTERRUPTION, DELETION, DEFECT, DELAY IN OPERATION OR TRANSMISSION, COMPUTER VIRUS, COMMUNICATIONS LINE FAILURE, THEFT OR DESTRUCTION OR UNAUTHORIZED ACCESS TO, ALTERATION OF, OR USE OF INFORMATION, WHETHER RESULTING, IN WHOLE OR IN PART, FROM BREACH OF CONTRACT, TORTIOUS BEHAVIOR, NEGLIGENCE OR OTHERWISE.  SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO THE ABOVE EXCLUSION MAY NOT APPLY TO YOU.
+
+DIRECT READ NEWS (tm) SOFTWARE LICENSE
+
+1. Limited License.
+
+Subject to the terms and conditions of this Agreement, PathLink Technology ("PathLink") grants to you a limited, non-transferable, non-assignable and non-exclusive license ("License") to use these software programs ("Software") solely to access Usenet and Internet news.  You do not have any right, title or interest or any copyright, trade secret rights or other proprietary rights in or to the Software or any updates, corrections, enhancements, modifications and derivative works thereof.  You shall not reverse engineer, copy, disclose, distribute, transmit, translate, decompile, disassemble, or prepare derivative works of the Software; and you shall not sublicense, assign, transfer, rent, sell or dispose of, the Software, or any copy or any part thereof, on a permanent or temporary basis.  PathLink reserves all other rights not expressly granted to you hereunder.
+
+You shall use your best efforts to protect the confidentiality of the Software.  You acknowledge and agree that due to the unique and proprietary nature of the Software, damages may be inadequate to provide PathLink with full compensation in the event of a breach of this Agreement and that PathLink shall therefore be entitled to injunctive relief in the event of any such breach or threatened breach in addition to any other legal remedy that may be available.
+
+2. Taxes.
+
+You agree to pay federal, state, local, and/or other taxes based on this Agreement, the Software or its use, if any, excluding taxes based on PathLink's net income and privilege taxes.
+
+3. Termination.
+
+PathLink may terminate this License at any time.  The termination of the License shall not affect your continuing obligations under this Agreement.
+
+4. No Warranties.
+
+You acknowledge that the Software has been provided to you free of charge for limited use.  You assume responsibility for the selection of the Software to achieve your intended results and for the proper installation, use and results obtained from use of the Software.  PATHLINK AND ITS AFFILIATES MAKE NO REPRESENTATION OR WARRANTY OF ANY KIND WITH RESPECT TO THE SOFTWARE OR THE RESULTS TO BE OBTAINED FROM ITS USE.  PATHLINK DOES NOT WARRANT THAT YOUR USE OF THE SOFTWARE WILL BE UNINTERRUPTED, ERROR-FREE OR VIRUS-FREE.  ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT ARE HEREBY EXPRESSLY DISCLAIMED.  PATHLINK EXPRESSLY DISCLAIMS ANY IMPLIED WARRANTY THAT ANY OTHER PRODUCT (INCLUDING WITHOUT LIMITATION ANY COPY OF THE SOFTWARE YOU MAY SUBSEQUENTLY PURCHASE OR RECEIVE) WILL CONFORM TO THE SOFTWARE PROVIDED TO YOU UNDER THIS AGREEMENT.
+
+5. Limitation of Liability.
+
+IN NO EVENT SHALL PATHLINK OR ITS AFFILIATES BE LIABLE FOR ANY DAMAGES, INCLUDING WITHOUT LIMITATION DIRECT, SPECIAL, CONSEQUENTIAL, INDIRECT, EXEMPLARY OR PUNITIVE DAMAGES, WHETHER OR NOT SUCH DAMAGES WERE FORESEEABLE AND EVEN IF PATHLINK WAS ADVISED THAT SUCH DAMAGES WERE LIKELY OR POSSIBLE.  You acknowledge and agree that the provision of the Software without charge of a fee is reflected in the allocation of risks including, but not limited to, the foregoing limitation of liability.  A modification of the allocation of risks set forth in this Agreement would affect the ability of PATHLINK to offer the Software without charge, and, in consideration of the waiver of charges, you agree to such allocations of risk.
+
+6. Remedy of Defects.
+
+You agree to provide notice to PATHLINK of any defect in the Software.  PATHLINK may, in its sole discretion, correct such defect.  YOUR SOLE REMEDY IN THE EVENT PATHLINK DECLINES TO CORRECT ANY DEFECT IS TO CEASE USE OF THE SOFTWARE.
+
+7. Compliance With Laws.
+
+You shall comply with all laws, rules and regulations which are now or hereafter promulgated by any government authority or agency which govern or apply to the operation or use of the Software.  The Software shall not be exported or re-exported in violation of any export provisions of the United States or any other applicable jurisdiction.  Any attempt to sublicense, assign or transfer any of the rights, duties or obligations hereunder or to exceed the scope of the License is void.
+
+This Agreement is expressly made subject to any laws, regulations, orders or other restrictions on the export from the United States of America of the Software or of information about the Software which may be imposed from time to time by the Government of the United States of America.  Notwithstanding anything contained in this agreement to the contrary, you shall not export or re-export, directly or indirectly any Software or bundled products or information pertaining thereto to any country to which such export or re-export is restricted or prohibited, or as to which such government or any agency thereof requires an export license or other governmental approval at the time or export or re-export without first obtaining such license or approval.
+
+
+8. Venue and Jurisdiction.
+
+This Agreement shall be subject to and construed in accordance with the laws of the State of California, excluding its conflict of law principles.  The parties consent to jurisdiction of venue exclusively in the State of California, County of Santa Clara.
+
+If you have questions about this Agreement contact PATHLINK at: support\@pathlink.com
+
+THE SOFTWARE PROGRAMS CONTAINED HEREIN ARE LICENSED IN ACCORDANCE WITH THE ABOVE TERMS AND CONDITIONS.  BY SELECT THE "I agree" OPTION BELOW, YOU WILL HAVE AGREED TO BE BOUND BY THE TERMS SET FORTH ABOVE.
+</textarea>
+<br>
+<!--webbot bot="Validation" B-Value-Required="TRUE" --><input name=agree type=radio value=yes $agree> I agree
+<!--webbot bot="Validation" B-Value-Required="TRUE" --><input name=agree type=radio value=no $disagree> I disagree
+<p>
+<a href="javascript:WindowClose()"> <img src="/drn-setup/images/installcancel.gif" border=0  alt="Cancel" type=image></a>
+
+<a href="javascript:WindowPrev()"> <img src="/drn-setup/images/installback.gif" border=0  alt="Back" type=image></a>
+
+<input src="/drn-setup/images/installnext.gif" border=0 name="Next" alt"Continue" type=image>
+
+</font>
+</FORM>
+
+         </td>
+        </tr>
+      </table>
+        </td>
+      </tr>
+    </table>
+        </div></td>
+  </tr>
+</table>
+</div>
+
+</BODY>
+</HTML>
+EOM

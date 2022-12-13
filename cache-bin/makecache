@@ -1,0 +1,4 @@
+#!/bin/sh -
+
+/var/local/www/bin/createcache
+chown http:WWW /var/local/etc/httpd/drn-cache/drncache
